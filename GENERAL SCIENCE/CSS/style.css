@@ -1,0 +1,433 @@
+body{
+
+	background-color: #0000ff;
+	color: #fff;
+	font-family: sans-serif,arial,cursive;
+}
+  
+
+  /*  CSS FOR GENERAL SCIENCE */
+
+/*p{
+	margin-top:0px ;
+	margin-bottom: 0px;
+}*/
+
+#welcome{
+	font-size:26px;
+	text-align: center;
+	background-color: #000;
+}
+
+#welcome2{
+	text-align: center;
+	font-size: 24px;
+}
+
+.reason{
+	text-align: center;
+}
+
+.header{
+
+	font-size: 20px;
+}
+
+.header2{
+	font-size: 17px;
+}
+
+
+
+.img{
+     width: 410PX;
+     margin-left: 50PX;
+     margin-top: 10px;
+     object-fit: cover;
+     height: 205px;
+}
+
+
+#under{
+	font-size: 26px;
+}
+
+#sub{
+	font-size: 16px;
+
+}
+
+#sub1{
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.list{
+	font-size: 14px;
+	list-style: none;
+	margin-top: 6px;
+	padding: 10px;
+	color: #fff;
+
+}
+
+#list{
+	list-style: none;
+	color: #fff;
+	margin-top: 6px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+
+#link
+{
+background-color: #fff;
+	color: #000;
+}
+
+
+
+/*  CSS FOR ENGLISH LANGUAGE */
+
+
+.all{
+	background-color: #dd9977;
+	color: #fff;
+	font-family: sans-serif,arial,cursive;
+}
+
+
+
+
+.nav{
+
+	width: 99.7%; 
+	height:40px; 
+	background-color:#fff; 
+	color: #0000ff;
+	word-spacing: 15px;
+	font-size: 17px;
+	text-transform:uppercase;
+	padding-top:20px ;
+	padding-left: 10px;
+}
+
+
+.link1{
+cursor: pointer;
+border:solid;
+border-color:#ff0000 ;
+border-radius:6px;
+text-transform: uppercase;
+color: #0000ff;
+text-decoration: none;
+margin-left:10px;
+transition: opacity 0.18s;
+}
+
+
+.link1:hover{
+	opacity: 0.7;
+}
+
+
+.link1:active{
+	opacity: 0.15;
+}
+
+
+#REAL{
+	font-size:20px;
+	text-align: center;
+}
+
+#WELLCOME2{
+	text-align: center;
+	font-size: 24px;
+}
+
+.read{
+	font-size: 15px;
+	line-height:10px
+}
+
+
+
+
+/* CSS FOR CORE MATHS */
+
+
+#core{
+	background-color: #dd9977;
+	color: #fff;
+	font-family: sans-serif,arial,cursive;
+}
+
+#CLA{
+	font-size:20px;
+	text-align: center;
+}
+
+
+#wel{
+text-align: center;
+	font-size: 24px;
+}
+
+.rel{
+	font-size: 20px;
+	line-height:10px
+}
+
+.img{
+     width: 510PX;
+     margin-left: 50PX;
+     margin-top: 10px;
+     object-fit: cover;
+     height: 305px;
+     border-radius:5px;
+}
+
+
+
+
+/* CSS FOR INTEGRATED SCIENCE */
+
+
+#inte{
+	background-color: #dd9977;
+	color: #fff;
+	font-family: sans-serif,arial,cursive;
+}
+
+
+
+
+/* CSS FOR SOCIAL STUDIES */
+
+
+#ALL{
+background-color: #dd9977;
+	color: #fff;
+	font-family: sans-serif,arial,cursive;background-color: #dd9977;
+	
+
+}
+
+.nav{
+
+	width: 99.7%; 
+	height:40px; 
+	background-color:#fff; 
+	color: #0000ff;
+	word-spacing: 15px;
+	font-size: 17px;
+	text-transform:uppercase;
+	padding-top:20px ;
+	padding-left: 10px;
+}
+
+
+.link1{
+cursor: pointer;
+border:solid;
+border-color:#ff0000 ;
+border-radius:6px;
+text-transform: uppercase;
+color: #0000ff;
+text-decoration: none;
+margin-left:10px;
+transition: opacity 0.18s;
+}
+
+
+.link1:hover{
+	opacity: 0.7;
+}
+
+
+.link1:active{
+	opacity: 0.15;
+}
+
+
+#REAL{
+	font-size:20px;
+	text-align: center;
+}
+
+#WELLCOME2{
+	text-align: center;
+	font-size: 24px;
+}
+
+.read{
+	font-size: 15px;
+	line-height:10px
+     }
+
+
+
+.img{
+     width: 510PX;
+     margin-left: 50PX;
+     margin-top: 10px;
+     object-fit: cover;
+     height: 305px;
+     border-radius:6px;
+}
+
+
+
+
+
+
+
+
+/* CSS FOR CHEMISTRY */
+
+
+#chemistry{
+background-color: #dd9977;
+	color: #fff;
+	font-family: sans-serif,arial,cursive;background-color: #dd9977;
+	
+
+}
+
+.nav{
+
+	width: 99.7%; 
+	height:40px; 
+	background-color:#fff; 
+	color: #0000ff;
+	word-spacing: 15px;
+	font-size: 17px;
+	text-transform:uppercase;
+	padding-top:20px ;
+	padding-left: 10px;
+}
+
+
+.link1{
+cursor: pointer;
+border:solid;
+border-color:#ff0000 ;
+border-radius:6px;
+text-transform: uppercase;
+color: #0000ff;
+text-decoration: none;
+margin-left:10px;
+transition: opacity 0.18s;
+}
+
+
+.link1:hover{
+	opacity: 0.7;
+}
+
+
+.link1:active{
+	opacity: 0.15;
+}
+
+
+#REAL{
+	font-size:20px;
+	text-align: center;
+}
+
+#WELLCOME2{
+	text-align: center;
+	font-size: 24px;
+}
+
+.read{
+	font-size: 15px;
+	line-height:10px
+     }
+
+
+
+.img{
+     width: 510PX;
+     margin-left: 50PX;
+     margin-top: 10px;
+     object-fit: cover;
+     height: 305px;
+     border-radius:5px;
+}
+
+
+
+
+#physics{
+
+	background-color: #dd9977;
+	color: #fff;
+	font-family: sans-serif,arial,cursive;background-color: #dd9977;
+}
+
+.nav{
+
+	width: 99.7%; 
+	height:40px; 
+	background-color:#fff; 
+	color: #0000ff;
+	word-spacing: 15px;
+	font-size: 17px;
+	text-transform:uppercase;
+	padding-top:20px ;
+	padding-left: 10px;
+}
+
+
+.link1{
+cursor: pointer;
+border:solid;
+border-color:#ff0000 ;
+border-radius:6px;
+text-transform: uppercase;
+color: #0000ff;
+text-decoration: none;
+margin-left:10px;
+transition: opacity 0.18s;
+}
+
+
+.link1:hover{
+	opacity: 0.7;
+}
+
+
+.link1:active{
+	opacity: 0.15;
+}
+
+
+#REAL{
+	font-size:20px;
+	text-align: center;
+}
+
+#WELLCOME2{
+	text-align: center;
+	font-size: 24px;
+}
+
+.read{
+	font-size: 15px;
+	line-height:10px
+     }
+
+
+
+.img{
+     width: 510PX;
+     margin-left: 50PX;
+     margin-top: 10px;
+     object-fit: cover;
+     height: 305px;
+     border-radius:5px;
+}
