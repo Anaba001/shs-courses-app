@@ -1,0 +1,4247 @@
+
+
+
+  /*   CSS FOR BONO SCHOOLS */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.bono-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.bono-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.bono-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.bono-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.bono-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.bono-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.bono-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bono-school-nav-ul li a button {
+ background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.bono-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+  
+}
+
+.find-your-school-container {
+   width: 100%;
+  border-radius: 12px;
+  background-color:#157a45;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 30px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 80px;
+  color: #fff;
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+.find-your-school-container p {
+ padding-left: 320px;
+ padding-top: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.bono-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.bono-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.bono-school-card-container {
+  display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+}
+
+.bono-school-card {
+ background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  height: 20rem;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  margin-top: 0px;
+}
+
+.bono-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.bono-school-title {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.bono-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.bono-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.bono-school-card p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.bono-Courses-Offered {
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.bono-course-offer button {
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 6px;
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.bono-schools-footer-section {
+  margin-top: 50px;
+}
+
+.bono-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.bono-schools-footer-logo {
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+ 
+}
+
+.bono-schools-footer-logo div:nth-child(1){
+ color: #fff;
+}
+.bono-schools-footer-logo div:nth-child(2){
+ color: #fcd116;
+}
+
+
+.bono-schools-footer p{
+  
+  color: #cfc0c0e3;
+  padding-left: 60px;
+}
+
+
+
+
+/* CSS FOR BONO-EAST    */
+
+
+
+
+.bono-E-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.bono-E-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.bono-E-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.bono-E-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.bono-E-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.bono-E-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.bono-E-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bono-E-school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.bono-E-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+  
+}
+
+.find-your-school-container {
+  width: 100%;
+  border-radius: 12px;
+  background-color:rgba(13, 13, 207, 0.452);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 100px;
+font-size: 40px;
+padding-top: 40px;
+  color: f;
+}
+
+.find-your-school-container p {
+  padding-top: 20px;
+padding-left: 320px;
+font-size: 20px;
+  color: #333;
+}
+
+.bono-E-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.bono-E-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.bono-E-school-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.bono-E-school-card {
+  background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 20rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bono-E-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.bono-E-school-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.bono-E-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.bono-E-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.bono-E-school-card p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.bono-E-Courses-Offered {
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.bono-E-course-offer button {
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 6px;
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.bono-E-schools-footer-section {
+  margin-top: 50px;
+}
+
+.bono-E-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.bono-E-schools-footer-logo {
+ width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+
+.bono-E-schools-footer-logo div:nth-child(1){
+ color: #fff;
+}
+.bono-E-schools-footer-logo div:nth-child(2){
+ color: #fcd116;
+}
+
+
+.bono-E-schools-footer p{
+  
+  color: #cfc0c0e3;
+  padding-left: 60px;
+}
+
+
+
+
+/***CSS FOR NORTH-EAST***/
+
+
+.north-E-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.north-E-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.north-E-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.north-E-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.north-E-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.north-E-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.north-E-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.north-E-school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.north-E-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+}
+
+.find-your-school-container {
+  width: 100%;
+  border-radius: 12px;
+  background-color: rgba(13, 13, 207, 0.452);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 100px;
+  font-size: 40px;
+  padding-top: 40px;
+  color: #000;
+}
+
+.find-your-school-container p {
+  padding-top: 20px;
+  padding-left: 320px;
+  font-size: 20px;
+  color: #333;
+}
+
+.north-E-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.north-E-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.north-E-school-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.north-E-school-card {
+  background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 20rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+  
+  
+}
+
+.north-E-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.north-E-school-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.north-E-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.north-E-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.north-E-school-card p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.north-E-Courses-Offered {
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.north-E-course-offer button {
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 6px;
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.north-E-schools-footer-section {
+  margin-top: 50px;
+}
+
+.north-E-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.north-E-schools-footer-logo {
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.north-E-schools-footer-logo div:nth-child(1) {
+  color: #fff;
+}
+
+.north-E-schools-footer-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.north-E-schools-footer p {
+  color: #cfc0c0e3;
+  padding-left: 60px;
+}
+
+
+
+/*     CSS FOR NORTHERN REGION*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.northern-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.northern-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.northern-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.northern-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.northern-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.northern-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.northern-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.northern-school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.northern-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+}
+
+.find-your-school-container {
+  width: 100%;
+  border-radius: 12px;
+  background-color: rgba(13, 13, 207, 0.452);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 100px;
+  font-size: 40px;
+  padding-top: 40px;
+  color: #000;
+}
+
+.find-your-school-container p {
+  padding-top: 20px;
+  padding-left: 320px;
+  font-size: 20px;
+  color: #333;
+}
+
+.northern-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.northern-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.northern-school-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.northern-school-card {
+  background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 20rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+  
+}
+
+.northern-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.northern-school-title {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.northern-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.northern-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.northern-school-card p {
+  line-height: 50px;
+  color: #333;
+}
+
+.northern-Courses-Offered {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top:6px;
+}
+
+.northern-course-offer button {
+  padding-top: 10px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.northern-schools-footer-section {
+  margin-top: 50px;
+}
+
+.northern-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.northern-schools-footer-logo {
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.northern-schools-footer-logo div:nth-child(1) {
+  color: #fff;
+}
+
+.northern-schools-footer-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.northern-schools-footer p {
+  color: #cfc0c0e3;
+  padding-left: 60px;
+}
+
+
+/*  UPPER EAST REGION*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.upper-E-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.upper-E-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.upper-E-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.upper-E-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.upper-E-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.upper-E-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.upper-E-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.upper-E-school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.upper-E-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+}
+
+.find-your-school-container {
+  width: 100%;
+  border-radius: 12px;
+  background-color: rgba(13, 13, 207, 0.452);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 100px;
+  font-size: 40px;
+  padding-top: 40px;
+  color: #000;
+}
+
+.find-your-school-container p {
+  padding-top: 20px;
+  padding-left: 320px;
+  font-size: 20px;
+  color: #333;
+}
+
+.upper-E-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.upper-E-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.upper-E-school-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.upper-E-school-card {
+  background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 20rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+  
+}
+
+.upper-E-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.upper-E-school-title {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.upper-E-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.upper-E-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.upper-E-school-card p {
+  line-height: 50px;
+  color: #333;
+}
+
+.upper-E-Courses-Offered {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top:6px;
+}
+
+.upper-E-course-offer button {
+  padding-top: 10px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.upper-E-schools-footer-section {
+  margin-top: 50px;
+}
+
+.upper-E-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.upper-E-schools-footer-logo {
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.upper-E-schools-footer-logo div:nth-child(1) {
+  color: #fff;
+}
+
+.upper-E-schools-footer-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.upper-E-schools-footer p {
+  color: #cfc0c0e3;
+  padding-left: 60px;
+}
+
+
+
+/* CSS FOR UPPER WEST REGION*/
+
+
+
+
+.upper-W-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.upper-W-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.upper-W-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.upper-W-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.upper-W-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.upper-W-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.upper-W-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.upper-W-school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.upper-W-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+}
+
+.find-your-school-container {
+  width: 100%;
+  border-radius: 12px;
+  background-color: #33333383;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 100px;
+  font-size: 40px;
+  padding-top: 40px;
+  color: #000;
+}
+
+.find-your-school-container p {
+  padding-top: 20px;
+  padding-left: 320px;
+  font-size: 20px;
+  color: #333;
+}
+
+.upper-W-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.upper-W-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.upper-W-school-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.upper-W-school-card {
+  background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 20rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+  
+}
+
+.upper-W-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.upper-W-school-title {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.upper-W-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.upper-W-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.upper-W-school-card p {
+  line-height: 50px;
+  color: #333;
+}
+
+.upper-W-Courses-Offered {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top:6px;
+}
+
+.upper-W-course-offer button {
+  padding-top: 10px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.upper-W-schools-footer-section {
+  margin-top: 50px;
+}
+
+.upper-W-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.upper-W-schools-footer-logo {
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.upper-W-schools-footer-logo div:nth-child(1) {
+  color: #fff;
+}
+
+.upper-W-schools-footer-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.upper-W-schools-footer p {
+  color: #cfc0c0e3;
+  padding-left: 60px;
+}
+
+
+
+
+
+/* GREATER ACCRA REGION*/ 
+
+
+.greater-A-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.greater-A-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.greater-A-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.greater-A-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.greater-A-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.greater-A-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.greater-A-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.greater-A-school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.greater-A-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+}
+
+.find-your-school-container {
+  width: 100%;
+  border-radius: 12px;
+  background-color: #00492877;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 100px;
+  font-size: 40px;
+  padding-top: 40px;
+  color: #000;
+}
+
+.find-your-school-container p {
+  padding-top: 20px;
+  padding-left: 320px;
+  font-size: 20px;
+  color: #333;
+}
+
+.greater-A-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.greater-A-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.greater-A-school-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.greater-A-school-card {
+  background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 20rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.greater-A-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.greater-A-school-title {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.greater-A-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.greater-A-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.greater-A-school-card p {
+  line-height: 50px;
+  color: #333;
+}
+
+.greater-A-Courses-Offered {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.greater-A-course-offer button {
+  padding-top: 10px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.greater-A-schools-footer-section {
+  margin-top: 50px;
+}
+
+.greater-A-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.greater-A-schools-footer-logo {
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.greater-A-schools-footer-logo div:nth-child(1) {
+  color: #fff;
+}
+
+.greater-A-schools-footer-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.greater-A-schools-footer p {
+  color: #cfc0c0e3;
+  padding-left: 60px;
+}
+
+
+
+
+/* CENTRAL REGION SCHOOLS*/
+
+
+.central-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.central-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.central-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.central-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.central-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.central-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.central-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.central-school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.central-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+}
+
+.find-your-school-container {
+  width: 100%;
+  border-radius: 12px;
+  background-color: rgba(13, 13, 207, 0.452);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 100px;
+  font-size: 40px;
+  padding-top: 40px;
+  color: #000;
+}
+
+.find-your-school-container p {
+  padding-top: 20px;
+  padding-left: 320px;
+  font-size: 20px;
+  color: #333;
+}
+
+.central-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.central-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.central-school-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.central-school-card {
+  background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 20rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.central-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.central-school-title {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.central-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.central-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.central-school-card p {
+  line-height: 50px;
+  color: #333;
+}
+
+.central-Courses-Offered {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.central-course-offer button {
+  padding-top: 10px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.central-schools-footer-section {
+  margin-top: 50px;
+}
+
+.central-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.central-schools-footer-logo {
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.central-schools-footer-logo div:nth-child(1) {
+  color: #fff;
+}
+
+.central-schools-footer-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.central-schools-footer p {
+  color: #cfc0c0e3;
+  padding-left: 60px;
+}
+
+
+/* CSS FOR WESTERN REGION  SCHOOLS*/
+
+
+
+.western-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.western-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.western-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.western-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.western-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.western-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.western-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.western-school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.western-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+}
+
+.find-your-school-container {
+  width: 100%;
+  border-radius: 12px;
+  background-color: #fcd2166b;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 100px;
+  font-size: 40px;
+  padding-top: 40px;
+  color: #000;
+}
+
+.find-your-school-container p {
+  padding-top: 20px;
+  padding-left: 320px;
+  font-size: 20px;
+  color: #333;
+}
+
+.western-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.western-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.western-school-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.western-school-card {
+  background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 20rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.western-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.western-school-title {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.western-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.western-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.western-school-card p {
+  line-height: 50px;
+  color: #333;
+}
+
+.western-Courses-Offered {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.western-course-offer button {
+  padding-top: 10px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.western-schools-footer-section {
+  margin-top: 50px;
+}
+
+.western-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.western-schools-footer-logo {
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.western-schools-footer-logo div:nth-child(1) {
+  color: #fff;
+}
+
+.western-schools-footer-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.western-schools-footer p {
+  color: #cfc0c0e3;
+  padding-left: 60px;
+}
+
+
+/*VOLTA REGION SCHOOLS*/
+
+
+
+.volta-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.volta-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.volta-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.volta-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.volta-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.volta-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.volta-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.volta-school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.volta-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+}
+
+.find-your-school-container {
+  width: 100%;
+  border-radius: 12px;
+  background-color: rgba(13, 13, 207, 0.164);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 100px;
+  font-size: 40px;
+  padding-top: 40px;
+  color: #000;
+}
+
+.find-your-school-container p {
+  padding-top: 20px;
+  padding-left: 320px;
+  font-size: 20px;
+  color: #333;
+}
+
+.volta-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.volta-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.volta-school-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.volta-school-card {
+  background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 20rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.volta-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.volta-school-title {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.volta-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.volta-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.volta-school-card p {
+  line-height: 50px;
+  color: #333;
+}
+
+.volta-Courses-Offered {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.volta-course-offer button {
+  padding-top: 10px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.volta-schools-footer-section {
+  margin-top: 50px;
+}
+
+.volta-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.volta-schools-footer-logo {
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.volta-schools-footer-logo div:nth-child(1) {
+  color: #fff;
+}
+
+.volta-schools-footer-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.volta-schools-footer p {
+  color: #cfc0c0e3;
+  padding-left: 60px;
+}
+
+
+/*CSS FOR EASTERN REGION SCHOOLS*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.eastern-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.eastern-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.eastern-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.eastern-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.eastern-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.eastern-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.eastern-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.eastern-school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.eastern-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+}
+
+.find-your-school-container {
+  width: 100%;
+  border-radius: 12px;
+  background-color: rgba(153, 153, 168, 0.452);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 100px;
+  font-size: 40px;
+  padding-top: 40px;
+  color: #000;
+}
+
+.find-your-school-container p {
+  padding-top: 20px;
+  padding-left: 320px;
+  font-size: 20px;
+  color: #333;
+}
+
+.eastern-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.eastern-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.eastern-school-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.eastern-school-card {
+  background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 20rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.eastern-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.eastern-school-title {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.eastern-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.eastern-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.eastern-school-card p {
+  line-height: 50px;
+  color: #333;
+}
+
+.eastern-Courses-Offered {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.eastern-course-offer button {
+  padding-top: 10px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.eastern-schools-footer-section {
+  margin-top: 50px;
+}
+
+.eastern-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.eastern-schools-footer-logo {
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.eastern-schools-footer-logo div:nth-child(1) {
+  color: #fff;
+}
+
+.eastern-schools-footer-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.eastern-schools-footer p {
+  color: #cfc0c0e3;
+  padding-left: 60px;
+}
+
+
+/* CSS FOR OTI REGION SCHOOLS */
+
+
+.oti-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.oti-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.oti-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.oti-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.oti-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.oti-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.oti-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.oti-school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.oti-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+}
+
+.find-your-school-container {
+  width: 100%;
+  border-radius: 12px;
+  background-color: #2e8a4f;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 100px;
+  font-size: 40px;
+  padding-top: 40px;
+  color: #000;
+}
+
+.find-your-school-container p {
+  padding-top: 20px;
+  padding-left: 320px;
+  font-size: 20px;
+  color: #333;
+}
+
+.oti-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.oti-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.oti-school-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.oti-school-card {
+  background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 20rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.oti-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.oti-school-title {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.oti-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.oti-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.oti-school-card p {
+  line-height: 50px;
+  color: #333;
+}
+
+.oti-Courses-Offered {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.oti-course-offer button {
+  padding-top: 10px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.oti-schools-footer-section {
+  margin-top: 50px;
+}
+
+.oti-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.oti-schools-footer-logo {
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.oti-schools-footer-logo div:nth-child(1) {
+  color: #fff;
+}
+
+.oti-schools-footer-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.oti-schools-footer p {
+  color: #cfc0c0e3;
+  padding-left: 60px;
+}
+
+
+/* CSS FOR SAVANNA REGION SCHOOLS  */
+
+
+
+.savana-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.savana-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.savana-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.savana-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.savana-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.savana-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.savana-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.savana-school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.savana-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+}
+
+.find-your-school-container {
+  width: 100%;
+  border-radius: 12px;
+  background-color: rgba(13, 13, 207, 0.452);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 100px;
+  font-size: 40px;
+  padding-top: 40px;
+  color: #000;
+}
+
+.find-your-school-container p {
+  padding-top: 20px;
+  padding-left: 320px;
+  font-size: 20px;
+  color: #333;
+}
+
+.savana-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.savana-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.savana-school-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.savana-school-card {
+  background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 20rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.savana-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.savana-school-title {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.savana-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.savana-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.savana-school-card p {
+  line-height: 50px;
+  color: #333;
+}
+
+.savana-Courses-Offered {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.savana-course-offer button {
+  padding-top: 10px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.savana-schools-footer-section {
+  margin-top: 50px;
+}
+
+.savana-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.savana-schools-footer-logo {
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.savana-schools-footer-logo div:nth-child(1) {
+  color: #fff;
+}
+
+.savana-schools-footer-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.savana-schools-footer p {
+  color: #cfc0c0e3;
+  padding-left: 60px;
+}
+
+
+/* CSS FOR ASHANTI REGION SCHOOLS */
+
+
+
+.asanti-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.asanti-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.asanti-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.asanti-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.asanti-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.asanti-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.asanti-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.asanti-school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.asanti-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+}
+
+.find-your-school-container {
+  width: 100%;
+  border-radius: 12px;
+  background-color: rgba(13, 13, 207, 0.452);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 100px;
+  font-size: 40px;
+  padding-top: 40px;
+  color: #000;
+}
+
+.find-your-school-container p {
+  padding-top: 20px;
+  padding-left: 320px;
+  font-size: 20px;
+  color: #333;
+}
+
+.asanti-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.asanti-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.asanti-school-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.asanti-school-card {
+  background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 20rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.asanti-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.asanti-school-title {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.asanti-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.asanti-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.asanti-school-card p {
+  line-height: 50px;
+  color: #333;
+}
+
+.asanti-Courses-Offered {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.asanti-course-offer button {
+  padding-top: 10px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.asanti-schools-footer-section {
+  margin-top: 50px;
+}
+
+.asanti-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.asanti-schools-footer-logo {
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.asanti-schools-footer-logo div:nth-child(1) {
+  color: #fff;
+}
+
+.asanti-schools-footer-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.asanti-schools-footer p {
+  color: #cfc0c0e3;
+  padding-left: 60px;
+}
+
+
+/* CSS FOR WESTERN NORTH REGION SCHOOLS */
+
+
+
+.western-N-school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.western-N-school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.western-N-school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+
+.western-N-school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.western-N-school-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.western-N-school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.western-N-school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.western-N-school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+.western-N-school-section {
+  width: 98%;
+  min-height: 60vh;
+  background-color: #edf1f1;
+}
+
+.find-your-school-container {
+  width: 100%;
+  border-radius: 12px;
+  background-color: rgba(13, 13, 207, 0.452);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1 {
+  padding-left: 100px;
+  font-size: 40px;
+  padding-top: 40px;
+  color: #000;
+}
+
+.find-your-school-container p {
+  padding-top: 20px;
+  padding-left: 320px;
+  font-size: 20px;
+  color: #333;
+}
+
+.western-N-school-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.western-N-school-card-section {
+  width: 98%;
+  background-color: #edf1f1;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+
+.western-N-school-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.western-N-school-card {
+  background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  min-height: 20rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.western-N-school-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #00f;
+}
+
+.western-N-school-title {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.western-N-sub h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.western-N-school-card-academic {
+  border-radius: 10px;
+  background-color: #004928;
+  padding: 5px 10px;
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.western-N-school-card p {
+  line-height: 50px;
+  color: #333;
+}
+
+.western-N-Courses-Offered {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.western-N-course-offer button {
+  padding-top: 10px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgba(204, 199, 199, 0.42);
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.western-N-schools-footer-section {
+  margin-top: 50px;
+}
+
+.western-N-schools-footer {
+  background-color: #004928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.western-N-schools-footer-logo {
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.western-N-schools-footer-logo div:nth-child(1) {
+  color: #fff;
+}
+
+.western-N-schools-footer-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.western-N-schools-footer p {
+  color: #cfc0c0e3;
+  padding-left: 60px;
+
+}
+
+
+
+
+
+
+
+/* ============================================
+   EXTRA LARGE SCREENS (1400px and up)
+   ============================================ */
+@media screen and (min-width: 1400px) {
+  .bono-school-nav,
+  .bono-E-school-nav,
+  .north-E-school-nav,
+  .northern-school-nav,
+  .upper-E-school-nav,
+  .upper-W-school-nav,
+  .greater-A-school-nav,
+  .central-school-nav,
+  .western-school-nav,
+  .volta-school-nav,
+  .eastern-school-nav,
+  .oti-school-nav,
+  .savana-school-nav,
+  .asanti-school-nav,
+  .western-N-school-nav {
+    width: 100%;
+    padding: 15px 30px;
+  }
+
+  .bono-school-card,
+  .bono-E-school-card,
+  .north-E-school-card,
+  .northern-school-card,
+  .upper-E-school-card,
+  .upper-W-school-card,
+  .greater-A-school-card,
+  .central-school-card,
+  .western-school-card,
+  .volta-school-card,
+  .eastern-school-card,
+  .oti-school-card,
+  .savana-school-card,
+  .asanti-school-card,
+  .western-N-school-card {
+    flex: 1 1 300px;
+    max-width: 400px;
+  }
+
+  .bono-school-card-container,
+  .bono-E-school-card-container,
+  .north-E-school-card-container,
+  .northern-school-card-container,
+  .upper-E-school-card-container,
+  .upper-W-school-card-container,
+  .greater-A-school-card-container,
+  .central-school-card-container,
+  .western-school-card-container,
+  .volta-school-card-container,
+  .eastern-school-card-container,
+  .oti-school-card-container,
+  .savana-school-card-container,
+  .asanti-school-card-container,
+  .western-N-school-card-container {
+    gap: 30px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+}
+
+
+/* ============================================
+   LARGE SCREENS (1200px - 1399px)
+  
+   ============================================ */
+@media screen and (max-width: 1399px) {
+  img,
+  .card-icon,
+  .info-icon,
+  .card-circle,
+  .link-icon {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .bono-school-nav,
+  .bono-E-school-nav,
+  .north-E-school-nav,
+  .northern-school-nav,
+  .upper-E-school-nav,
+  .upper-W-school-nav,
+  .greater-A-school-nav,
+  .central-school-nav,
+  .western-school-nav,
+  .volta-school-nav,
+  .eastern-school-nav,
+  .oti-school-nav,
+  .savana-school-nav,
+  .asanti-school-nav,
+  .western-N-school-nav {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .bono-school-nav-ul,
+  .bono-E-school-nav-ul,
+  .north-E-school-nav-ul,
+  .northern-school-nav-ul,
+  .upper-E-school-nav-ul,
+  .upper-W-school-nav-ul,
+  .greater-A-school-nav-ul,
+  .central-school-nav-ul,
+  .western-school-nav-ul,
+  .volta-school-nav-ul,
+  .eastern-school-nav-ul,
+  .oti-school-nav-ul,
+  .savana-school-nav-ul,
+  .asanti-school-nav-ul,
+  .western-N-school-nav-ul {
+    padding-right: 30px;
+  }
+
+  .bono-school-card,
+  .bono-E-school-card,
+  .north-E-school-card,
+  .northern-school-card,
+  .upper-E-school-card,
+  .upper-W-school-card,
+  .greater-A-school-card,
+  .central-school-card,
+  .western-school-card,
+  .volta-school-card,
+  .eastern-school-card,
+  .oti-school-card,
+  .savana-school-card,
+  .asanti-school-card,
+  .western-N-school-card {
+    flex: 1 1 280px;
+    max-width: 320px;
+  }
+
+  .find-your-school-container h1 {
+    padding-left: 60px;
+  }
+
+  .find-your-school-container p {
+    padding-left: 200px;
+  }
+}
+
+
+/* ============================================
+   MEDIUM SCREENS (992px - 1199px)
+   ============================================ */
+@media screen and (max-width: 1199px) {
+  img,
+  .card-icon,
+  .info-icon,
+  .card-circle,
+  .link-icon,
+  .card-inspire,
+  .card-inspire1,
+  .card-inspire2,
+  .card-inspire3,
+  .card-inspire4,
+  .card-inspire5 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .bono-school-nav,
+  .bono-E-school-nav,
+  .north-E-school-nav,
+  .northern-school-nav,
+  .upper-E-school-nav,
+  .upper-W-school-nav,
+  .greater-A-school-nav,
+  .central-school-nav,
+  .western-school-nav,
+  .volta-school-nav,
+  .eastern-school-nav,
+  .oti-school-nav,
+  .savana-school-nav,
+  .asanti-school-nav,
+  .western-N-school-nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+  }
+
+  .bono-school-nav-logo,
+  .bono-E-school-nav-logo,
+  .north-E-school-nav-logo,
+  .northern-school-nav-logo,
+  .upper-E-school-nav-logo,
+  .upper-W-school-nav-logo,
+  .greater-A-school-nav-logo,
+  .central-school-nav-logo,
+  .western-school-nav-logo,
+  .volta-school-nav-logo,
+  .eastern-school-nav-logo,
+  .oti-school-nav-logo,
+  .savana-school-nav-logo,
+  .asanti-school-nav-logo,
+  .western-N-school-nav-logo {
+    justify-content: center;
+  }
+
+  .bono-school-nav-ul,
+  .bono-E-school-nav-ul,
+  .north-E-school-nav-ul,
+  .northern-school-nav-ul,
+  .upper-E-school-nav-ul,
+  .upper-W-school-nav-ul,
+  .greater-A-school-nav-ul,
+  .central-school-nav-ul,
+  .western-school-nav-ul,
+  .volta-school-nav-ul,
+  .eastern-school-nav-ul,
+  .oti-school-nav-ul,
+  .savana-school-nav-ul,
+  .asanti-school-nav-ul,
+  .western-N-school-nav-ul {
+    padding-right: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .bono-school-nav-ul li,
+  .bono-E-school-nav-ul li,
+  .north-E-school-nav-ul li,
+  .northern-school-nav-ul li,
+  .upper-E-school-nav-ul li,
+  .upper-W-school-nav-ul li,
+  .greater-A-school-nav-ul li,
+  .central-school-nav-ul li,
+  .western-school-nav-ul li,
+  .volta-school-nav-ul li,
+  .eastern-school-nav-ul li,
+  .oti-school-nav-ul li,
+  .savana-school-nav-ul li,
+  .asanti-school-nav-ul li,
+  .western-N-school-nav-ul li {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .bono-school-section,
+  .bono-E-school-section,
+  .north-E-school-section,
+  .northern-school-section,
+  .upper-E-school-section,
+  .upper-W-school-section,
+  .greater-A-school-section,
+  .central-school-section,
+  .western-school-section,
+  .volta-school-section,
+  .eastern-school-section,
+  .oti-school-section,
+  .savana-school-section,
+  .asanti-school-section,
+  .western-N-school-section {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .bono-school-card,
+  .bono-E-school-card,
+  .north-E-school-card,
+  .northern-school-card,
+  .upper-E-school-card,
+  .upper-W-school-card,
+  .greater-A-school-card,
+  .central-school-card,
+  .western-school-card,
+  .volta-school-card,
+  .eastern-school-card,
+  .oti-school-card,
+  .savana-school-card,
+  .asanti-school-card,
+  .western-N-school-card {
+    flex: 1 1 45%;
+    max-width: 100%;
+  }
+
+  .find-your-school-container h1 {
+    font-size: 32px;
+    padding-left: 40px;
+  }
+
+  .find-your-school-container p {
+    font-size: 16px;
+    padding-left: 100px;
+  }
+}
+
+
+/* ============================================
+   SMALL SCREENS (768px - 991px)
+   ============================================ */
+@media screen and (max-width: 991px) {
+  body {
+    font-size: 14px;
+  }
+
+  .bono-school-nav,
+  .bono-E-school-nav,
+  .north-E-school-nav,
+  .northern-school-nav,
+  .upper-E-school-nav,
+  .upper-W-school-nav,
+  .greater-A-school-nav,
+  .central-school-nav,
+  .western-school-nav,
+  .volta-school-nav,
+  .eastern-school-nav,
+  .oti-school-nav,
+  .savana-school-nav,
+  .asanti-school-nav,
+  .western-N-school-nav {
+    width: 100%;
+  }
+
+  .bono-school-nav-logo div,
+  .bono-E-school-nav-logo div,
+  .north-E-school-nav-logo div,
+  .northern-school-nav-logo div,
+  .upper-E-school-nav-logo div,
+  .upper-W-school-nav-logo div,
+  .greater-A-school-nav-logo div,
+  .central-school-nav-logo div,
+  .western-school-nav-logo div,
+  .volta-school-nav-logo div,
+  .eastern-school-nav-logo div,
+  .oti-school-nav-logo div,
+  .savana-school-nav-logo div,
+  .asanti-school-nav-logo div,
+  .western-N-school-nav-logo div {
+    font-size: 22px;
+  }
+
+  .bono-school-nav-ul li,
+  .bono-E-school-nav-ul li,
+  .north-E-school-nav-ul li,
+  .northern-school-nav-ul li,
+  .upper-E-school-nav-ul li,
+  .upper-W-school-nav-ul li,
+  .greater-A-school-nav-ul li,
+  .central-school-nav-ul li,
+  .western-school-nav-ul li,
+  .volta-school-nav-ul li,
+  .eastern-school-nav-ul li,
+  .oti-school-nav-ul li,
+  .savana-school-nav-ul li,
+  .asanti-school-nav-ul li,
+  .western-N-school-nav-ul li {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .bono-school-nav-ul li a button,
+  .bono-E-school-nav-ul li a button,
+  .north-E-school-nav-ul li a button,
+  .northern-school-nav-ul li a button,
+  .upper-E-school-nav-ul li a button,
+  .upper-W-school-nav-ul li a button,
+  .greater-A-school-nav-ul li a button,
+  .central-school-nav-ul li a button,
+  .western-school-nav-ul li a button,
+  .volta-school-nav-ul li a button,
+  .eastern-school-nav-ul li a button,
+  .oti-school-nav-ul li a button,
+  .savana-school-nav-ul li a button,
+  .asanti-school-nav-ul li a button,
+  .western-N-school-nav-ul li a button {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+
+  .bono-school-card,
+  .bono-E-school-card,
+  .north-E-school-card,
+  .northern-school-card,
+  .upper-E-school-card,
+  .upper-W-school-card,
+  .greater-A-school-card,
+  .central-school-card,
+  .western-school-card,
+  .volta-school-card,
+  .eastern-school-card,
+  .oti-school-card,
+  .savana-school-card,
+  .asanti-school-card,
+  .western-N-school-card {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    min-height: 16rem;
+  }
+
+  .bono-sub h2,
+  .bono-E-sub h2,
+  .north-E-sub h2,
+  .northern-sub h2,
+  .upper-E-sub h2,
+  .upper-W-sub h2,
+  .greater-A-sub h2,
+  .central-sub h2,
+  .western-sub h2,
+  .volta-sub h2,
+  .eastern-sub h2,
+  .oti-sub h2,
+  .savana-sub h2,
+  .asanti-sub h2,
+  .western-N-sub h2 {
+    font-size: 18px;
+  }
+
+  .find-your-school-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .find-your-school-container h1 {
+    font-size: 28px;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+
+  .find-your-school-container p {
+    font-size: 16px;
+    padding-left: 60px;
+  }
+
+  .bono-school-card-section,
+  .bono-E-school-card-section,
+  .north-E-school-card-section,
+  .northern-school-card-section,
+  .upper-E-school-card-section,
+  .upper-W-school-card-section,
+  .greater-A-school-card-section,
+  .central-school-card-section,
+  .western-school-card-section,
+  .volta-school-card-section,
+  .eastern-school-card-section,
+  .oti-school-card-section,
+  .savana-school-card-section,
+  .asanti-school-card-section,
+  .western-N-school-card-section {
+    margin-top: -150px;
+  }
+
+  .bono-school-title,
+  .bono-E-school-title,
+  .north-E-school-title,
+  .northern-school-title,
+  .upper-E-school-title,
+  .upper-W-school-title,
+  .greater-A-school-title,
+  .central-school-title,
+  .western-school-title,
+  .volta-school-title,
+  .eastern-school-title,
+  .oti-school-title,
+  .savana-school-title,
+  .asanti-school-title,
+  .western-N-school-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bono-school-card-academic,
+  .bono-E-school-card-academic,
+  .north-E-school-card-academic,
+  .northern-school-card-academic,
+  .upper-E-school-card-academic,
+  .upper-W-school-card-academic,
+  .greater-A-school-card-academic,
+  .central-school-card-academic,
+  .western-school-card-academic,
+  .volta-school-card-academic,
+  .eastern-school-card-academic,
+  .oti-school-card-academic,
+  .savana-school-card-academic,
+  .asanti-school-card-academic,
+  .western-N-school-card-academic {
+    margin-top: 5px;
+  }
+
+  .bono-Courses-Offered,
+  .bono-E-Courses-Offered,
+  .north-E-Courses-Offered,
+  .northern-Courses-Offered,
+  .upper-E-Courses-Offered,
+  .upper-W-Courses-Offered,
+  .greater-A-Courses-Offered,
+  .central-Courses-Offered,
+  .western-Courses-Offered,
+  .volta-Courses-Offered,
+  .eastern-Courses-Offered,
+  .oti-Courses-Offered,
+  .savana-Courses-Offered,
+  .asanti-Courses-Offered,
+  .western-N-Courses-Offered {
+    padding-left: 10px;
+  }
+
+  .bono-course-offer button,
+  .bono-E-course-offer button,
+  .north-E-course-offer button,
+  .northern-course-offer button,
+  .upper-E-course-offer button,
+  .upper-W-course-offer button,
+  .greater-A-course-offer button,
+  .central-course-offer button,
+  .western-course-offer button,
+  .volta-course-offer button,
+  .eastern-course-offer button,
+  .oti-course-offer button,
+  .savana-course-offer button,
+  .asanti-course-offer button,
+  .western-N-course-offer button {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  .bono-schools-footer,
+  .bono-E-schools-footer,
+  .north-E-schools-footer,
+  .northern-schools-footer,
+  .upper-E-schools-footer,
+  .upper-W-schools-footer,
+  .greater-A-schools-footer,
+  .central-schools-footer,
+  .western-schools-footer,
+  .volta-schools-footer,
+  .eastern-schools-footer,
+  .oti-schools-footer,
+  .savana-schools-footer,
+  .asanti-schools-footer,
+  .western-N-schools-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+
+/* ============================================
+   EXTRA SMALL SCREENS (576px - 767px)
+   ============================================ */
+@media screen and (max-width: 767px) {
+  .bono-school-nav-ul,
+  .bono-E-school-nav-ul,
+  .north-E-school-nav-ul,
+  .northern-school-nav-ul,
+  .upper-E-school-nav-ul,
+  .upper-W-school-nav-ul,
+  .greater-A-school-nav-ul,
+  .central-school-nav-ul,
+  .western-school-nav-ul,
+  .volta-school-nav-ul,
+  .eastern-school-nav-ul,
+  .oti-school-nav-ul,
+  .savana-school-nav-ul,
+  .asanti-school-nav-ul,
+  .western-N-school-nav-ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .bono-school-card,
+  .bono-E-school-card,
+  .north-E-school-card,
+  .northern-school-card,
+  .upper-E-school-card,
+  .upper-W-school-card,
+  .greater-A-school-card,
+  .central-school-card,
+  .western-school-card,
+  .volta-school-card,
+  .eastern-school-card,
+  .oti-school-card,
+  .savana-school-card,
+  .asanti-school-card,
+  .western-N-school-card {
+    width: 95%;
+    max-width: 100%;
+  }
+
+  .find-your-school-container h1 {
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  .find-your-school-container p {
+    padding-left: 30px;
+    font-size: 14px;
+  }
+
+  .bono-school-card-section,
+  .bono-E-school-card-section,
+  .north-E-school-card-section,
+  .northern-school-card-section,
+  .upper-E-school-card-section,
+  .upper-W-school-card-section,
+  .greater-A-school-card-section,
+  .central-school-card-section,
+  .western-school-card-section,
+  .volta-school-card-section,
+  .eastern-school-card-section,
+  .oti-school-card-section,
+  .savana-school-card-section,
+  .asanti-school-card-section,
+  .western-N-school-card-section {
+    margin-top: -150px;
+  }
+
+  .bono-schools-footer p,
+  .bono-E-schools-footer p,
+  .north-E-schools-footer p,
+  .northern-schools-footer p,
+  .upper-E-schools-footer p,
+  .upper-W-schools-footer p,
+  .greater-A-schools-footer p,
+  .central-schools-footer p,
+  .western-schools-footer p,
+  .volta-schools-footer p,
+  .eastern-schools-footer p,
+  .oti-schools-footer p,
+  .savana-schools-footer p,
+  .asanti-schools-footer p,
+  .western-N-schools-footer p {
+    padding-left: 20px;
+    font-size: 14px;
+  }
+}
+
+
+/* ============================================
+   TINY SCREENS (360px - 575px)
+   ============================================ */
+@media screen and (max-width: 575px) {
+  .bono-school-nav-logo div,
+  .bono-E-school-nav-logo div,
+  .north-E-school-nav-logo div,
+  .northern-school-nav-logo div,
+  .upper-E-school-nav-logo div,
+  .upper-W-school-nav-logo div,
+  .greater-A-school-nav-logo div,
+  .central-school-nav-logo div,
+  .western-school-nav-logo div,
+  .volta-school-nav-logo div,
+  .eastern-school-nav-logo div,
+  .oti-school-nav-logo div,
+  .savana-school-nav-logo div,
+  .asanti-school-nav-logo div,
+  .western-N-school-nav-logo div {
+    font-size: 18px;
+  }
+
+  .bono-school-card,
+  .bono-E-school-card,
+  .north-E-school-card,
+  .northern-school-card,
+  .upper-E-school-card,
+  .upper-W-school-card,
+  .greater-A-school-card,
+  .central-school-card,
+  .western-school-card,
+  .volta-school-card,
+  .eastern-school-card,
+  .oti-school-card,
+  .savana-school-card,
+  .asanti-school-card,
+  .western-N-school-card {
+    height: auto;
+    min-height: 14rem;
+  }
+
+  .bono-sub h2,
+  .bono-E-sub h2,
+  .north-E-sub h2,
+  .northern-sub h2,
+  .upper-E-sub h2,
+  .upper-W-sub h2,
+  .greater-A-sub h2,
+  .central-sub h2,
+  .western-sub h2,
+  .volta-sub h2,
+  .eastern-sub h2,
+  .oti-sub h2,
+  .savana-sub h2,
+  .asanti-sub h2,
+  .western-N-sub h2 {
+    font-size: 16px;
+  }
+
+  .bono-school-card-academic,
+  .bono-E-school-card-academic,
+  .north-E-school-card-academic,
+  .northern-school-card-academic,
+  .upper-E-school-card-academic,
+  .upper-W-school-card-academic,
+  .greater-A-school-card-academic,
+  .central-school-card-academic,
+  .western-school-card-academic,
+  .volta-school-card-academic,
+  .eastern-school-card-academic,
+  .oti-school-card-academic,
+  .savana-school-card-academic,
+  .asanti-school-card-academic,
+  .western-N-school-card-academic {
+    font-size: 11px;
+  }
+
+  .bono-Courses-Offered,
+  .bono-E-Courses-Offered,
+  .north-E-Courses-Offered,
+  .northern-Courses-Offered,
+  .upper-E-Courses-Offered,
+  .upper-W-Courses-Offered,
+  .greater-A-Courses-Offered,
+  .central-Courses-Offered,
+  .western-Courses-Offered,
+  .volta-Courses-Offered,
+  .eastern-Courses-Offered,
+  .oti-Courses-Offered,
+  .savana-Courses-Offered,
+  .asanti-Courses-Offered,
+  .western-N-Courses-Offered {
+    font-size: 12px;
+  }
+
+  .bono-course-offer button,
+  .bono-E-course-offer button,
+  .north-E-course-offer button,
+  .northern-course-offer button,
+  .upper-E-course-offer button,
+  .upper-W-course-offer button,
+  .greater-A-course-offer button,
+  .central-course-offer button,
+  .western-course-offer button,
+  .volta-course-offer button,
+  .eastern-course-offer button,
+  .oti-course-offer button,
+  .savana-course-offer button,
+  .asanti-course-offer button,
+  .western-N-course-offer button {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .find-your-school-container h1 {
+    font-size: 20px;
+  }
+
+  .find-your-school-container p {
+    font-size: 13px;
+  }
+
+  .bono-school-card-section,
+  .bono-E-school-card-section,
+  .north-E-school-card-section,
+  .northern-school-card-section,
+  .upper-E-school-card-section,
+  .upper-W-school-card-section,
+  .greater-A-school-card-section,
+  .central-school-card-section,
+  .western-school-card-section,
+  .volta-school-card-section,
+  .eastern-school-card-section,
+  .oti-school-card-section,
+  .savana-school-card-section,
+  .asanti-school-card-section,
+  .western-N-school-card-section {
+    margin-top: -100px;
+  }
+
+  .bono-schools-footer-logo div,
+  .bono-E-schools-footer-logo div,
+  .north-E-schools-footer-logo div,
+  .northern-schools-footer-logo div,
+  .upper-E-schools-footer-logo div,
+  .upper-W-schools-footer-logo div,
+  .greater-A-schools-footer-logo div,
+  .central-schools-footer-logo div,
+  .western-schools-footer-logo div,
+  .volta-schools-footer-logo div,
+  .eastern-schools-footer-logo div,
+  .oti-schools-footer-logo div,
+  .savana-schools-footer-logo div,
+  .asanti-schools-footer-logo div,
+  .western-N-schools-footer-logo div {
+    font-size: 20px;
+  }
+
+  .bono-schools-footer p,
+  .bono-E-schools-footer p,
+  .north-E-schools-footer p,
+  .northern-schools-footer p,
+  .upper-E-schools-footer p,
+  .upper-W-schools-footer p,
+  .greater-A-schools-footer p,
+  .central-schools-footer p,
+  .western-schools-footer p,
+  .volta-schools-footer p,
+  .eastern-schools-footer p,
+  .oti-schools-footer p,
+  .savana-schools-footer p,
+  .asanti-schools-footer p,
+  .western-N-schools-footer p {
+    font-size: 13px;
+    padding-left: 15px;
+  }
+}
+
+
+/* ============================================
+   MINI SCREENS (0px - 359px)
+   Very small phones
+   ============================================ */
+@media screen and (max-width: 359px) {
+  .bono-school-nav,
+  .bono-E-school-nav,
+  .north-E-school-nav,
+  .northern-school-nav,
+  .upper-E-school-nav,
+  .upper-W-school-nav,
+  .greater-A-school-nav,
+  .central-school-nav,
+  .western-school-nav,
+  .volta-school-nav,
+  .eastern-school-nav,
+  .oti-school-nav,
+  .savana-school-nav,
+  .asanti-school-nav,
+  .western-N-school-nav {
+    padding: 5px;
+  }
+
+  .bono-school-nav-logo div,
+  .bono-E-school-nav-logo div,
+  .north-E-school-nav-logo div,
+  .northern-school-nav-logo div,
+  .upper-E-school-nav-logo div,
+  .upper-W-school-nav-logo div,
+  .greater-A-school-nav-logo div,
+  .central-school-nav-logo div,
+  .western-school-nav-logo div,
+  .volta-school-nav-logo div,
+  .eastern-school-nav-logo div,
+  .oti-school-nav-logo div,
+  .savana-school-nav-logo div,
+  .asanti-school-nav-logo div,
+  .western-N-school-nav-logo div {
+    font-size: 16px;
+  }
+
+  .bono-school-nav-ul li,
+  .bono-E-school-nav-ul li,
+  .north-E-school-nav-ul li,
+  .northern-school-nav-ul li,
+  .upper-E-school-nav-ul li,
+  .upper-W-school-nav-ul li,
+  .greater-A-school-nav-ul li,
+  .central-school-nav-ul li,
+  .western-school-nav-ul li,
+  .volta-school-nav-ul li,
+  .eastern-school-nav-ul li,
+  .oti-school-nav-ul li,
+  .savana-school-nav-ul li,
+  .asanti-school-nav-ul li,
+  .western-N-school-nav-ul li {
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .bono-school-nav-ul li a button,
+  .bono-E-school-nav-ul li a button,
+  .north-E-school-nav-ul li a button,
+  .northern-school-nav-ul li a button,
+  .upper-E-school-nav-ul li a button,
+  .upper-W-school-nav-ul li a button,
+  .greater-A-school-nav-ul li a button,
+  .central-school-nav-ul li a button,
+  .western-school-nav-ul li a button,
+  .volta-school-nav-ul li a button,
+  .eastern-school-nav-ul li a button,
+  .oti-school-nav-ul li a button,
+  .savana-school-nav-ul li a button,
+  .asanti-school-nav-ul li a button,
+  .western-N-school-nav-ul li a button {
+    padding: 8px 10px;
+    font-size: 10px;
+  }
+
+  .bono-school-card,
+  .bono-E-school-card,
+  .north-E-school-card,
+  .northern-school-card,
+  .upper-E-school-card,
+  .upper-W-school-card,
+  .greater-A-school-card,
+  .central-school-card,
+  .western-school-card,
+  .volta-school-card,
+  .eastern-school-card,
+  .oti-school-card,
+  .savana-school-card,
+  .asanti-school-card,
+  .western-N-school-card {
+    border-radius: 10px;
+  }
+
+  .bono-sub h2,
+  .bono-E-sub h2,
+  .north-E-sub h2,
+  .northern-sub h2,
+  .upper-E-sub h2,
+  .upper-W-sub h2,
+  .greater-A-sub h2,
+  .central-sub h2,
+  .western-sub h2,
+  .volta-sub h2,
+  .eastern-sub h2,
+  .oti-sub h2,
+  .savana-sub h2,
+  .asanti-sub h2,
+  .western-N-sub h2 {
+    font-size: 14px;
+  }
+
+  .bono-school-card p,
+  .bono-E-school-card p,
+  .north-E-school-card p,
+  .northern-school-card p,
+  .upper-E-school-card p,
+  .upper-W-school-card p,
+  .greater-A-school-card p,
+  .central-school-card p,
+  .western-school-card p,
+  .volta-school-card p,
+  .eastern-school-card p,
+  .oti-school-card p,
+  .savana-school-card p,
+  .asanti-school-card p,
+  .western-N-school-card p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .find-your-school-container h1 {
+    font-size: 18px;
+  }
+
+  .find-your-school-container p {
+    font-size: 12px;
+  }
+
+  .bono-school-card-section,
+  .bono-E-school-card-section,
+  .north-E-school-card-section,
+  .northern-school-card-section,
+  .upper-E-school-card-section,
+  .upper-W-school-card-section,
+  .greater-A-school-card-section,
+  .central-school-card-section,
+  .western-school-card-section,
+  .volta-school-card-section,
+  .eastern-school-card-section,
+  .oti-school-card-section,
+  .savana-school-card-section,
+  .asanti-school-card-section,
+  .western-N-school-card-section {
+    margin-top: -60px;
+  }
+
+  .bono-schools-footer,
+  .bono-E-schools-footer,
+  .north-E-schools-footer,
+  .northern-schools-footer,
+  .upper-E-schools-footer,
+  .upper-W-schools-footer,
+  .greater-A-schools-footer,
+  .central-schools-footer,
+  .western-schools-footer,
+  .volta-schools-footer,
+  .eastern-schools-footer,
+  .oti-schools-footer,
+  .savana-schools-footer,
+  .asanti-schools-footer,
+  .western-N-schools-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .bono-schools-footer-logo div,
+  .bono-E-schools-footer-logo div,
+  .north-E-schools-footer-logo div,
+  .northern-schools-footer-logo div,
+  .upper-E-schools-footer-logo div,
+  .upper-W-schools-footer-logo div,
+  .greater-A-schools-footer-logo div,
+  .central-schools-footer-logo div,
+  .western-schools-footer-logo div,
+  .volta-schools-footer-logo div,
+  .eastern-schools-footer-logo div,
+  .oti-schools-footer-logo div,
+  .savana-schools-footer-logo div,
+  .asanti-schools-footer-logo div,
+  .western-N-schools-footer-logo div {
+    font-size: 18px;
+  }
+
+  .bono-schools-footer p,
+  .bono-E-schools-footer p,
+  .north-E-schools-footer p,
+  .northern-schools-footer p,
+  .upper-E-schools-footer p,
+  .upper-W-schools-footer p,
+  .greater-A-schools-footer p,
+  .central-schools-footer p,
+  .western-schools-footer p,
+  .volta-schools-footer p,
+  .eastern-schools-footer p,
+  .oti-schools-footer p,
+  .savana-schools-footer p,
+  .asanti-schools-footer p,
+  .western-N-schools-footer p {
+    font-size: 12px;
+  }
+}

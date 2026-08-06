@@ -1,71 +1,5693 @@
-body{
-	background-color: #0000ff;
-	font-family:sans-serif,arial;
-	margin:0 px;
+* {
+  margin: 0;
+  padding: 0;
+   border: none;
+   outline: none;
 }
 
-.wrapper{
-	width: 100%;
-	height: 900px;
-	border: 1px solid;
-	margin: 0px auto;
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
+.index-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+ position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.index-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.index-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+.index-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+
+
+
+
+
+
+
+
+.index-nav .index-nav-ul {
+  display:flex ;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.index-nav .index-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.index-nav .index-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+
+  
+}
+
+.index-nav .index-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+
+.main {
+  width: 98%;
+  height: 100vh;
+  background-color: #edf1f1;
+  text-align: center;
+  padding: 10px;
+  gap: 30px;
+}
+
+.main .btn1 {
+  border: 1px;
+  border-radius: 2px;
+  font-size: 16px;
+  margin-top: 60px;
+  background-color: #fcd616ca;
+}
+
+.main_head {
+  padding-top: 20px;
+}
+
+.main_head h1:nth-child(1) {
+  font-size: 50px;
+  color: #000;
+}
+.main_head h1:nth-child(2) {
+  font-size: 50px;
+  color: #157a45;
+}
+
+.intro {
+  font-size: 20px;
+  color: #333333b1;
+  padding-top: 50px;
+}
+
+
+.hero_btn {
+  padding: 20px;
+  gap: 5px;
+}
+.button_1 {
+  background-color: #197b4d;
+  color: #fff;
+  border: 1px;
+  border-radius: 25px;
+  padding: 15px;
+  gap: 10px;
+}
+
+.button_2 {
+  background-color: #fdd630;
+  color: #fff;
+  border: 1px;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+
+.index-schools span:nth-child(1) {
+  font-size: 30px;
+}
+
+.index-schools h3:nth-child(2) {
+  font-size: 15px;
+  color: #666;
+}
+
+.student span:nth-child(1) {
+  font-size: 30px;
+}
+
+.student h3:nth-child(2) {
+  font-size: 15px;
+  color: #666;
+  padding-left: 37px;
+}
+
+.discover {
+  background-color: #d4e2da;
+  color: #1c929d;
+  border-radius: 16px;
+  padding: 7px;
+  margin: 10px;
+}
+
+.popular-c {
+  padding-top: 30px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  row-gap: 10px;
+}
+
+.div1 {
+  width: 400px;
+  height: 200px;
+  background-color: #000;
+}
+
+.courses {
+  height: fit-content;
+  background-color: #edf1f1;
+  padding-bottom: 70px;
+}
+
+.courses_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top:50px ;
+  
+}
+
+.index-card {
+  background: #ffffff;
+  width: 30%;
+  height: 20rem;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition:transform 0.3s;
+}
+
+
+.index-card:hover{
+  transform: translateY(-10px);
+border:1px solid;
+border-color: #00f;
+
+
+}
+
+
+
+
+
+
+.card-head {
+  color: #157a45;
+  padding: 20px 0px 1px 220px;
+}
+
+.index-card-icon {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background: #f3f6f3;
+  margin-left: 30px;
+  border-radius: 10px;
+  transition-duration:0.3s ;
+}
+
+
+.index-card-icon:hover {
+  border-radius: 20px;
+  background-color: #00f;
+}
+
+
+.index-card:hover .index-card-icon{
+
+ background-color: #00f;
+  
+}
+
+
+
+.sub {
+  width: 80%;
+  margin-left: 30px;
+  
+}
+
+.sub h2 , p{
+  text-align:left ;
+  line-height: 25px;
+  padding-top: 20px;
+}
+
+.sub p{
+  color: #00000096;
+
+}
+
+.card_horizontal{
+  content: '';
+  width: 80%;
+  height: 1px;
+  background: #00000022;
+  align-self: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card-foot{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.course-initial{
+  color: #666;
+}
+
+
+.view a{
+  color: #000;
+   font-weight: 100;
+  text-decoration: none;
+}
+
+
+
+/* css for cotainer-info*/
+
+
+.container-info-card{
+  background: #ffffff;
+  width: 30%;
+  height: 20rem;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition:transform 0.3s;
+  margin-top: 80px;
+}
+
+
+.container-info-card:hover{
+ transform:translateY(-10px) ;
+ border: 1px solid;
+ border-color: #00f;
+
+ 
+}
+
+
+.Info-icon{
+  content: "";
+  width: 90px;
+  height: 90px;
+  background-color: #F3F4F7;
+  justify-self: center;
+  border-radius: 20px;
+ margin-top: 50px;
+ transition-duration: 0.3s ease;
+ 
+}
+
+
+
+
+.Info-icon:hover{
+   transform: translateY(-10px);
+   border-radius: 40px;
+   background-color: #00f;
+
+}
+
+
+.container-info-card:hover .Info-icon{
+ 
+  background-color: #00f;
+   border-radius: 40px;
+
+ 
+}
+
+
+/* css career */
+.career{
+  width: 80%;
+}
+
+/* css career guide*/
+.career h2{
+  margin-top: 20px;
+  justify-content: center;
+  
+}
+
+.career p{
+  padding-left: 30px;
+  justify-self: center;
+  color: #666;
+}
+
+
+.container-info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top:50px ;
+}
+
+
+/* css for inspire-section*/
+
+.inspire-section{
+  background-color: #edf1f1;
+  padding:50px ;
+}
+
+.inspire_card_container{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding-top:50px ;
+}
+
+
+.card-inspire{
+
+  background: url('../IMAGES/healt.jpg');
+  width: 30%;
+  height: 20rem;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  transition-duration: 0.3s ease;
+}
+
+.card-inspire:hover{
+  transform: translateY(-10px);
+  border: 1px solid;
+  border-color: #1c929d;
+}
+
+.card-inspire1{
+
+  background: url('../IMAGES/sculpture1.jpg');
+  width: 30%;
+  height: 20rem;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  transition-duration: 0.3s ease;
+}
+
+.card-inspire1:hover{
+  transform: translateY(-10px);
+  border: 1px solid;
+  border-color: #1c929d;
+}
+
+.card-inspire2{
+  background: url('../IMAGES/home.jpg');
+  width: 30%;
+  height: 20rem;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  transition-duration: 0.3s ease;
+}
+
+.card-inspire2:hover{
+  transform: translateY(-10px);
+  border: 1px solid;
+  border-color: #1c929d;
+}
+
+.card-inspire3{
+
+  background: url('../IMAGES/mechanic-working.jpg');
+  width: 30%;
+  height: 20rem;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  transition-duration: 0.3s ease;
+}
+
+
+.card-inspire3:hover{
+  transform: translateY(-10px);
+  border: 1px solid;
+  border-color: #1c929d;
+}
+
+.card-inspire4{
+
+  background: url('../IMAGES/business1.jpeg');
+  width: 30%;
+  height: 20rem;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  transition-duration:0.3s ease ;
+}
+
+.card-inspire4:hover{
+  transform: translateY(-10px);
+  border: 1px solid;
+  border-color: #1c929d;
+}
+
+.card-inspire5{
+
+  background: url('../IMAGES/ghana.png');
+  width: 30%;
+  height: 20rem;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  transition-duration: 0.3s ease;
+}
+
+
+.card-inspire5:hover{
+  transform: translateY(-10px);
+  border: 1px solid;
+  border-color: #1c929d;
+}
+
+
+.inspiration{
+  background-color: #F0DFE1;
+  color: #CE1126;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.inspire_header{
+  width: 40%;
+  align-items: left;
+  padding-bottom: 50px;
+}
+
+.inspire_header h1{
+  margin-left: -100px;
+  padding-top: 20px;
+}
+
+
+.card_txt{
+  background: linear-gradient(  rgba(0, 0, 0, 0.01),black);
+  position: relative;
+  top: 200px;
+ padding-left: 30px;
+ border-bottom-left-radius: 15px;
+ border-bottom-right-radius: 15px;
+}
+
+
+.science{
+  float: left;
+  background: white;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 13px;
+  width:70px;
+
+}
+
+.inspire_bottom_txt{
+  color: white;
+  padding-bottom: 25px;
+}
+.co_txt{
+  padding-top:20px ;
+  color: white;
+}
+
+
+.choose{
+  height: 100Vh;
+  background-color: #edf1f1;
+  padding: 20px;
+}
+
+.choose_container{
+  margin-top: 30px;
+  border-radius: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../IMAGES/students.png');
+}
+
+.choose_school{
+  background-color: #1a602fe5;
+  border-radius: 40px;
+  text-align: center;
+  position: relative;
+}
+
+
+.choose_school h1{
+  padding-top: 150px;
+  font-size: 45px;
+}
+
+
+.choose_school p{
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  color: white;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+
+.choose_school button{
+
+  margin-top: 30px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 20px;
+  color: #157a45;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+/* CSS FOR INDEX_FOOTER*/
+
+
+
+.index-footer-section{
+
+ width:98%;
+   height: 70Vh;
+  background-color: #edf1f1;
+}
+
+
+.index-footer-container{
+
+ 
+    width: 100%;
+   height: fit-content;
+  border-radius: 12px;
+  background-color:#004928;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  margin-top: 0px;
+ 
+}
+
+.index-footer-logo{
+
+  display: flex;
+ gap: 7px; 
+ font-size: 26px;
+ padding-left: 40px;
+ 
+}
+
+.index-footer-logo div:nth-child(1){
+ color:#004928; 
+}
+
+.index-footer-logo div:nth-child(2){
+ color: #fcd116;
+}
+
+.foolter-explorer{
+
+  padding-right: 350px;
+}
+
+.foolter-connect{
+
+  margin-top: -20px;
+  margin-left: 450px;
+}
+
+
+.footer-explorer{
+ 
+ padding-left: 450px;
+ 
+ 
+
+}
+
+.footer-explorer :nth-child(1){
+  color:#fff ;
+  border-bottom: none;
+}
+.footer-explorer :nth-child(2){
+  color:#fff ;
+  padding-top:30 px;
+}
+.footer-explorer :nth-child(3){
+  color:#fff ;
+}
+
+
+.foolter-paragraph{
+ margin-top: -100px;
+ width:350px ;
+ color:#fff ;
+}
+
+
+.horizontal-line{
+content: "";
+  width: 100%;
+  height: 1px;
+  background: #000;
+  align-self: center;
+  margin: auto;
+  margin-top: 130px;
+  margin-bottom: 20px;
+
+}
+
+
+.foolter-copy{
+  padding-left: 20px;
+  color: #fff;
+}
+
+
+
+
+/* CSS FOR COURSES.HTML */
+
+
+.courses-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+ position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.courses-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.courses-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+.courses-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.courses-nav .courses-nav-ul {
+  display:flex ;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.courses-nav .courses-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.courses-nav .courses-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+
+  
+}
+
+.courses-nav .courses-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+
+
+.courses-choose-couse-section{
+
+  width: 98%;
+  height: fit-content;
+  background-color: #edf1f1;
+}
+
+
+
+/*  .courses-choose-couse-contaner */
+
+
+.courses-choose-couse-contaner{
+
+   width: 100%;
+   height: fit-content;
+  border-radius: 12px;
+  background-color:#157a45;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  margin-top: 0px;
+}
+
+.courses-choose-couse-contaner h1{
+ margin-top: 140px;
+ justify-self:center;
+ padding-bottom: 20px;
+
+}
+
+.spiritual-ways-of-choosing-a-couse{
+
+  font-size: 17px;
+padding-left: 20px;
+color: #a89b9bcb;
+
+
+}
+
+.spiritual-ways-of-choosing-a-couse h2{
+
+ padding-bottom: 20px;
+
+}
+
+
+
+
+
+.professional-ways-of-choosing-a-couse{
+
+  font-size: 17px;
+padding-left: 20px;
+color: #a89b9bcb;
+}
+
+.professional-ways-of-choosing-a-couse h2{
+
+ padding-bottom: 20px;
+ margin-top: 20px;
+
+}
+
+
+.courses-section  {
+
+  width: 98%;
+  height: 100vh;
+  background-color: #edf1f1;
+  
+}
+
+.explore-all-courses-container{
+
+  width: 100%;
+  border-radius: 12px;
+  background-color:#157a45;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 30px;
+}
+
+.explore-all-courses-container h1{
+
+  padding-left: 80px;
+  color: #fff;
+  font-size: 40px;
+  padding-top: 50px;
+  
+ 
+}
+
+.explore-all-courses-container p{
+
+  padding-left: 320px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.courses-search-bar{
+  width: 90%;
+  background-color: #fff;
+ margin-left: 60px;
+ border-radius: 40px;
+ margin-top: -40px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+.input-search{
+  width: 300px;
+  margin-left: 60px;
+  font-size: 14px;
+  color: #666;
+  
+}
+
+#all_programs{
+ float: right;
+ width:250px;
+ border-radius: 40px;
+ background-color: #666;
+ padding: 10px;
+ margin-right: 40px;
+ opacity: 0.5;
+margin-top: -10px;
+}
+
+
+#all_programs a{
+ color:#000;
+ background-color: #fff;
+}
+
+
+
+/*   COURSES-CARD-SECTION*/
+
+.courses-card-section{
+   width: 98%;
+  height: fit-content;
+  background-color: #edf1f1;
+  margin-top: -250px;
+ 
+}
+
+ .courses-card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top:-50px ;
+  justify-content: center;
+}
+
+.course-card-initial{
+
+  padding-top: 60px;
+  color: #666;
+}
+
+.sub p{
+  color: #000;
+}
+
+.courses-card-academic{
+
+  background-color: #666;
+  border-radius: 10px;
+  padding: 6px;
+  padding-top:10px ;
+}
+
+.courses-card-view-detail{
+  width: 150px;
+  background-color: #157a45;
+  border-radius: 40px;
+  padding: 15px;
+  margin-top: 10px;
+  
+
+}
+
+.courses-card{
+  background: #ffffff;
+  width: 30%;
+  height: 20rem;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+
+}
+
+
+
+.courses-card:hover{
+  transform:translateY(-10px);
+ border: 1px solid;
+ border-color: #00f;
+
+}
+
+
+
+.courses-footer-section{
+
+   width: 98%;
+  height: fit-content;
+  background-color: #edf1f1;
+}
+.courses-footer{
+
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-top: 80px;
+  
+}
+
+.courses-logo{
+  display: flex;
+  gap: 7px;
+  font-size: 26px;
+ justify-content: center;
+}
+
+.courses-logo div:nth-child(1){
+ color: #fff;
+}
+
+.courses-logo div:nth-child(2){
+ color: #fcd116;
+}
+
+.courses-footer p{
+  padding-left: 60px;
+  color:  hsla(165, 12%, 94%, 0.801);
+}
+
+
+
+
+
+
+/* CSS FOR SCHOOL SECTION*/
+
+
+.school-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+ position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.school-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.school-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+.school-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.school-nav .school-nav-ul {
+  display:flex ;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.school-nav .school-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.school-nav .school-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+
+  
+}
+
+.school-nav  .school-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+
+
+.school-section{
+  width: 98%;
+  height: 100vh;
+  background-color: #edf1f1;
+}
+
+.school-container{
+
+display: flex;
+gap: 20px;
+}
+
+.find-your-school-container{
+   width: 100%;
+  border-radius: 12px;
+  background-color:#fcd116;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 55px;
+}
+
+.find-your-school-container h1{
+  
+  font-size:40px ;
+  padding-left: 60px;
+  color: #004928;
+}
+
+.find-your-school-container p{
+  
+  font-size:20px ;
+  padding-left: 300px;
+  color: #157a45;
+}
+
+
+.search-bar-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.school-search-bar{
+
+  width: 70%;
+  background-color: #fff;
+ margin-left: 180px;
+ border-radius: 20px;
+ margin-top: -50px;
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+
+.school-input-search{
+   
+width: 200px;
+margin-left: 40px;
+padding: 6px;
+font-size: 20px;
+border-radius: 20px;
+background-color: #666;
+opacity: 0.5;
+   
+}
+
+
+.school-input-search search{
+   
+outline: none;
+border: none;
+}
+
+.school-input-search:hover{
+   
+background-color: #888;
+color: #fff;
+opacity: 0.2;
+}
+
+
+#regionSelect{
+ width: 200px;
+margin-right:60px;
+padding: 6px;
+font-size: 16px;
+border-radius: 20px;
+background-color: #666;
+color: #000;
+opacity: 0.5;
+}
+
+
+
+
+
+
+
+#regionSelect:hover{
+  background-color: #888;
+  color: #fff;
+  opacity: 0.2;
+}
+
+
+
+
+
+/* CSS FOR SCHOOL-CARD*/
+
+
+.school-card-section{
+   width: 98%;
+  height: fit-content;
+  background-color: #edf1f1;
+  margin-top: -230px;
+}
+
+.school-card-container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+}
+.school-card{
+
+   background: #ffffff;
+  flex: 1 1 300px;
+  max-width: 350px;
+  height: 20rem;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+
+}
+
+
+
+.school-card:hover{
+ transform:translateY(-10px);
+ border: 1px solid;
+ border-color: #00f;
+  
+}
+
+.school-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.sub h2{
+  font-size: 20px;
+}
+
+
+.school-card-academic p:nth-child(1){
+  color: #666;
+}
+
+.school-card-academic{
+
+border-radius: 10px;
+background-color: #004928;
+padding: 5px 10px;
+color: white;
+font-size: 12px;
+}
+
+
+.Courses-Offered{
+  padding-left :15px ;
+  font-size: 14px;
+}
+
+.course-offer button{
+  width: 250px;
+  font-size: 15px;
+  padding :10px 10px 10px 10px;
+  margin-top: 6px;
+  background-color: #ccc7c76b;
+  border-radius: 30px;
+  text-align:center;
+}
+
+
+
+
+
+.schools-footer-section{
+
+   width: 98%;
+  height: fit-content;
+  background-color: #edf1f1;
+}
+
+.schools-footer{
+
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-top: 80px;
+  
+}
+
+.schools-logo{
+  display: flex;
+  gap: 7px;
+  font-size: 26px;
+ justify-content: center;
+}
+
+.schools-logo div:nth-child(1){
+ color: #fff;
+}
+
+.schools-logo div:nth-child(2){
+ color: #fcd116;
+}
+
+.schools-footer p{
+  padding-left: 60px;
+  color:  hsla(165, 12%, 94%, 0.801);
+}
+
+
+
+/* CSS FOR SUBJECTS */
+
+
+
+.subject-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+ position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.subject-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.subject-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+.subject-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.subject-nav .subject-nav-ul {
+  display:flex ;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.subject-nav .subject-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.subject-nav .subject-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+
+  
+}
+
+.subject-nav .subjsct-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+
+.subjects-section{
+
+  width: 98%;
+  height: 100vh;
+  background-color: #edf1f1;
+}
+
+
+.subject-syllabus-container{
+
+  width: 88%;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color:#5f0404d7;
+  padding: 80px;
+  margin-top: 41px;
+}
+
+.subject-syllabus-container h1{
+
+  font-size: 40px;
+  color:#fff;
+  
+}
+
+.subject-syllabus-container p{
+width: 500px;
+  padding-left: 220px;
+  color:#fff;
+}
+
+
+
+.core-subjects-section{
+
+  width: 98%;
+  height: 130vh;
+  background-color:#edf1f1; 
+  margin-top: 20px;
+}
+
+
+
+.core-subject-container{
+  width: 90%;
+  height:500px;
+  background-color: #fff;
+  margin-top: -340px;
+  justify-self: center;
+ 
+}
+
+
+
+.core-subject{
+
+  margin-left: 20px;
+}
+
+
+.core-subejct-horizontal-line{
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #00000022;
+  padding-top: 2px;
+  margin-top: 10px;
+ 
+ 
+
+}
+
+  /*    card-core-subject*/
+
+.card-core-subject{
+margin-left: 20px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+
+}
+
+
+
+
+/*   card-core-subject-container  */
+
+.card-core-subject-container{
+
+  width: 300px;
+  height: 20%;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.08);
+ padding-left: 30px;
+ margin-top: 20px;
+ transition:transform 0.3s ease;
+ 
+}
+
+
+
+.card-core-subject-container:hover{
+   transform: translateY(-10px);
+   border: 1px solid;
+   border-color: #00f;
+ 
+}
+
+
+.card-core-subject-container h1{
+
+padding-top: 20px;
+color: #004928;
+font-size: 20px;
+}
+
+
+
+.card-core-subject-initial{
+
+  float:right;
+  margin-top: -20px;
+  padding-right: 20px;
+  color: #666;
+
+
+}
+
+
+
+.card-core-subject-container p{
+
+color: #666;
+}
+
+
+.card-core-subject-container p a{
+
+color: #f00;
+margin-top: 10px;
+text-decoration: none;
+}
+
+
+
+
+
+/*  elective-subjects-section    */
+
+
+.elective-subjects-section{
+
+   width: 98%;
+  height: fit-content;
+  background-color:#edf1f1; 
+  margin-top: 200px;
+}
+
+
+
+
+.elective-subject-container{
+  width: 90%;
+  height:fit-content;
+  background-color: #fff;
+  justify-self: center;
+  margin-top: -500px;
+
+}
+
+.card-elective-subject-container{
+
+  width: 330px;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.08);
+ padding-left: 30px;
+ margin-top: 20px;
+ transition-duration: 0.3s;
+
+}
+
+
+.card-elective-subject-container:hover{
+
+  transform: translateY(-10px);
+  border: 1px solid;
+  border-color: #00f;
+}
+
+
+.card-elective-subject{
+margin-left: 20px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+
+}
+
+
+
+.card-elective-subject-container h1{
+
+padding-top: 20px;
+color: #004928;
+font-size: 20px;
+}
+
+.card-elective-subject-initial{
+
+  float:right;
+  margin-top: -20px;
+  padding-right: 20px;
+  color: #666;
+
+
+}
+
+
+
+.card-elective-subject-container p{
+
+color: #666;
+}
+
+
+.card-elective-subject-container p a{
+
+color: #f00;
+margin-top: 10px;
+text-decoration: none;
+}
+
+
+
+/*   subject-footer-section*/
+
+
+.subject-footer-section{
+
+   width: 98%;
+  height: fit-content;
+  background-color: #edf1f1;
+}
+
+.subject-footer{
+
+  width: 100%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-top: 80px;
+  
+}
+
+.subject-logo{
+  display: flex;
+  gap: 7px;
+  font-size: 26px;
+ justify-content: center;
+}
+
+.subject-logo div:nth-child(1){
+ color: #fff;
+}
+
+.subject-logo div:nth-child(2){
+ color: #fcd116;
+}
+
+.subject-footer p{
+  padding-left: 60px;
+  color:  hsla(165, 12%, 94%, 0.801);
+}
+
+
+
+
+/* CSS FOR STUDENTS TOOL*/
+
+
+.student-T-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 96.5%;
+  height: fit-content;
+  padding: 10px;
+ position: fixed;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
+  z-index: 2;
+}
+
+.student-T-nav-logo {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.student-T-nav-logo div:nth-child(1) {
+  color: #004928;
+}
+.student-T-nav-logo div:nth-child(2) {
+  color: #fcd116;
+}
+
+.student-T-nav .student-T-nav-ul {
+  display:flex ;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.student-T-nav .student-T-nav-ul li {
+  padding: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.student-T-nav .student-T-nav-ul li a {
+  text-decoration: none;
+  color: #000;
+
+  
+}
+
+.student-T-nav .student-T-nav-ul li a button {
+  background: #2e8a4f;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+
+
+
+
+
+.students-tool-section{
+
+width: 98%;
+height: 100vh;
+background-color: #edf1f1;
+}
+
+
+.students-toolkit-container{
+
+  width: 100%;
+  height: 35%;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: #000;
+  margin-top: 60px;
+}
+
+.students-toolkit-container h1{
+padding-left: 100px;
+font-size: 40px;
+padding-top: 40px;
+  color: #fff;
+}
+
+
+.students-toolkit-container p{
+padding-left: 320px;
+font-size: 20px;
+  color: #fff;
+}
+
+
+
+
+.card-students-tool-container{
+
+  justify-content: center;
+  gap: 40px;
+  margin-top: -40px;
+  display: flex;
+  
+}
+
+.card-student-tool{
+   width: 40%;
+   height: 320px;
+   border-radius: 10px;
+   background-color: #fff;
+   box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.08); 
+   transition-duration: 0.3s ease;
+
+
+}
+
+.card-student-tool:hover, 
+.card-circle:hover{
+   
+transform: translateY(-10px);
+border: 1px solid;
+border-color: #00f;
+
+}
+
+
+.card-circle{
+  content: "";
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin-left:60px ;
+  margin-top: 20px;
+  background-color:rgba(187, 211, 52, 0.959);
+  
+}
+
+
+.card-student-tool h1{
+   
+font-size: 22px;
+padding-left: 30px;
+padding-top: 40px;
+}
+
+
+.card-student-tool p{
+   
+width: 450px;
+padding-left: 40px;
+color: #666;
+
+}
+
+
+.students-tool-button1 a button{
+   
+width: 80%;
+height: 40px;
+border-top: 2px;
+border-radius: 40px;
+background-color: rgba(165, 137, 10, 0.63);
+color: #2e8a4f;
+font-size: 20px;
+margin-left: 40px;
+margin-top: 40px;
+text-align: center;
+
+
+}
+
+
+
+.students-tool-button2 a button{
+  width: 80%;
+height: 40px;
+border-top: 2px;
+border-radius: 40px;
+background-color:#f00;
+color: #fff;
+font-size: 20px;
+margin-left: 40px;
+margin-top: 40px;
+
+}
+
+/*  CSS FOR STUDENTS TOOL FOOTER  */ 
+
+.students-tool-footer-section{
+
+   width: 98%;
+  height: fit-content;
+  background-color: #edf1f1;
+}
+
+.students-tool-footer{
+
+  width: 110%;
+  background-color: #004928;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-top: 80px;
+  
+}
+
+.students-tool-logo{
+  display: flex;
+  gap: 7px;
+  font-size: 26px;
+ justify-content: center;
+}
+
+.students-tool-logo div:nth-child(1){
+ color: #fff;
+}
+
+.students-tool-logo div:nth-child(2){
+ color: #fcd116;
+}
+
+.students-tool-footer p{
+  padding-left: 60px;
+  color:  hsla(165, 12%, 94%, 0.801);
+}
+
+
+
+
+
+
+
+
+
+
+/* CSS FOR LINK ,LINK-CONTAINER AND LINK-ICON*/
+
+
+     #link-container {
+      position: fixed;
+      right: 30px;
+      top: 6px;
+      transform: none;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      z-index: 1000;
+      flex-direction: row-reverse;
+    }
+
+    #link {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 700;
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+      transition: all 300ms ease;
+      display: inline-flex;
+      align-items: center;
+      font-size: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    #link:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 28px rgba(102, 126, 234, 0.4);
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    #link:active {
+      transform: translateY(-1px);
+    }
+
+    .link-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 8px;
+      object-fit: cover;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      animation: float 3s ease-in-out infinite;
+    }
+
+     @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-8px);
+      }
+    }
+
+   
+    /* Responsive adjustments for link container */
+    @media (max-width: 768px) {
+      #link-container {
+        right: 20px;
+        top: 15px;
+        gap: 8px;
+      }
+
+      #link {
+        padding: 8px 14px;
+        font-size: 13px;
+      }
+
+      .link-icon {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    @media (max-width: 575px) {
+      #link-container {
+        right: 15px;
+        top: 15px;
+        gap: 6px;
+      }
+
+      #link {
+        padding: 7px 12px;
+        font-size: 11px;
+      }
+
+      .link-icon {
+        width: 32px;
+        height: 32px;
+      }
+    }
+
+    @media (max-width: 359px) {
+      #link-container {
+        right: 10px;
+        top: 10px;
+      }
+
+      #link {
+        padding: 6px 10px;
+        font-size: 10px;
+      }
+
+      .link-icon {
+        width: 26px;
+        height: 26px;
+      }
+    }
+
+
+
+
+
+  /* CSS FOR G-SCIENCE-SECTION */
+
+
+  .g-science-section{
+
+    width: 98%;
+    height: 125vh;
+    background-color: #edf1f1;
+  }
+
+
+
+  .g-science-container{
+
+    width: 70%;
+    height: 115vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
+    justify-self: center;
+    
+  }
+
+
+  .g-science-container h2{
+
+    width: 94.8%;
+    padding: 25px;
+
+    background-color: #edf1f1;
+    
+  }
+
+
+  .g-science-button button:nth-child(1){
+
+    width: 100px;
+    background-color:yellow;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .g-science-button button:nth-child(2){
+
+    width: 100px;
+    border-radius: 40px;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .g-science-container p{
+
+    width: 600px;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #666;
+    
+  }
+
+
+  /*  CSS FOR G-SCIENCE-CORE-SUBJECTS*/
+
+
+  .g-science-core-subjects{
+
+  display: block;
+  line-height: 30px;
+  padding-left: 40px;
+  margin-top: 10px;
+  
+  }
+
+
+
+  .Core-sub-topic{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    color:#157a45;
+   
+  }
+
+
+   .g-science-core-subjects div a{
+
+      padding-bottom:20px;
+      color: #666;
+      text-decoration: none;
+  }
+
+
+  .g-science-core-subjects div a:hover{
+
+     
+      color: #00f;
+      opacity: 0.3;
+      transition-duration: 1s ease;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/*  CSS FOR G-SCIENCE-ELECTIVE-SUBJECTS*/
+
+
+  .g-science-elective-subjects {
+
+  display: block;
+  line-height:30px;
+  padding-left: 40px;
+  float: right;
+  padding-right:200px;
+  margin-top:-160px;
+ 
+  }
+
+
+
+  .elective-sub-topic{
+
+    padding-bottom: 30px;
+    color:#157a45
+  }
+
+
+   .g-science-elective-subjects div a{
+
+      padding-bottom:16px;
+      color: #666;
+      text-decoration: none;
+      position: relative;
+     
+      
+     
+  }
+
+  .g-science-elective-subjects div a:hover{
+     
+     color: #5f0404d7;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+  
+  
+  
+  .career-path{
+
+  font-size: 18px;
+  padding-left: 40px;
+  color:#5f0404d7 ;
+  margin-top: 120px;
+  }
+
+
+
+
+
+  .career-path-button button{
+    color: #666;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+    
+  }
+    
+
+
+  .technical-variant{
+   width: 500px;
+   height: 30px;
+    border-radius: 10px;
+    background-color: #90909090;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 10px;
+   
+  }
+
+   .technical-variant span{
+
+   color: #666;
+  }
+
+  
+  
+
+
+
+
+
+
+   /* CSS FOR G-ARTS-SECTION */
+
+
+  .g-arts-section{
+
+    width: 98%;
+    height: 125vh;
+    background-color: #edf1f1;
+  }
+
+
+
+  .g-arts-container{
+
+    width: 70%;
+    height: 125vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
+    justify-self: center;
+    
+  }
+
+
+  .g-arts-container h2{
+
+    width: 94.8%;
+    padding: 25px;
+
+    background-color: #edf1f1;
+    
+  }
+
+
+  .g-arts-button button:nth-child(1){
+
+    width: 100px;
+    background-color:yellow;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .g-arts-button button:nth-child(2){
+
+    width: 100px;
+    border-radius: 40px;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .g-arts-container p{
+
+    width: 600px;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #666;
+    
+  }
+
+
+  /*  CSS FOR G-ARTS-CORE-SUBJECTS*/
+
+
+  .g-arts-core-subjects{
+
+  display: block;
+  line-height: 30px;
+  padding-left: 40px;
+  margin-top: 10px;
+  
+  }
+
+
+
+  .Core-sub-topic{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    color:#157a45;
+   
+  }
+
+
+   .g-arts-core-subjects div a{
+
+      padding-bottom:20px;
+      color: #666;
+      text-decoration: none;
+  }
+
+ .g-arts-core-subjects div a:hover{
+     
+     color: #00f;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+  
+
+
+
+
+
+
+
+/*  CSS FOR G-ARTS-ELECTIVE-SUBJECTS*/
+
+
+  .g-arts-elective-subjects {
+
+  display: block;
+  line-height:30px;
+  padding-left: 40px;
+  float: right;
+  padding-right:200px;
+  margin-top:-160px;
+ 
+  }
+
+
+
+  .elective-sub-topic{
+
+    padding-bottom: 30px;
+    color:#157a45
+  }
+
+
+   .g-arts-elective-subjects div a{
+
+      padding-bottom:16px;
+      color: #666;
+      text-decoration: none;
+      position: relative;
+     
+   }
+ .g-arts-elective-subjects div a:hover{
+     
+     color: #5f0404d7;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+  
+     
+  
+
+  
+     
+  
+  
+  
+  
+  .career-path{
+
+  font-size: 18px;
+  padding-left: 40px;
+  color:#5f0404d7 ;
+  margin-top: 120px;
+  }
+
+
+
+
+
+  .career-path-button button{
+    color: #666;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+    
+  }
+    
+
+
+  .technical-variant{
+   width: 500px;
+   height: 30px;
+    border-radius: 10px;
+    background-color: #90909090;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 10px;
+   
+  }
+
+   .technical-variant span{
+
+   color: #666;
+  }
+
+  
+  
+
+
+
+
+
+
+
+  /* CSS FOR V-ARTS-SECTION */
+
+
+  .v-arts-section{
+
+    width: 98%;
+    height: 125vh;
+    background-color: #edf1f1;
+  }
+
+
+
+  .v-arts-container{
+
+    width: 70%;
+    height: 115vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
+    justify-self: center;
+    
+  }
+
+
+  .v-arts-container h2{
+
+    width: 94.8%;
+    padding: 25px;
+
+    background-color: #edf1f1;
+    
+  }
+
+
+  .v-arts-button button:nth-child(1){
+
+    width: 100px;
+    background-color:yellow;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .v-arts-button button:nth-child(2){
+
+    width: 100px;
+    border-radius: 40px;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .v-arts-container p{
+
+    width: 600px;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #666;
+    
+  }
+
+
+  /*  CSS FOR V-ARTS-CORE-SUBJECTS*/
+
+
+  .v-arts-core-subjects{
+
+  display: block;
+  line-height: 30px;
+  padding-left: 40px;
+  margin-top: 10px;
+  
+  }
+
+
+
+  .Core-sub-topic{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    color:#157a45;
+   
+  }
+
+
+   .v-arts-core-subjects div a{
+
+      padding-bottom:20px;
+      color: #666;
+      text-decoration: none;
+  }
+
+
+ .v-arts-core-subjects div a:hover{
+     
+     color: #00f;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+  
+
+
+
+
+
+
+/*  CSS FOR V-ARTS-ELECTIVE-SUBJECTS*/
+
+
+  .v-arts-elective-subjects {
+
+  display: block;
+  line-height:30px;
+  padding-left: 40px;
+  float: right;
+  padding-right:200px;
+  margin-top:-160px;
+ 
+  }
+
+
+
+  .elective-sub-topic{
+
+    padding-bottom: 30px;
+    color:#157a45
+  }
+
+
+   .v-arts-elective-subjects div a{
+
+      padding-bottom:16px;
+      color: #666;
+      text-decoration: none;
+      position: relative;
+     
+  }
+
+   .v-arts-elective-subjects div a:hover{
+     
+     color: #5f0404d7;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+  
+     
+  
+  
+  
+  
+  .career-path{
+
+  font-size: 18px;
+  padding-left: 40px;
+  color:#5f0404d7 ;
+  margin-top: 120px;
+  }
+
+
+
+
+
+  .career-path-button button{
+    color: #666;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+    
+  }
+    
+
+
+  .technical-variant{
+   width: 500px;
+   height: 30px;
+    border-radius: 10px;
+    background-color: #90909090;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 10px;
+   
+  }
+
+   .technical-variant span{
+
+   color: #666;
+  }
+
+
+
+
+
+
+
+  /* CSS FOR G-BUSINESS-SECTION */
+
+
+  .g-business-section{
+
+    width: 98%;
+    height: 125vh;
+    background-color: #edf1f1;
+  }
+
+
+
+  .g-business-container{
+
+    width: 70%;
+    height: 115vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
+    justify-self: center;
+    
+  }
+
+
+  .g-business-container h2{
+
+    width: 94.8%;
+    padding: 25px;
+
+    background-color: #edf1f1;
+    
+  }
+
+
+  .g-business-button button:nth-child(1){
+
+    width: 100px;
+    background-color:yellow;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .g-business-button button:nth-child(2){
+
+    width: 100px;
+    border-radius: 40px;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .g-business-container p{
+
+    width: 600px;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #666;
+    
+  }
+
+
+  /*  CSS FOR G-BUSINESS-CORE-SUBJECTS*/
+
+
+  .g-business-core-subjects{
+
+  display: block;
+  line-height: 30px;
+  padding-left: 40px;
+  margin-top: 10px;
+  
+  }
+
+
+
+  .Core-sub-topic{
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    color:#157a45;
+   
+  }
+
+
+   .g-business-core-subjects div a{
+
+      padding-bottom:20px;
+      color: #666;
+      text-decoration: none;
+  }
+
+
+ .g-business-core-subjects div a:hover{
+     
+     color: #00f;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+  
+
+
+
+
+
+
+/*  CSS FOR G-BUSINESS-ELECTIVE-SUBJECTS*/
+
+
+  .g-business-elective-subjects {
+
+  display: block;
+  line-height:30px;
+  padding-left: 40px;
+  float: right;
+  padding-right:200px;
+  margin-top:-160px;
+ 
+  }
+
+
+
+  .elective-sub-topic{
+
+    padding-bottom: 30px;
+    color:#157a45
+  }
+
+
+   .g-business-elective-subjects div a{
+
+      padding-bottom:16px;
+      color: #666;
+      text-decoration: none;
+      position: relative;
+     
+  }
+
+   .g-business-elective-subjects div a:hover{
+     
+     color: #5f0404d7;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+  
+     
+  
+  
+  
+  
+  .career-path{
+
+  font-size: 18px;
+  padding-left: 40px;
+  color:#5f0404d7 ;
+  margin-top: 120px;
+  }
+
+
+
+
+
+  .career-path-button button{
+    color: #666;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+    
+  }
+    
+
+
+  .technical-variant{
+   width: 500px;
+   height: 30px;
+    border-radius: 10px;
+    background-color: #90909090;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 10px;
+   
+  }
+
+   .technical-variant span{
+
+   color: #666;
+  }
+
+
+
+
+
+
+
+
+   /* CSS FOR G-HOME-ECON-SECTION */
+
+
+  .g-home-econ-section{
+
+    width: 98%;
+    height: 125vh;
+    background-color: #edf1f1;
+  }
+
+
+
+  .g-home-econ-container{
+
+    width: 70%;
+    height: 115vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
+    justify-self: center;
+    
+  }
+
+
+  .g-home-econ-container h2{
+
+    width: 94.8%;
+    padding: 25px;
+
+    background-color: #edf1f1;
+    
+  }
+
+
+  .g-home-econ-button button:nth-child(1){
+
+    width: 100px;
+    background-color:yellow;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .g-home-econ-button button:nth-child(2){
+
+    width: 100px;
+    border-radius: 40px;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .g-home-econ-container p{
+
+    width: 600px;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #666;
+    
+  }
+
+
+  /*  CSS FOR G-HOME-ECON-CORE-SUBJECTS*/
+
+
+  .g-home-econ-core-subjects{
+
+  display: block;
+  line-height: 30px;
+  padding-left: 40px;
+  margin-top: 10px;
+  
+  }
+
+
+
+  .Core-sub-topic{
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    color:#157a45;
+   
+  }
+
+
+   .g-home-econ-core-subjects div a{
+
+      padding-bottom:20px;
+      color: #666;
+      text-decoration: none;
+  }
+
+ .g-home-econ-core-subjects div a:hover{
+     
+     color: #00f;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+  
+
+
+
+
+
+
+
+/*  CSS FOR G-HOME-ECON-ELECTIVE-SUBJECTS*/
+
+
+  .g-home-econ-elective-subjects {
+
+  display: block;
+  line-height:30px;
+  padding-left: 40px;
+  float: right;
+  padding-right:200px;
+  margin-top:-160px;
+ 
+  }
+
+
+
+  .elective-sub-topic{
+
+    padding-bottom: 30px;
+    color:#157a45
+  }
+
+
+   .g-home-econ-elective-subjects div a{
+
+      padding-bottom:16px;
+      color: #666;
+      text-decoration: none;
+      position: relative;
+  }
+
+  
+     .g-home-econ-elective-subjects div a:hover{
+     
+     color: #5f0404d7;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+   
+  
+  
+  
+  
+  .career-path{
+
+  font-size: 18px;
+  padding-left: 40px;
+  color:#5f0404d7 ;
+  margin-top: 120px;
+  }
+
+
+
+
+
+  .career-path-button button{
+    color: #666;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+    
+  }
+    
+
+
+  .technical-variant{
+   width: 500px;
+   height: 30px;
+    border-radius: 10px;
+    background-color: #90909090;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 10px;
+   
+  }
+
+   .technical-variant span{
+
+   color: #666;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* CSS FOR G-AGRIC-SECTION */
+
+
+  .g-agric-section{
+
+    width: 98%;
+    height: 125vh;
+    background-color: #edf1f1;
+  }
+
+
+
+  .g-agric-container{
+
+    width: 70%;
+    height: 115vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
+    justify-self: center;
+    
+  }
+
+
+  .g-agric-container h2{
+
+    width: 94.8%;
+    padding: 25px;
+
+    background-color: #edf1f1;
+    
+  }
+
+
+  .g-agric-button button:nth-child(1){
+
+    width: 100px;
+    background-color:yellow;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .g-agric-button button:nth-child(2){
+
+    width: 100px;
+    border-radius: 40px;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .g-agric-container p{
+
+    width: 600px;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #666;
+    
+  }
+
+
+  /*  CSS FOR G-AGRIC-CORE-SUBJECTS*/
+
+
+  .g-agric-core-subjects{
+
+  display: block;
+  line-height: 30px;
+  padding-left: 40px;
+  margin-top: 10px;
+  
+  }
+
+
+
+  .Core-sub-topic{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    color:#157a45;
+   
+  }
+
+
+   .g-agric-core-subjects div a{
+
+      padding-bottom:20px;
+      color: #666;
+      text-decoration: none;
+  }
+
+
+ .g-agric-core-subjects div a:hover{
+     
+     color: #00f;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+  
+
+
+
+
+
+
+/*  CSS FOR G-AGRIC-ELECTIVE-SUBJECTS*/
+
+
+  .g-agric-elective-subjects {
+
+  display: block;
+  line-height:30px;
+  padding-left: 40px;
+  float: right;
+  padding-right:200px;
+  margin-top:-160px;
+ 
+  }
+
+
+
+  .elective-sub-topic{
+
+    padding-bottom: 30px;
+    color:#157a45
+  }
+
+
+   .g-agric-elective-subjects div a{
+
+      padding-bottom:16px;
+      color: #666;
+      text-decoration: none;
+      position: relative;
+  }
+
+   .g-agric-elective-subjects div a:hover{
+     
+     color: #5f0404d7;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+  
+     
+  
+  
+  
+  
+  .career-path{
+
+  font-size: 18px;
+  padding-left: 40px;
+  color:#5f0404d7 ;
+  margin-top: 120px;
+  }
+
+
+
+
+
+  .career-path-button button{
+    color: #666;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+    
+  }
+    
+
+
+  .technical-variant{
+   width: 500px;
+   height: 30px;
+    border-radius: 10px;
+    background-color: #90909090;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 10px;
+   
+  }
+
+   .technical-variant span{
+
+   color: #666;
+  }
+
+
+
+
+
+   /* CSS FOR TECH-ENGINEER-SECTION */
+
+
+  .tech-engineer-section{
+
+    width: 98%;
+    height: 125vh;
+    background-color: #edf1f1;
+  }
+
+
+
+  .tech-engineer-container{
+
+    width: 70%;
+    height: 115vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
+    justify-self: center;
+    
+  }
+
+
+  .tech-engineer-container h2{
+
+    width: 94.8%;
+    padding: 25px;
+
+    background-color: #edf1f1;
+    
+  }
+
+
+  .tech-engineer-button button:nth-child(1){
+
+    width: 100px;
+    background-color:yellow;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .tech-engineer-button button:nth-child(2){
+
+    width: 100px;
+    border-radius: 40px;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .tech-engineer-container p{
+
+    width: 600px;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #666;
+    
+  }
+
+
+  /*  CSS FOR TECH-ENGINEER-CORE-SUBJECTS*/
+
+
+  .tech-engineer-core-subjects{
+
+  display: block;
+  line-height: 30px;
+  padding-left: 40px;
+  margin-top: 10px;
+  
+  }
+
+
+
+  .Core-sub-topic{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    color:#157a45;
+   
+  }
+
+
+   .tech-engineer-core-subjects div a{
+
+      padding-bottom:20px;
+      color: #666;
+      text-decoration: none;
+  }
+
+
+ .tech-engineer-core-subjects div a:hover{
+     
+     color: #00f;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+  
+
+
+
+
+
+
+/*  CSS FOR TECH-ENGINEER-ELECTIVE-SUBJECTS*/
+
+
+  .tech-engineer-elective-subjects {
+
+  display: block;
+  line-height:30px;
+  padding-left: 40px;
+  float: right;
+  padding-right:200px;
+  margin-top:-160px;
+ 
+  }
+
+
+
+  .elective-sub-topic{
+
+    padding-bottom: 30px;
+    color:#157a45
+  }
+
+
+   .tech-engineer-elective-subjects div a{
+
+      padding-bottom:16px;
+      color: #666;
+      text-decoration: none;
+      position: relative;
+  }
+
+   .tech-engineer-elective-subjects div a:hover{
+     
+     color: #5f0404d7;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+  
+     
+  
+  
+  
+  
+  .career-path{
+
+  font-size: 18px;
+  padding-left: 40px;
+  color:#5f0404d7 ;
+  margin-top: 120px;
+  }
+
+
+
+
+
+  .career-path-button button{
+    color: #666;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+    
+  }
+    
+
+
+  .technical-variant{
+   width: 500px;
+   height: 30px;
+    border-radius: 10px;
+    background-color: #90909090;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 10px;
+   
+  }
+
+   .technical-variant span{
+
+   color: #666;
+  }
+
+
+
+
+
+
+  /* CSS FOR VOC-ENGINEER-SECTION */
+
+
+  .voc-engineer-section{
+
+    width: 98%;
+    height: 125vh;
+    background-color: #edf1f1;
+  }
+
+
+
+  .voc-engineer-container{
+
+    width: 70%;
+    height: 115vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
+    justify-self: center;
+    
+  }
+
+
+  .voc-engineer-container h2{
+
+    width: 94.8%;
+    padding: 25px;
+
+    background-color: #edf1f1;
+    
+  }
+
+
+  .voc-engineer-button button:nth-child(1){
+
+    width: 100px;
+    background-color:yellow;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .voc-engineer-button button:nth-child(2){
+
+    width: 100px;
+    border-radius: 40px;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+
+  .voc-engineer-container p{
+
+    width: 600px;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #666;
+    
+  }
+
+
+  /*  CSS FOR VOC-ENGINEER-CORE-SUBJECTS*/
+
+
+  .voc-engineer-core-subjects{
+
+  display: block;
+  line-height: 30px;
+  padding-left: 40px;
+  margin-top: 10px;
+  
+  }
+
+
+
+  .Core-sub-topic{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    color:#157a45;
+   
+  }
+
+
+   .voc-engineer-core-subjects div a{
+
+      padding-bottom:20px;
+      color: #666;
+      text-decoration: none;
+  }
+
+
+ .voc-engineer-core-subjects div a:hover{
+     
+     color: #00f;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+  
+
+
+
+
+
+
+/*  CSS FOR VOC-ENGINEER-ELECTIVE-SUBJECTS*/
+
+
+  .voc-engineer-elective-subjects {
+
+  display: block;
+  line-height:30px;
+  padding-left: 40px;
+  float: right;
+  padding-right:200px;
+  margin-top:-160px;
+ 
+  }
+
+
+
+  .elective-sub-topic{
+
+    padding-bottom: 30px;
+    color:#157a45
+  }
+
+
+   .voc-engineer-elective-subjects div a{
+
+      padding-bottom:16px;
+      color: #666;
+      text-decoration: none;
+      position: relative;
+  }
+
+   .voc-engineer-elective-subjects div a:hover{
+     
+     color: #5f0404d7;
+     opacity: 0.3;
+     transition-duration: 1s ease;
+     
+  }
+  
+     
+  
+  
+  
+  
+  .career-path{
+
+  font-size: 18px;
+  padding-left: 40px;
+  color:#5f0404d7 ;
+  margin-top: 120px;
+  }
+
+
+
+
+
+  .career-path-button button{
+    color: #666;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+    
+  }
+    
+
+
+  .technical-variant{
+   width: 500px;
+   height: 30px;
+    border-radius: 10px;
+    background-color: #90909090;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 10px;
+   
+  }
+
+   .technical-variant span{
+
+   color: #666;
+  }
+
+
+/* ============================================
+   EXTRA LARGE SCREENS (1400px and up)
+   Large desktops, wide monitors
+   ============================================ */
+@media screen and (min-width: 1400px) {
+  .index-nav,
+  .courses-nav,
+  .school-nav,
+  .subject-nav,
+  .student-T-nav {
+    width: 100%;
+    padding: 15px 30px;
+  }
+
+  .main {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .index-card,
+  .container-info-card,
+  .card-inspire,
+  .card-inspire1,
+  .card-inspire2,
+  .card-inspire3,
+  .card-inspire4,
+  .card-inspire5,
+  .courses-card,
+  .school-card {
+    width: 28%;
+    max-width: 400px;
+  
+  }
+
+  .courses_container,
+  .container-info,
+  .inspire_card_container,
+  .courses-card-container,
+  .school-card-container {
+    gap: 30px;
+    max-width: 1600px;
+    margin-top: 100px;
+
+  }
+
 
  
 
-header{
-	width: 100%;
-	height: 150px;
-	border: 1px solid black;
-	background-color:#0000ff;
+  .g-science-container,
+  .g-arts-container,
+  .v-arts-container,
+  .g-business-container,
+  .g-home-econ-container,
+  .g-agric-container,
+  .tech-engineer-container,
+  .voc-engineer-container {
+    width: 60%;
+    max-width: 900px;
+  }
+
+  .choose_container {
+    max-width: 1400px;
+    margin: 30px auto 0;
+  }
+
+  .section_container {
+    width: 100%;
+  }
 }
 
-#image{
-	border-radius:50px ;
+
+/* ============================================
+   LARGE SCREENS (1200px - 1399px)
+  
+   ============================================ */
+@media screen and (max-width: 1399px) {
+ 
+  img,
+  .card-icon,
+  .info-icon,
+  .card-circle,
+  .link-icon {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .index-nav,
+  .courses-nav,
+  .school-nav,
+  .subject-nav,
+  .student-T-nav {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .index-nav .index-nav-ul,
+  .courses-nav .courses-nav-ul,
+  .school-nav .school-nav-ul,
+  .subject-nav .subject-nav-ul,
+  .student-T-nav .student-T-nav-ul {
+    padding-right: 30px;
+  }
+
+  .main {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .main_head h1:nth-child(1),
+  .main_head h1:nth-child(2) {
+    font-size: 42px;
+  }
+
+  .index-card,
+  .container-info-card,
+  .card-inspire,
+  .card-inspire1,
+  .card-inspire2,
+  .card-inspire3,
+  .card-inspire4,
+  .card-inspire5,
+  .courses-card {
+    width: 30%;
+    height: 18rem;
+    margin-top: 40px;
+  }
+
+
+ 
+  .school-card {
+    flex: 1 1 280px;
+    max-width: 320px;
+  }
+
+  .card-head {
+    padding: 20px 0px 1px 180px;
+  }
+
+  .g-science-container,
+  .g-arts-container,
+  .v-arts-container,
+  .g-business-container,
+  .g-home-econ-container,
+  .g-agric-container,
+  .tech-engineer-container,
+  .voc-engineer-container {
+    width: 75%;
+  }
+
+  .g-science-container p,
+  .g-arts-container p,
+  .v-arts-container p,
+  .g-business-container p,
+  .g-home-econ-container p,
+  .g-agric-container p,
+  .tech-engineer-container p,
+  .voc-engineer-container p {
+    width: 90%;
+    max-width: 550px;
+  }
+
+  .g-science-elective-subjects,
+  .g-arts-elective-subjects,
+  .v-arts-elective-subjects,
+  .g-business-elective-subjects,
+  .g-home-econ-elective-subjects,
+  .g-agric-elective-subjects,
+  .tech-engineer-elective-subjects,
+  .voc-engineer-elective-subjects {
+    padding-right: 100px;
+  }
+
+  .technical-variant {
+    width: 90%;
+    max-width: 450px;
+  }
+
+  .choose_school h1 {
+    font-size: 38px;
+  }
+
+  .choose_school p {
+    width: 50%;
+  }
+
+  .inspire_header {
+    width: 60%;
+  }
+
+  .inspire_header h1 {
+    margin-left: 0;
+  }
+
+  .section_container {
+    width: 100%;
+  }
+
+  .SHS_EXP p {
+    width: 300px;
+    margin-right: 60px;
+  }
+
+  .section_paragraph div a {
+    margin-left: 300px;
+  }
+
+  .students-toolkit-container h1 {
+    padding-left: 60px;
+  }
+
+  .students-toolkit-container p {
+    padding-left: 200px;
+  }
+
+  .card-student-tool {
+    width: 45%;
+  }
+
+  .card-student-tool p {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .explore-all-courses-container h1 {
+    padding-left: 60px;
+    
+   
+  }
+
+  .explore-all-courses-container p {
+    padding-left: 200px;
+    padding-top: -400px;
+  }
+  
+  .courses-search-bar {
+    margin-left: 40px;
+    margin-top: -69px;
+  }
+
+  .find-your-school-container h1 {
+    padding-left: 40px;
+   
+  }
+
+  .find-your-school-container p {
+    padding-left: 200px;
+  }
+
+  .school-search-bar {
+    margin-left: 100px;
+    width: 80%;
+  }
+
+  .subject-syllabus-container p {
+    width: 90%;
+    max-width: 450px;
+    padding-left: 100px;
+  }
+
+  .core-subject-container,
+  .elective-subject-container {
+    width: 95%;
+  }
+
+  .card-core-subject-container,
+  .card-elective-subject-container {
+    width: 280px;
+  }
 }
 
-#htext{
-   margin-top: -60px;
-   color: #fff;
-   margin-left:110px;
+
+/* ============================================
+   MEDIUM SCREENS (992px - 1199px)
+   Small desktops, large tablets landscape
+   ============================================ */
+@media screen and (max-width: 1199px) {
+ 
+  img,
+  .card-icon,
+  .info-icon,
+  .card-circle,
+  .link-icon,
+  .card-inspire,
+  .card-inspire1,
+  .card-inspire2,
+  .card-inspire3,
+  .card-inspire4,
+  .card-inspire5 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .index-nav,
+  .courses-nav,
+  .school-nav,
+  .subject-nav,
+  .student-T-nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+  }
+
+  .index-nav-logo,
+  .courses-nav-logo,
+  .school-nav-logo,
+  .subject-nav-logo,
+  .student-T-nav-logo {
+    justify-content: center;
+  }
+
+  .index-nav .index-nav-ul,
+  .courses-nav .courses-nav-ul,
+  .school-nav .school-nav-ul,
+  .subject-nav .subject-nav-ul,
+  .student-T-nav .student-T-nav-ul {
+    padding-right: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .index-nav .index-nav-ul li,
+  .courses-nav .courses-nav-ul li,
+  .school-nav .school-nav-ul li,
+  .subject-nav .subject-nav-ul li,
+  .student-T-nav .student-T-nav-ul li {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .main {
+    height: auto;
+    padding-top: 20px;
+  }
+
+  .main_head h1:nth-child(1),
+  .main_head h1:nth-child(2) {
+    font-size: 36px;
+  }
+
+  .intro {
+    font-size: 18px;
+    padding-top: 30px;
+  }
+
+  .numbers {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .index-card,
+  .container-info-card,
+  .courses-card {
+    width: 45%;
+    height: auto;
+    min-height: 18rem;
+  }
+
+  .card-head {
+    padding: 20px 20px 1px 0;
+    text-align: right;
+  }
+
+  .card-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .info-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .card-inspire,
+  .card-inspire1,
+  .card-inspire2,
+  .card-inspire3,
+  .card-inspire4,
+  .card-inspire5 {
+    width: 45%;
+    height: 16rem;
+  }
+
+  .card_txt {
+    top: 160px;
+  }
+
+  .school-card {
+    flex: 1 1 45%;
+    max-width: 100%;
+  }
+
+  .g-science-container,
+  .g-arts-container,
+  .v-arts-container,
+  .g-business-container,
+  .g-home-econ-container,
+  .g-agric-container,
+  .tech-engineer-container,
+  .voc-engineer-container {
+    width: 85%;
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 40px;
+  }
+
+  .g-science-container h2,
+  .g-arts-container h2,
+  .v-arts-container h2,
+  .g-business-container h2,
+  .g-home-econ-container h2,
+  .g-agric-container h2,
+  .tech-engineer-container h2,
+  .voc-engineer-container h2 {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .g-science-elective-subjects,
+  .g-arts-elective-subjects,
+  .v-arts-elective-subjects,
+  .g-business-elective-subjects,
+  .g-home-econ-elective-subjects,
+  .g-agric-elective-subjects,
+  .tech-engineer-elective-subjects,
+  .voc-engineer-elective-subjects {
+    float: none;
+    padding-right: 0;
+    margin-top: 20px;
+    padding-left: 40px;
+  }
+
+  .career-path {
+    margin-top: 40px;
+  }
+
+  .technical-variant {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .choose {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .choose_container {
+    margin-top: 20px;
+  }
+
+  .choose_school h1 {
+    font-size: 32px;
+    padding-top: 100px;
+  }
+
+  .choose_school p {
+    width: 70%;
+  }
+
+  .choose_school button {
+    margin-bottom: 60px;
+  }
+
+  .inspire_header {
+    width: 80%;
+    padding-bottom: 30px;
+  }
+
+  .index_section {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .section_container {
+    height: auto;
+    flex-direction: column;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .SHS_EXP {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .SHS_EXP p {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .section_paragraph p {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .section_paragraph div a {
+    margin-left: 0;
+    display: block;
+    text-align: center;
+  }
+
+  
+  .students-toolkit-container h1 {
+    padding-left: 40px;
+    font-size: 32px;
+  }
+
+  .students-toolkit-container p {
+    padding-left: 100px;
+  }
+
+  .card-students-tool-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+   margin-top: 50px; 
+  }
+
+  .card-student-tool {
+    width: 80%;
+    height: auto;
+    min-height: 280px;
+    padding-bottom: 20px;
+  }
+
+  .card-student-tool p {
+    width: 90%;
+    padding-left: 30px;
+  }
+
+  .students-tool-button1 a button,
+  .students-tool-button2 a button {
+    width: 80%;
+    margin-left: 30px;
+  }
+
+  .explore-all-courses-container h1 {
+    padding-left: 40px;
+    font-size: 32px;
+  }
+
+  .explore-all-courses-container p {
+    padding-left: 100px;
+  }
+
+  .courses-search-bar {
+    margin-left: 20px;
+    width: 95%;
+  }
+
+  .input-search {
+    width: 200px;
+    margin-left: 30px;
+  }
+
+  #all_programs {
+    width: 200px;
+    margin-right: 20px;
+  }
+
+  .find-your-school-container h1 {
+    padding-left: 30px;
+    font-size: 32px;
+  }
+
+  .find-your-school-container p {
+    padding-left: 100px;
+  }
+
+  .school-search-bar {
+    margin-left: 50px;
+    width: 85%;
+  }
+
+.school-card-container{
+  margin-top: 60px;
+}
+
+  .school-input-search,
+  #regionSelect {
+    width: 160px;
+  }
+
+  .subject-syllabus-container {
+    width: 90%;
+    padding: 60px 40px;
+  }
+
+  .subject-syllabus-container h1 {
+    font-size: 32px;
+  }
+
+  .subject-syllabus-container p {
+    width: 90%;
+    padding-left: 50px;
+  }
+
+  .core-subjects-section,
+  .elective-subjects-section {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .core-subject-container,
+  .elective-subject-container {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .card-core-subject,
+  .card-elective-subject {
+    justify-content: center;
+  }
+
+  .card-core-subject-container,
+  .card-elective-subject-container {
+    width: 260px;
+  }
+
+  .courses-footer,
+  .schools-footer,
+  .subject-footer,
+  .students-tool-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  #link-container {
+    right: 20px;
+    top: 15px;
+  }
 }
 
 
-.nav{
+/* ============================================
+   SMALL SCREENS (768px - 991px)
+   Tablets portrait, small tablets
+   ============================================ */
+@media screen and (max-width: 991px) {
+  body {
+    font-size: 14px;
+  }
 
-	width: 100%; 
-	height:40px; 
-	background-color:#fff; 
-	color: #0000ff;
-	word-spacing: 15px;
-	font-size: 17px;
-	text-transform:uppercase;
-	padding-top:20px ;
-	padding-left: 10px;
+  .index-nav,
+  .courses-nav,
+  .school-nav,
+  .subject-nav,
+  .student-T-nav {
+    width: 100%;
+  }
+
+  .index-nav-logo div,
+  .courses-nav-logo div,
+  .school-nav-logo div,
+  .subject-nav-logo div,
+  .student-T-nav-logo div {
+    font-size: 22px;
+  }
+
+  .index-nav .index-nav-ul li,
+  .courses-nav .courses-nav-ul li,
+  .school-nav .school-nav-ul li,
+  .subject-nav .subject-nav-ul li,
+  .student-T-nav .student-T-nav-ul li {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .index-nav .index-nav-ul li a button,
+  .courses-nav .courses-nav-ul li a button,
+  .school-nav .school-nav-ul li a button,
+  .subject-nav .subject-nav-ul li a button,
+  .student-T-nav .student-T-nav-ul li a button {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+
+  .main_head h1:nth-child(1),
+  .main_head h1:nth-child(2) {
+    font-size: 28px;
+  }
+
+  .intro {
+    font-size: 16px;
+    padding: 20px 15px 0;
+  }
+
+  .button_1,
+  .button_2 {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .schools span:nth-child(1),
+  .student span:nth-child(1) {
+    font-size: 24px;
+  }
+
+  .discover {
+    font-size: 14px;
+  }
+
+  .index-card,
+  .container-info-card,
+  .courses-card {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    min-height: 16rem;
+  }
+
+  .sub h2 {
+    font-size: 18px;
+  }
+
+  .sub p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .card-foot {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container-info-card {
+    margin-top: 40px;
+  }
+
+  .info-icon {
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+  }
+
+  .career h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .career p {
+    padding-left: 15px;
+    font-size: 14px;
+  }
+
+  .card-inspire,
+  .card-inspire1,
+  .card-inspire2,
+  .card-inspire3,
+  .card-inspire4,
+  .card-inspire5 {
+    width: 80%;
+    height: 14rem;
+  }
+
+  .card_txt {
+    top: 120px;
+    padding-left: 15px;
+  }
+
+  .science {
+    font-size: 12px;
+    padding: 5px;
+    width: 60px;
+  }
+
+  .inspire_bottom_txt {
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
+
+  .co_txt {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+  .choose_school h1 {
+    font-size: 28px;
+    padding-top: 80px;
+  }
+
+  .choose_school p {
+    width: 85%;
+    font-size: 16px;
+  }
+
+  .choose_school button {
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+
+  .SHS_EXP {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .SHS_EXP div:nth-child(1),
+  .SHS_EXP div:nth-child(2) {
+    font-size: 22px;
+  }
+
+  .courses-section,
+  .school-section,
+  .subjects-section,
+  .students-tool-section,
+  .g-science-section,
+  .g-arts-section,
+  .v-arts-section,
+  .g-business-section,
+  .g-home-econ-section,
+  .g-agric-section,
+  .tech-engineer-section,
+  .voc-engineer-section {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .explore-all-courses-container h1 {
+    font-size: 28px;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+
+  .explore-all-courses-container p {
+    font-size: 16px;
+    padding-left: 60px;
+  }
+
+  .courses-search-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    margin-top: -20px;
+  }
+
+  .input-search {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  #all_programs {
+    float: none;
+    width: 90%;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .find-your-school-container h1 {
+    font-size: 28px;
+    padding-left: 20px;
+  }
+
+  .find-your-school-container p {
+    font-size: 16px;
+    padding-left: 60px;
+  }
+
+  .school-search-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .school-input-search,
+  #regionSelect {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .subject-syllabus-container {
+    padding: 40px 20px;
+    width: 95%;
+  }
+
+  .subject-syllabus-container h1 {
+    font-size: 28px;
+  }
+
+  .subject-syllabus-container p {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+
+  .core-subject-container,
+  .elective-subject-container {
+    margin-top: -200px;
+  }
+
+  .card-core-subject-container,
+  .card-elective-subject-container {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    min-height: 120px;
+  }
+
+  .students-toolkit-container {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .students-toolkit-container h1 {
+    font-size: 28px;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+
+  .students-toolkit-container p {
+    font-size: 16px;
+    padding-left: 40px;
+  }
+
+  .card-student-tool {
+    width: 90%;
+  }
+
+  .card-student-tool h1 {
+    font-size: 18px;
+  }
+
+  .card-student-tool p {
+    font-size: 14px;
+  }
+
+  .g-science-button button:nth-child(1),
+  .g-science-button button:nth-child(2),
+  .g-arts-button button:nth-child(1),
+  .g-arts-button button:nth-child(2),
+  .v-arts-button button:nth-child(1),
+  .v-arts-button button:nth-child(2),
+  .g-business-button button:nth-child(1),
+  .g-business-button button:nth-child(2),
+  .g-home-econ-button button:nth-child(1),
+  .g-home-econ-button button:nth-child(2),
+  .g-agric-button button:nth-child(1),
+  .g-agric-button button:nth-child(2),
+  .tech-engineer-button button:nth-child(1),
+  .tech-engineer-button button:nth-child(2),
+  .voc-engineer-button button:nth-child(1),
+  .voc-engineer-button button:nth-child(2) {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .g-science-container p,
+  .g-arts-container p,
+  .v-arts-container p,
+  .g-business-container p,
+  .g-home-econ-container p,
+  .g-agric-container p,
+  .tech-engineer-container p,
+  .voc-engineer-container p {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+
+  .Core-sub-topic {
+    padding-left: 20px;
+  }
+
+  .g-science-core-subjects,
+  .g-arts-core-subjects,
+  .v-arts-core-subjects,
+  .g-business-core-subjects,
+  .g-home-econ-core-subjects,
+  .g-agric-core-subjects,
+  .tech-engineer-core-subjects,
+  .voc-engineer-core-subjects,
+  .g-science-elective-subjects,
+  .g-arts-elective-subjects,
+  .v-arts-elective-subjects,
+  .g-business-elective-subjects,
+  .g-home-econ-elective-subjects,
+  .g-agric-elective-subjects,
+  .tech-engineer-elective-subjects,
+  .voc-engineer-elective-subjects {
+    padding-left: 20px;
+  }
+
+  .career-path {
+    padding-left: 20px;
+  }
+
+  .career-path-button {
+    padding-left: 20px;
+  }
+
+  .technical-variant {
+    margin-left: 20px;
+    width: 85%;
+  }
+
+  #link-container {
+    right: 15px;
+    top: 10px;
+    gap: 8px;
+  }
+
+  #link {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+
+  .link-icon {
+    width: 40px;
+    height: 40px;
+  }
 }
 
-.link1{
-cursor: pointer;
-border:solid;
-border-color:#ff0000 ;
-border-radius:6px;
-text-transform: uppercase;
-color: #0000ff;
-text-decoration: none;
-margin-left:10px;
-transition: opacity 0.18s;
+
+/* ============================================
+   EXTRA SMALL SCREENS (576px - 767px)
+   Large phones, small tablets
+   ============================================ */
+@media screen and (max-width: 767px) {
+  .index-nav .index-nav-ul,
+  .courses-nav .courses-nav-ul,
+  .school-nav .school-nav-ul,
+  .subject-nav .subject-nav-ul,
+  .student-T-nav .student-T-nav-ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .main_head h1:nth-child(1),
+  .main_head h1:nth-child(2) {
+    font-size: 24px;
+  }
+
+  .hero_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .button_1,
+  .button_2 {
+    width: 80%;
+    max-width: 250px;
+  }
+
+  .numbers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div1 {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .courses_container,
+  .container-info,
+  .inspire_card_container,
+  .courses-card-container,
+  .school-card-container {
+    gap: 15px;
+  }
+
+  .index-card,
+  .container-info-card,
+  .card-inspire,
+  .card-inspire1,
+  .card-inspire2,
+  .card-inspire3,
+  .card-inspire4,
+  .card-inspire5,
+  .courses-card,
+  .school-card {
+    width: 95%;
+    max-width: 100%;
+  }
+
+  .card-head {
+    padding: 15px 15px 1px 0;
+  }
+
+  .sub {
+    margin-left: 15px;
+    width: 90%;
+  }
+
+  .card-foot {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .container-info-card {
+    height: auto;
+    min-height: 16rem;
+    padding-bottom: 20px;
+  }
+
+  .inspire_header {
+    width: 95%;
+  }
+
+  .inspire_header h1 {
+    font-size: 24px;
+  }
+
+  .card_txt {
+    top: 100px;
+  }
+
+  .choose_school h1 {
+    font-size: 24px;
+    padding-top: 60px;
+  }
+
+  .choose_school p {
+    font-size: 14px;
+  }
+
+  .choose_school button {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .SHS_EXP p {
+    font-size: 14px;
+  }
+
+  .section_paragraph p {
+    font-size: 14px;
+  }
+
+  .explore-all-courses-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .explore-all-courses-container h1 {
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  .explore-all-courses-container p {
+    padding-left: 30px;
+    font-size: 14px;
+  }
+
+  .courses-card-section {
+    margin-top: -150px;
+  }
+
+  .course-card-initial {
+    padding-top: 40px;
+    font-size: 14px;
+  }
+
+  .find-your-school-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .find-your-school-container h1 {
+    font-size: 24px;
+  }
+
+  .find-your-school-container p {
+    padding-left: 30px;
+    font-size: 14px;
+  }
+
+  .school-card-section {
+    margin-top: -150px;
+  }
+
+  .school-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .school-card-academic {
+    margin-top: 5px;
+  }
+
+  .Courses-Offered {
+    padding-left: 10px;
+  }
+
+  .course-offer button {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  .subject-syllabus-container h1 {
+    font-size: 24px;
+  }
+
+  .subject-syllabus-container p {
+    font-size: 14px;
+  }
+
+  .core-subject-container,
+  .elective-subject-container {
+    margin-top: -100px;
+  }
+
+  .card-core-subject-container h1,
+  .card-elective-subject-container h1 {
+    font-size: 18px;
+  }
+
+  .card-core-subject-initial,
+  .card-elective-subject-initial {
+    font-size: 14px;
+  }
+
+  .students-toolkit-container h1 {
+    font-size: 24px;
+  }
+
+  .students-toolkit-container p {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+
+  .card-circle {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+  }
+
+  .card-student-tool h1 {
+    padding-left: 20px;
+  }
+
+  .card-student-tool p {
+    padding-left: 20px;
+  }
+
+  .students-tool-button1 a button,
+  .students-tool-button2 a button {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .g-science-container,
+  .g-arts-container,
+  .v-arts-container,
+  .g-business-container,
+  .g-home-econ-container,
+  .g-agric-container,
+  .tech-engineer-container,
+  .voc-engineer-container {
+    width: 95%;
+  }
+
+  .g-science-container h2,
+  .g-arts-container h2,
+  .v-arts-container h2,
+  .g-business-container h2,
+  .g-home-econ-container h2,
+  .g-agric-container h2,
+  .tech-engineer-container h2,
+  .voc-engineer-container h2 {
+    font-size: 20px;
+    padding: 20px 15px;
+  }
+
+  .g-science-container p,
+  .g-arts-container p,
+  .v-arts-container p,
+  .g-business-container p,
+  .g-home-econ-container p,
+  .g-agric-container p,
+  .tech-engineer-container p,
+  .voc-engineer-container p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .career-path {
+    font-size: 16px;
+  }
+
+  .career-path-button button {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .technical-variant {
+    height: auto;
+    padding: 10px;
+  }
+
+  .technical-variant span {
+    font-size: 14px;
+  }
+
+  .courses-footer p,
+  .schools-footer p,
+  .subject-footer p,
+  .students-tool-footer p {
+    padding-left: 20px;
+    font-size: 14px;
+  }
+
+  #link-container {
+    right: 10px;
+    top: 8px;
+  }
+
+  #link {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+
+  .link-icon {
+    width: 32px;
+    height: 32px;
+  }
 }
 
-.link1:hover{
-	opacity: 0.7;
+
+/* ============================================
+   TINY SCREENS (360px - 575px)
+   Small phones
+   ============================================ */
+@media screen and (max-width: 575px) {
+  .index-nav-logo div,
+  .courses-nav-logo div,
+  .school-nav-logo div,
+  .subject-nav-logo div,
+  .student-T-nav-logo div {
+    font-size: 18px;
+  }
+
+  .main_head h1:nth-child(1),
+  .main_head h1:nth-child(2) {
+    font-size: 20px;
+  }
+
+  .intro {
+    font-size: 14px;
+    padding-top: 15px;
+  }
+
+  .btn1 {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .schools span:nth-child(1),
+  .student span:nth-child(1) {
+    font-size: 20px;
+  }
+
+  .schools h3:nth-child(2),
+  .student h3:nth-child(2) {
+    font-size: 13px;
+  }
+
+  .popular-c {
+    padding-top: 20px;
+  }
+
+  .index-card,
+  .container-info-card,
+  .courses-card {
+    height: auto;
+    min-height: 14rem;
+  }
+
+  .card-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .sub h2 {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .sub p {
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 10px;
+  }
+
+  .card_horizontal {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .course-initial,
+  .view a {
+    font-size: 13px;
+  }
+
+  .container-info-card {
+    margin-top: 20px;
+  }
+
+  .info-icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .career h2 {
+    font-size: 18px;
+  }
+
+  .career p {
+    font-size: 13px;
+  }
+
+  .card-inspire,
+  .card-inspire1,
+  .card-inspire2,
+  .card-inspire3,
+  .card-inspire4,
+  .card-inspire5 {
+    height: 12rem;
+  }
+
+  .card_txt {
+    top: 80px;
+    padding-left: 15px;
+  }
+
+  .science {
+    font-size: 11px;
+    width: 55px;
+    padding: 4px;
+  }
+
+  .inspire_bottom_txt {
+    font-size: 13px;
+  }
+
+  .co_txt {
+    font-size: 11px;
+  }
+
+  .inspiration {
+    font-size: 12px;
+    padding: 8px;
+    width: 80px;
+  }
+
+  .choose_school h1 {
+    font-size: 22px;
+    padding-top: 50px;
+  }
+
+  .choose_school p {
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .choose_school button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .SHS_EXP {
+    font-size: 20px;
+  }
+
+  .SHS_EXP p {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+
+  .section_paragraph p {
+    font-size: 13px;
+  }
+
+  .explore-all-courses-container h1 {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  .explore-all-courses-container p {
+    font-size: 13px;
+  }
+
+  .courses-card-section {
+    margin-top: -100px;
+  }
+
+  .courses-card-academic {
+    font-size: 11px;
+    padding: 4px 6px;
+  }
+
+  .courses-card-view-detail {
+    width: 120px;
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .find-your-school-container h1 {
+    font-size: 20px;
+  }
+
+  .find-your-school-container p {
+    font-size: 13px;
+  }
+
+  .school-card-section {
+    margin-top: -100px;
+  }
+
+  .sub h2 {
+    font-size: 16px;
+  }
+
+  .school-card-academic {
+    font-size: 11px;
+  }
+
+  .Courses-Offered {
+    font-size: 12px;
+  }
+
+  .course-offer button {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .subject-syllabus-container h1 {
+    font-size: 20px;
+  }
+
+  .subject-syllabus-container p {
+    font-size: 13px;
+  }
+
+  .core-subject-container,
+  .elective-subject-container {
+    margin-top: -80px;
+  }
+
+  .card-core-subject-container,
+  .card-elective-subject-container {
+    padding-left: 20px;
+    min-height: 100px;
+  }
+
+  .card-core-subject-container h1,
+  .card-elective-subject-container h1 {
+    font-size: 16px;
+  }
+
+  .card-core-subject-initial,
+  .card-elective-subject-initial {
+    font-size: 12px;
+  }
+
+  .card-core-subject-container p,
+  .card-elective-subject-container p {
+    font-size: 13px;
+  }
+
+  .students-toolkit-container h1 {
+    font-size: 20px;
+  }
+
+  .students-toolkit-container p {
+    font-size: 13px;
+  }
+
+  .card-student-tool {
+    min-height: 240px;
+  }
+
+  .card-circle {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+  }
+
+  .card-student-tool h1 {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+
+  .card-student-tool p {
+    font-size: 13px;
+  }
+
+  .students-tool-button1 a button,
+  .students-tool-button2 a button {
+    height: 35px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .g-science-button button:nth-child(1),
+  .g-science-button button:nth-child(2),
+  .g-arts-button button:nth-child(1),
+  .g-arts-button button:nth-child(2),
+  .v-arts-button button:nth-child(1),
+  .v-arts-button button:nth-child(2),
+  .g-business-button button:nth-child(1),
+  .g-business-button button:nth-child(2),
+  .g-home-econ-button button:nth-child(1),
+  .g-home-econ-button button:nth-child(2),
+  .g-agric-button button:nth-child(1),
+  .g-agric-button button:nth-child(2),
+  .tech-engineer-button button:nth-child(1),
+  .tech-engineer-button button:nth-child(2),
+  .voc-engineer-button button:nth-child(1),
+  .voc-engineer-button button:nth-child(2) {
+    font-size: 14px;
+    padding: 5px;
+    width: 80px;
+  }
+
+  .g-science-container p,
+  .g-arts-container p,
+  .v-arts-container p,
+  .g-business-container p,
+  .g-home-econ-container p,
+  .g-agric-container p,
+  .tech-engineer-container p,
+  .voc-engineer-container p {
+    font-size: 13px;
+  }
+
+  .Core-sub-topic {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .g-science-core-subjects,
+  .g-arts-core-subjects,
+  .v-arts-core-subjects,
+  .g-business-core-subjects,
+  .g-home-econ-core-subjects,
+  .g-agric-core-subjects,
+  .tech-engineer-core-subjects,
+  .voc-engineer-core-subjects {
+    line-height: 25px;
+  }
+
+  .g-science-core-subjects div a,
+  .g-arts-core-subjects div a,
+  .v-arts-core-subjects div a,
+  .g-business-core-subjects div a,
+  .g-home-econ-core-subjects div a,
+  .g-agric-core-subjects div a,
+  .tech-engineer-core-subjects div a,
+  .voc-engineer-core-subjects div a,
+  .g-science-elective-subjects div a,
+  .g-arts-elective-subjects div a,
+  .v-arts-elective-subjects div a,
+  .g-business-elective-subjects div a,
+  .g-home-econ-elective-subjects div a,
+  .g-agric-elective-subjects div a,
+  .tech-engineer-elective-subjects div a,
+  .voc-engineer-elective-subjects div a {
+    font-size: 13px;
+  }
+
+  .career-path {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+  .career-path-button button {
+    font-size: 11px;
+    padding: 6px;
+  }
+
+  .technical-variant {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .technical-variant span {
+    font-size: 12px;
+  }
+
+  .courses-logo div,
+  .schools-logo div,
+  .subject-logo div,
+  .students-tool-logo div {
+    font-size: 20px;
+  }
+
+  .courses-footer p,
+  .schools-footer p,
+  .subject-footer p,
+  .students-tool-footer p {
+    font-size: 13px;
+    padding-left: 15px;
+  }
+
+  #link-container {
+    right: 10px;
+    top: 5px;
+    gap: 6px;
+  }
+
+  #link {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+
+  .link-icon {
+    width: 28px;
+    height: 28px;
+  }
 }
 
-.link1:active{
-	opacity: 0.15;
+
+/* ============================================
+   MINI SCREENS (0px - 359px)
+   Very small phones
+   ============================================ */
+@media screen and (max-width: 359px) {
+  .index-nav,
+  .courses-nav,
+  .school-nav,
+  .subject-nav,
+  .student-T-nav {
+    padding: 5px;
+  }
+
+  .index-nav-logo div,
+  .courses-nav-logo div,
+  .school-nav-logo div,
+  .subject-nav-logo div,
+  .student-T-nav-logo div {
+    font-size: 16px;
+  }
+
+  .index-nav .index-nav-ul li,
+  .courses-nav .courses-nav-ul li,
+  .school-nav .school-nav-ul li,
+  .subject-nav .subject-nav-ul li,
+  .student-T-nav .student-T-nav-ul li {
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .index-nav .index-nav-ul li a button,
+  .courses-nav .courses-nav-ul li a button,
+  .school-nav .school-nav-ul li a button,
+  .subject-nav .subject-nav-ul li a button,
+  .student-T-nav .student-T-nav-ul li a button {
+    padding: 8px 10px;
+    font-size: 10px;
+  }
+
+  .main {
+    padding: 5px;
+  }
+
+  .main_head h1:nth-child(1),
+  .main_head h1:nth-child(2) {
+    font-size: 18px;
+  }
+
+  .intro {
+    font-size: 13px;
+  }
+
+  .button_1,
+  .button_2 {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .discover {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .index-card,
+  .container-info-card,
+  .courses-card {
+    border-radius: 10px;
+  }
+
+  .card-head {
+    font-size: 14px;
+  }
+
+  .card-icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+  }
+
+  .sub {
+    margin-left: 15px;
+  }
+
+  .sub h2 {
+    font-size: 14px;
+  }
+
+  .sub p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .info-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+  }
+
+  .career h2 {
+    font-size: 16px;
+  }
+
+  .career p {
+    font-size: 12px;
+  }
+
+  .card-inspire,
+  .card-inspire1,
+  .card-inspire2,
+  .card-inspire3,
+  .card-inspire4,
+  .card-inspire5 {
+    height: 10rem;
+    border-radius: 10px;
+  }
+
+  .card_txt {
+    top: 60px;
+  }
+
+  .science {
+    font-size: 10px;
+    width: 50px;
+  }
+
+  .inspire_bottom_txt {
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+
+  .co_txt {
+    font-size: 10px;
+  }
+
+  .choose_school h1 {
+    font-size: 18px;
+  }
+
+  .choose_school p {
+    font-size: 12px;
+  }
+
+  .choose_school button {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .SHS_EXP {
+    font-size: 18px;
+  }
+
+  .SHS_EXP p {
+    font-size: 12px;
+  }
+
+  .explore-all-courses-container h1 {
+    font-size: 18px;
+  }
+
+  .explore-all-courses-container p {
+    font-size: 12px;
+  }
+
+  .courses-search-bar {
+    padding: 10px;
+  }
+
+  .find-your-school-container h1 {
+    font-size: 18px;
+  }
+
+  .find-your-school-container p {
+    font-size: 12px;
+  }
+
+  .school-search-bar {
+    padding: 15px;
+  }
+
+  .subject-syllabus-container {
+    padding: 30px 15px;
+  }
+
+  .subject-syllabus-container h1 {
+    font-size: 18px;
+  }
+
+  .subject-syllabus-container p {
+    font-size: 12px;
+  }
+
+  .core-subject-container,
+  .elective-subject-container {
+    margin-top: -60px;
+  }
+
+  .card-core-subject-container,
+  .card-elective-subject-container {
+    padding-left: 15px;
+    border-radius: 15px;
+  }
+
+  .card-core-subject-container h1,
+  .card-elective-subject-container h1 {
+    font-size: 14px;
+  }
+
+  .students-toolkit-container h1 {
+    font-size: 18px;
+  }
+
+  .students-toolkit-container p {
+    font-size: 12px;
+  }
+
+  .card-student-tool {
+    min-height: 200px;
+  }
+
+  .card-circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+  }
+
+  .card-student-tool h1 {
+    font-size: 14px;
+  }
+
+  .card-student-tool p {
+    font-size: 12px;
+  }
+
+  .students-tool-button1 a button,
+  .students-tool-button2 a button {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .g-science-container h2,
+  .g-arts-container h2,
+  .v-arts-container h2,
+  .g-business-container h2,
+  .g-home-econ-container h2,
+  .g-agric-container h2,
+  .tech-engineer-container h2,
+  .voc-engineer-container h2 {
+    font-size: 16px;
+  }
+
+  .g-science-button button:nth-child(1),
+  .g-science-button button:nth-child(2),
+  .g-arts-button button:nth-child(1),
+  .g-arts-button button:nth-child(2),
+  .v-arts-button button:nth-child(1),
+  .v-arts-button button:nth-child(2),
+  .g-business-button button:nth-child(1),
+  .g-business-button button:nth-child(2),
+  .g-home-econ-button button:nth-child(1),
+  .g-home-econ-button button:nth-child(2),
+  .g-agric-button button:nth-child(1),
+  .g-agric-button button:nth-child(2),
+  .tech-engineer-button button:nth-child(1),
+  .tech-engineer-button button:nth-child(2),
+  .voc-engineer-button button:nth-child(1),
+  .voc-engineer-button button:nth-child(2) {
+    font-size: 12px;
+    width: 70px;
+  }
+
+  .g-science-container p,
+  .g-arts-container p,
+  .v-arts-container p,
+  .g-business-container p,
+  .g-home-econ-container p,
+  .g-agric-container p,
+  .tech-engineer-container p,
+  .voc-engineer-container p {
+    font-size: 12px;
+  }
+
+  .Core-sub-topic {
+    font-size: 14px;
+  }
+
+  .career-path {
+    font-size: 13px;
+  }
+
+  .career-path-button button {
+    font-size: 10px;
+  }
+
+  .technical-variant {
+    padding: 8px;
+  }
+
+  .technical-variant span {
+    font-size: 11px;
+  }
+
+  .courses-footer,
+  .schools-footer,
+  .subject-footer,
+  .students-tool-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .courses-logo div,
+  .schools-logo div,
+  .subject-logo div,
+  .students-tool-logo div {
+    font-size: 18px;
+  }
+
+  .courses-footer p,
+  .schools-footer p,
+  .subject-footer p,
+  .students-tool-footer p {
+    font-size: 12px;
+  }
+
+  #link-container {
+    right: 5px;
+    top: 5px;
+    gap: 4px;
+  }
+
+  #link {
+    padding: 4px 8px;
+    font-size: 9px;
+  }
+
+  .link-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+  }
 }
 
-#text{
-	color: #fff;
-	text-align: center;
-}
+
+
 

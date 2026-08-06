@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="24" fill="#fef3c7"/>
+  <rect x="140" y="140" width="520" height="240" rx="24" fill="#fff" stroke="#d97706" stroke-width="8"/>
+  <path d="M220 320c50-70 90-110 140-110s90 40 140 110" fill="none" stroke="#0f766e" stroke-width="16" stroke-linecap="round"/>
+  <path d="M220 280h280" stroke="#1f2937" stroke-width="10" stroke-linecap="round"/>
+  <path d="M220 240h220" stroke="#ef4444" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="580" cy="220" r="40" fill="#4f46e5"/>
+  <text x="220" y="410" font-size="34" font-family="Arial" fill="#92400e">ECONOMICS & LIVELIHOODS</text>
+</svg>

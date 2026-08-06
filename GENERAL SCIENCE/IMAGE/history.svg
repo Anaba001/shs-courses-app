@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="24" fill="#fdf7e8"/>
+  <rect x="120" y="120" width="560" height="280" rx="24" fill="#fff" stroke="#a86f2d" stroke-width="8"/>
+  <path d="M180 320c60-80 140-120 220-120 80 0 130 30 220 110" fill="none" stroke="#b45309" stroke-width="16" stroke-linecap="round"/>
+  <path d="M230 180h120" stroke="#2563eb" stroke-width="12" stroke-linecap="round"/>
+  <path d="M230 220h180" stroke="#2563eb" stroke-width="12" stroke-linecap="round"/>
+  <path d="M230 260h140" stroke="#2563eb" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="560" cy="220" r="50" fill="#ef4444"/>
+  <text x="180" y="410" font-size="34" font-family="Arial" fill="#7c2d12">HISTORY & HERITAGE</text>
+</svg>

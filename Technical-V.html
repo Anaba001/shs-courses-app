@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Technical-V</title>
+          <link rel="stylesheet" href="CSS/style.css">
+        </head>
+
+        <body>
+
+
+
+
+<nav class="courses-nav">
+
+<div class="courses-nav-logo">
+ <div> SHS</div> <div>EXplorior</div>
+</div>
+
+<ul class="courses-nav-ul">
+<li > <a href="index.html">home </a></li>
+<li > <a href="courses.html"> course</a></li>
+<li > <a href="schools.html"> schools</a></li>
+<li > <a href="subjects.html"> subject  </a></li>
+<li > <a href=""> About me  </a></li>
+
+<li> <a href="students-tool.html"> <button  class="button">student tools</button></a></li>
+</ul>
+
+</nav>
+
+
+          <section class="courses-choose-couse-section">
+           
+             <div class="courses-choose-couse-contaner"> 
+                
+                <h1>  Guide Line Of Choosing A Couse</h1>
+
+             </div>
+
+          </section>
+
+        <!-- <section class="courses-section">-->
+
+          <section class="courses-section">
+
+             <div class="explore-all-courses-container">
+                 <h1> Explore All Courses</h1>
+                  <p>Discover the perfect academic or vocational path for your future career.</p>
+
+                </div>
+                 <div class="courses-search-bar">
+                     <input class="input-search" type="text" size="50" placeholder="search for courses,careers, or subjects...">
+
+                      <select id="all_programs" name="">
+
+                            <option value="all-Programs.html">All Programs</option>
+
+                              <option value="academic.html">Academic</option>
+
+                          <option value="Technical-V.html">Technical/Vocational</option>
+
+                        <option value="vocational-A.html">Vocational/Academic
+                      </select>
+
+                 </div>
+      </section>
+      <section class="courses-card-section">
+
+             <div class="courses-card-container">
+
+
+                 <div class="courses-card">
+                    <div class="sub">
+                      <div class="course-card-initial">TECH_ENG</div>
+                        <h2>Technical (Engineering)</h2>
+                      <p>Focuses on engineering principles and practical technical skills. </p>
+                      <div> <button class="courses-card-academic">Technical/Vocational</button> </div>
+                        <a href="tech-ingineer.html"><button class="courses-card-view-detail">View  Details</button></a>
+                    </div>
+                 </div>
+
+                 <div class="courses-card">
+                    <div class="sub">
+                      <div class="course-card-initial">TECH_VOC</div>
+                        <h2>Technical (Vocational)</h2>
+                      <p> Focuses on applied arts and vocational skills.</p>
+                      <div> <button class="courses-card-academic">Technical/Vocational</button> </div>
+                        <a href="voc-engineer.html"><button class="courses-card-view-detail">View  Details</button></a>
+                    </div>
+                 </div>
+
+                
+       </div>
+     </section >
+
+     <section class="courses-footer-section">
+        <footer class="courses-footer" >
+
+          <div class="courses-logo">
+
+              <div> SHS</div> <div>EXplorior</div>
+          </div>
+          <p> &copy 2026 Ghana SHS Course Explorer</p>
+        </footer>
+    </section> 
+    
+       <script>
+        document.getElementById('all_programs').addEventListener('change', function() {
+            var selectedValue = this.value;
+            if (selectedValue) {
+                window.location.href = selectedValue;
+            }
+        });
+    </script
+        </body>
+    </html>
