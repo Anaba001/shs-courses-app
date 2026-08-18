@@ -639,12 +639,13 @@ padding-bottom: 30px;
   display: flex;
  gap: 7px; 
  font-size: 26px;
- padding-left: 40px;
+ padding-left: 60px;
+ margin-top: 30px;
  
 }
 
 .index-footer-logo div:nth-child(1){
- color:#004928; 
+ color:#fff; 
 }
 
 .index-footer-logo div:nth-child(2){
@@ -653,19 +654,21 @@ padding-bottom: 30px;
 
 .foolter-explorer{
 
-  padding-right: 350px;
+  padding-left: 50px;
 }
 
 .foolter-connect{
 
   margin-top: -20px;
-  margin-left: 450px;
+  margin-left: 600px;
 }
 
 
 .footer-explorer{
  
- padding-left: 450px;
+ padding-left: 650px;
+ margin-top: 20px;
+ padding-bottom: 0px;
  
  
 
@@ -688,6 +691,7 @@ padding-bottom: 30px;
  margin-top: -100px;
  width:350px ;
  color:#fff ;
+ padding-left: 100px;
 }
 
 
@@ -695,7 +699,7 @@ padding-bottom: 30px;
 content: "";
   width: 100%;
   height: 1px;
-  background: #000;
+  background: #555;
   align-self: center;
   margin: auto;
   margin-top: 130px;
@@ -707,6 +711,7 @@ content: "";
 .foolter-copy{
   padding-left: 20px;
   color: #fff;
+  padding-left: 100px;
 }
 
 
@@ -3961,7 +3966,7 @@ margin-top: 40px;
   }
 
   .intro {
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 30px;
   }
 
@@ -4100,6 +4105,39 @@ margin-top: 40px;
     padding-bottom: 40px;
     width: 100%;
   }
+
+   .courses-card-section {
+     margin-top:-10px;
+  }
+
+ 
+  .core-subjects-section {
+    margin-top:160px;
+   
+  }
+
+
+
+  .school-container
+  {
+   margin-top:160px ;
+
+  }
+
+
+  .find-your-school-container h1{
+    margin-top: -50px;
+  }
+
+  
+  .school-search-bar{
+    margin-top: -210px;
+  }
+
+.courses-search-bar{
+  margin-top: -410px;
+}
+
 
   .SHS_EXP {
     justify-content: center;
@@ -4245,11 +4283,14 @@ margin-top: 40px;
   .courses-footer,
   .schools-footer,
   .subject-footer,
+   .index-footer-container,
   .students-tool-footer {
     padding-top: 60px;
     padding-bottom: 60px;
   }
 
+
+  
   #link-container {
     right: 20px;
     top: 15px;
@@ -4265,6 +4306,19 @@ margin-top: 40px;
   body {
     font-size: 14px;
   }
+
+
+   img,
+  .card-icon,
+  .info-icon,
+  .card-circle,
+  .link-icon {
+    max-width: 991px;
+    width: 95%;
+    height: auto;
+    object-fit: cover;
+  }
+
 
   .index-nav,
   .courses-nav,
@@ -4637,6 +4691,11 @@ margin-top: 40px;
     width: 40px;
     height: 40px;
   }
+
+
+
+
+
 }
 
 
@@ -4653,6 +4712,21 @@ margin-top: 40px;
     flex-direction: column;
     gap: 5px;
   }
+
+
+
+ img,
+  .card-icon,
+  .info-icon,
+  .card-circle,
+  .link-icon {
+    max-width:  767px;
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+  }
+
+
 
   .main_head h1:nth-child(1),
   .main_head h1:nth-child(2) {
@@ -4926,10 +5000,13 @@ margin-top: 40px;
   .courses-footer p,
   .schools-footer p,
   .subject-footer p,
+  .index-footer p,
   .students-tool-footer p {
     padding-left: 20px;
     font-size: 14px;
   }
+
+
 
   #link-container {
     right: 10px;
@@ -4938,6 +5015,7 @@ margin-top: 40px;
 
   #link {
     padding: 6px 12px;
+
     font-size: 11px;
   }
 
@@ -4960,6 +5038,21 @@ margin-top: 40px;
   .student-T-nav-logo div {
     font-size: 18px;
   }
+
+
+
+
+img,
+  .card-icon,
+  .info-icon,
+  .card-circle,
+  .link-icon {
+    max-width:  575px;
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+  }
+
 
   .main_head h1:nth-child(1),
   .main_head h1:nth-child(2) {
@@ -5360,6 +5453,24 @@ margin-top: 40px;
     padding: 5px;
   }
 
+
+
+
+img,
+  .card-icon,
+  .info-icon,
+  .card-circle,
+  .link-icon {
+    max-width:  359px;
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+  }
+
+
+
+
+
   .index-nav-logo div,
   .courses-nav-logo div,
   .school-nav-logo div,
@@ -5651,7 +5762,9 @@ margin-top: 40px;
   .courses-footer,
   .schools-footer,
   .subject-footer,
-  .students-tool-footer {
+  .students-tool-footer,
+   .index-footer-container
+   {
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -5666,9 +5779,13 @@ margin-top: 40px;
   .courses-footer p,
   .schools-footer p,
   .subject-footer p,
-  .students-tool-footer p {
+  
+   .students-tool-footer p
+  {
     font-size: 12px;
   }
+
+
 
   #link-container {
     right: 5px;
