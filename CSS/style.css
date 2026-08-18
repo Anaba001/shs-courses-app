@@ -4313,8 +4313,8 @@ margin-top: 40px;
   .info-icon,
   .card-circle,
   .link-icon {
-    max-width: 991px;
-    width: 95%;
+    max-width: 100%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
@@ -4720,8 +4720,8 @@ margin-top: 40px;
   .info-icon,
   .card-circle,
   .link-icon {
-    max-width:  767px;
-    width: 90%;
+    max-width: 100%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
@@ -5047,8 +5047,8 @@ img,
   .info-icon,
   .card-circle,
   .link-icon {
-    max-width:  575px;
-    width: 80%;
+    max-width: 100%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
@@ -5461,8 +5461,8 @@ img,
   .info-icon,
   .card-circle,
   .link-icon {
-    max-width:  359px;
-    width: 70%;
+    max-width: 100%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
