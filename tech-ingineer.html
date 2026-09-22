@@ -3,16 +3,24 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Tech-ingineer</title>
-      <link rel="stylesheet" href="CSS/style.css">
+      <title>Technical (Engineering) | Programs</title>
+      <link rel="stylesheet" href="CSS/style1.css">
+      <link rel="stylesheet" href="CSS/program-extra.css">
     </head>
 
     <body>
 
 
+  <div id="link-container">
+      <a id="link" href="courses1.html">↤ Back to Home</a>
+      <img class="link-icon" src="images/design on compact-disk.jpg" alt="Graphics Design Icon">
+  </div>
+
      <section class="tech-engineer-section">
 
       <div class="tech-engineer-container">
+
+           <p class="crumb"><a href="courses.html">Programs</a> / <span class="crumb-current">Technical (Engineering)</span></p>
 
            <h2>Technical (Engineering)</h2>
 
@@ -24,7 +32,7 @@
               <button>Code: TE</button>
             
              </div>
-           <p> Focuses on engineering principles, and practical tecnical skills</p>
+           <p> Focuses on engineering principles, and practical technical skills</p>
 
            
           <div class="tech-engineer-core-subjects-container">
@@ -33,10 +41,10 @@
             <div class="tech-engineer-core-subjects">
 
               <h3 class="Core-sub-topic"> Core Subjects</h3>
-              <div><a href=""> ENG</a></div>
-              <div><a href=""> MATH-CORE</a></div>
-              <div><a href=""> INT-SCI</a></div>
-              <div><a href=""> SOC-STUD</a></div>
+              <div><a href="GENERAL SCIENCE/english.html"> ENG</a></div>
+              <div><a href="GENERAL SCIENCE/core-maths.html"> MATH-CORE</a></div>
+              <div><a href="GENERAL SCIENCE/SHS-integrated-science.html"> INT-SCI</a></div>
+              <div><a href="GENERAL SCIENCE/social studies.html"> SOC-STUD</a></div>
 
               
             </div>  
@@ -47,13 +55,13 @@
              <div class="tech-engineer-elective-subjects">
 
               <h3 class="elective-sub-topic"> Elective Subjects</h3>
-              <div><a href="">TECH-DRAW</a> </div>
-              <div><a href="">ENG-SCI</a></div>
-              <div><a href="">AUTO-MECH</a></div>
-              <div><a href="">METALWORK</a></div>
-              <div><a href="">WELDING</a></div>
-              <div><a href="">ELECT-INSTALL</a></div>
-              <div><a href="">ELECTRONICS</a></div>
+              <div><a href="TECHNICAL/tech-draw.html">TECH-DRAW</a> </div>
+              <div><a href="TECHNICAL/eng-science.html">ENG-SCI</a></div>
+              <div><a href="TECHNICAL/auto-mech.html">AUTO-MECH</a></div>
+              <div><a href="TECHNICAL/metalwork.html">METALWORK</a></div>
+              <div><a href="TECHNICAL/welding.html">WELDING</a></div>
+              <div><a href="TECHNICAL/elect-install.html">ELECT-INSTALL</a></div>
+              <div><a href="TECHNICAL/electronics.html">ELECTRONICS</a></div>
               
              
              
@@ -65,25 +73,39 @@
 
               <div class="career-path-button">
 
-                  <button>Mechanical Engineer</button>
-                  <button> Electrician</button>
-                  <button> Auto Mechanic</button>
-                  <button>Welder</button>
-                  <button>Costruction Technician</button>
+                  <button data-tip="Design and maintain engines, machines and mechanical systems.">Mechanical Engineer</button>
+                  <button data-tip="Install and maintain electrical wiring and systems.">Electrician</button>
+                  <button data-tip="Diagnose and repair vehicles and their engines.">Auto Mechanic</button>
+                  <button data-tip="Join and shape metal for construction and manufacturing.">Welder</button>
+                  <button data-tip="Support building and construction projects on-site.">Construction Technician</button>
 
               </div>
 
-              <div class="technical-variant">
-
-                Technical Variant:<span>Vsual Vrts with specific specializations </span>
-              </div>
+              <div class="career-path-panel" aria-live="polite"></div>
 
           </div>
+
+          <nav class="related-programs" aria-label="Other programs">
+            <h4>Explore other programs</h4>
+            <div class="related-programs-list">
+              <a href="g-agric.html">Agricultural Science</a>
+              <a href="g-arts.html">General Arts</a>
+              <a href="g-business.html">Business</a>
+              <a href="g-home-economics.html">Home Economics</a>
+              <a href="g-science.html">Science</a>
+              <a href="voc-engineer.html">Vocational (Engineering)</a>
+            </div>
+          </nav>
 
 
       </div>
       
      </section>
+
+     <button class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+     <div class="copy-toast" role="status" aria-live="polite"></div>
+
+     <script src="JS/program-extra.js"></script>
       
     </body>
   </html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WASSCE Grade Calculator | SHS EXplorior</title>
+  <link rel="stylesheet" href="CSS/style1.css">
+</head>
+ 
+<body>
+ 
+<nav class="student-T-nav">
+ 
+  <div class="student-T-nav-logo">
+    <div> SHS</div> <div>EXplorior</div>
+  </div>
+ 
+  <input type="checkbox" id="student-t-nav-toggle" class="nav-toggle">
+  <label for="student-t-nav-toggle" class="nav-hamburger" aria-label="Toggle navigation menu">
+    <span></span><span></span><span></span>
+  </label>
+ 
+  <ul class="student-T-nav-ul">
+    <li> <a href="index1.html">home </a></li>
+    <li> <a href="courses1.html"> course</a></li>
+    <li> <a href="schools1.html"> schools</a></li>
+    <li> <a href="subjects1.html"> subject  </a></li>
+ 
+    <li> <a href="student-tool1.html" aria-current="page"> <button class="button">student tools</button></a></li>
+  </ul>
+ 
+</nav>
+ 
+<section class="wc-hero">
+  <div class="wc-hero-inner">
+    <a href="student-tool1.html" class="hc-back-link">&larr; Back to Student Toolkit</a>
+    <span class="hc-hero-eyebrow">Student Toolkit</span>
+    <h1>WASSCE Grade Calculator</h1>
+    <p>Enter your predicted (or actual) grades to estimate your aggregate score — the number university and SHS placement systems use to judge your results.</p>
+  </div>
+</section>
+ 
+<section class="wc-calc-section">
+  <div class="wc-calc-card">
+ 
+    <div class="wc-rows-header">
+      <span>Subject</span>
+      <span>Grade</span>
+      <span></span>
+    </div>
+ 
+    <div id="wcRows" class="wc-rows">
+      <div class="wc-row">
+        <input type="text" class="wc-subject-input" value="English Language" data-locked="true">
+        <select class="wc-grade-select">
+          <option value="A1">A1</option>
+          <option value="B2">B2</option>
+          <option value="B3">B3</option>
+          <option value="B4">B4</option>
+          <option value="C4" selected>C4</option>
+          <option value="C5">C5</option>
+          <option value="C6">C6</option>
+          <option value="D7">D7</option>
+          <option value="E8">E8</option>
+          <option value="F9">F9 (Fail)</option>
+        </select>
+        <span class="wc-row-spacer"></span>
+      </div>
+ 
+      <div class="wc-row">
+        <input type="text" class="wc-subject-input" value="Mathematics (Core)" data-locked="true">
+        <select class="wc-grade-select">
+          <option value="A1">A1</option>
+          <option value="B2">B2</option>
+          <option value="B3">B3</option>
+          <option value="B4">B4</option>
+          <option value="C4" selected>C4</option>
+          <option value="C5">C5</option>
+          <option value="C6">C6</option>
+          <option value="D7">D7</option>
+          <option value="E8">E8</option>
+          <option value="F9">F9 (Fail)</option>
+        </select>
+        <span class="wc-row-spacer"></span>
+      </div>
+ 
+      <div class="wc-row">
+        <input type="text" class="wc-subject-input" value="Integrated Science" data-locked="true">
+        <select class="wc-grade-select">
+          <option value="A1">A1</option>
+          <option value="B2">B2</option>
+          <option value="B3">B3</option>
+          <option value="B4">B4</option>
+          <option value="C4" selected>C4</option>
+          <option value="C5">C5</option>
+          <option value="C6">C6</option>
+          <option value="D7">D7</option>
+          <option value="E8">E8</option>
+          <option value="F9">F9 (Fail)</option>
+        </select>
+        <span class="wc-row-spacer"></span>
+      </div>
+ 
+      <div class="wc-row">
+        <input type="text" class="wc-subject-input" value="Elective 1">
+        <select class="wc-grade-select">
+          <option value="A1">A1</option>
+          <option value="B2">B2</option>
+          <option value="B3">B3</option>
+          <option value="B4">B4</option>
+          <option value="C4" selected>C4</option>
+          <option value="C5">C5</option>
+          <option value="C6">C6</option>
+          <option value="D7">D7</option>
+          <option value="E8">E8</option>
+          <option value="F9">F9 (Fail)</option>
+        </select>
+        <span class="wc-row-spacer"></span>
+      </div>
+ 
+      <div class="wc-row">
+        <input type="text" class="wc-subject-input" value="Elective 2">
+        <select class="wc-grade-select">
+          <option value="A1">A1</option>
+          <option value="B2">B2</option>
+          <option value="B3">B3</option>
+          <option value="B4">B4</option>
+          <option value="C4" selected>C4</option>
+          <option value="C5">C5</option>
+          <option value="C6">C6</option>
+          <option value="D7">D7</option>
+          <option value="E8">E8</option>
+          <option value="F9">F9 (Fail)</option>
+        </select>
+        <span class="wc-row-spacer"></span>
+      </div>
+ 
+      <div class="wc-row">
+        <input type="text" class="wc-subject-input" value="Elective 3">
+        <select class="wc-grade-select">
+          <option value="A1">A1</option>
+          <option value="B2">B2</option>
+          <option value="B3">B3</option>
+          <option value="B4">B4</option>
+          <option value="C4" selected>C4</option>
+          <option value="C5">C5</option>
+          <option value="C6">C6</option>
+          <option value="D7">D7</option>
+          <option value="E8">E8</option>
+          <option value="F9">F9 (Fail)</option>
+        </select>
+        <span class="wc-row-spacer"></span>
+      </div>
+    </div>
+ 
+    <button type="button" id="wcAddRow" class="wc-add-btn">+ Add another elective</button>
+ 
+    <div class="wc-result" id="wcResult">
+      <div class="wc-result-number-wrap">
+        <div class="wc-result-number" id="wcAggregateNumber">—</div>
+        <div class="wc-result-label">Your Aggregate</div>
+      </div>
+      <div class="wc-result-detail">
+        <p id="wcResultMessage">Fill in at least 6 passing grades (A1–E8) to see your aggregate.</p>
+        <p class="wc-result-note">Your aggregate is the sum of your <strong>best 6 subjects</strong> (lowest point total). A1 = 1 point, F9 is a fail and isn't counted.</p>
+      </div>
+    </div>
+ 
+    <p class="wc-disclaimer">This is a general estimate, not an official result. Actual cut-off points vary by school, programme, and year — always confirm with CSSPS guidelines and your target school.</p>
+ 
+  </div>
+</section>
+ 
+<section class="courses-footer-section">
+  <footer class="courses-footer">
+    <div class="courses-logo">
+      <div> SHS</div> <div>EXplorior</div>
+    </div>
+    <p> &copy; 2026 Ghana SHS Course Explorer</p>
+  </footer>
+</section>
+ 
+<script>
+  (function () {
+    var POINTS = { A1: 1, B2: 2, B3: 3, B4: 4, C4: 5, C5: 6, C6: 7, D7: 8, E8: 9 };
+    var rowsContainer = document.getElementById('wcRows');
+    var addBtn = document.getElementById('wcAddRow');
+    var aggregateNumber = document.getElementById('wcAggregateNumber');
+    var resultMessage = document.getElementById('wcResultMessage');
+    var electiveCount = 3;
+    var MAX_ELECTIVES = 6;
+ 
+    function gradeOptionsHTML(selected) {
+      var grades = ['A1', 'B2', 'B3', 'B4', 'C4', 'C5', 'C6', 'D7', 'E8', 'F9'];
+      return grades.map(function (g) {
+        var label = g === 'F9' ? 'F9 (Fail)' : g;
+        var sel = g === selected ? ' selected' : '';
+        return '<option value="' + g + '"' + sel + '>' + label + '</option>';
+      }).join('');
+    }
+ 
+    function addRow() {
+      if (electiveCount >= MAX_ELECTIVES) return;
+      electiveCount++;
+      var row = document.createElement('div');
+      row.className = 'wc-row';
+      row.innerHTML =
+        '<input type="text" class="wc-subject-input" value="Elective ' + electiveCount + '">' +
+        '<select class="wc-grade-select">' + gradeOptionsHTML('C4') + '</select>' +
+        '<button type="button" class="wc-remove-btn" aria-label="Remove subject">&times;</button>';
+      rowsContainer.appendChild(row);
+      bindRow(row);
+      calculate();
+      if (electiveCount >= MAX_ELECTIVES) {
+        addBtn.disabled = true;
+        addBtn.textContent = 'Maximum subjects reached';
+      }
+    }
+ 
+    function bindRow(row) {
+      var input = row.querySelector('.wc-subject-input');
+      var select = row.querySelector('.wc-grade-select');
+      var removeBtn = row.querySelector('.wc-remove-btn');
+      input.addEventListener('input', calculate);
+      select.addEventListener('change', calculate);
+      if (removeBtn) {
+        removeBtn.addEventListener('click', function () {
+          row.remove();
+          electiveCount--;
+          addBtn.disabled = false;
+          addBtn.textContent = '+ Add another elective';
+          calculate();
+        });
+      }
+    }
+ 
+    function calculate() {
+      var rows = Array.prototype.slice.call(rowsContainer.querySelectorAll('.wc-row'));
+      var subjects = rows.map(function (row) {
+        var name = row.querySelector('.wc-subject-input').value.trim() || 'Subject';
+        var grade = row.querySelector('.wc-grade-select').value;
+        return { name: name, grade: grade, point: POINTS[grade] || null };
+      });
+ 
+      var passing = subjects.filter(function (s) { return s.point !== null; });
+ 
+      if (passing.length < 6) {
+        aggregateNumber.textContent = '—';
+        resultMessage.textContent = 'Fill in at least 6 passing grades (A1–E8) to see your aggregate. (' + passing.length + ' of 6 so far)';
+        return;
+      }
+ 
+      passing.sort(function (a, b) { return a.point - b.point; });
+      var best6 = passing.slice(0, 6);
+      var aggregate = best6.reduce(function (sum, s) { return sum + s.point; }, 0);
+ 
+      aggregateNumber.textContent = aggregate;
+ 
+      var rating;
+      if (aggregate <= 12) rating = 'Excellent — competitive for the most selective programmes.';
+      else if (aggregate <= 24) rating = 'Good — competitive for many popular programmes.';
+      else if (aggregate <= 30) rating = 'Fair — accepted by a good number of programmes.';
+      else rating = 'Weak — options may be limited; consider a re-sit or alternative pathway.';
+ 
+      var namesUsed = best6.map(function (s) { return s.name; }).join(', ');
+      resultMessage.textContent = 'Best 6 counted: ' + namesUsed + '. ' + rating;
+    }
+ 
+    addBtn.addEventListener('click', addRow);
+    Array.prototype.forEach.call(rowsContainer.querySelectorAll('.wc-row'), bindRow);
+    calculate();
+  })();
+</script>
+ 
+</body>
+</html>

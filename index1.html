@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>index</title>
-	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="stylesheet" href="CSS/style1.css">
 </head>
 
 
@@ -12,30 +12,34 @@
 <body>
 
 
-
+<!-- BEGINNING OF INDEX-NAV  -->
 
 <nav class="index-nav">
 
 <div class="index-nav-logo">
- <div> SHS</div> <div>EXplorior</div>
+ <div> SHS</div> <div>Explorer</div>
 </div>
 
-
-
-
-
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<label for="nav-toggle" class="nav-hamburger" aria-label="Toggle navigation menu">
+  <span></span><span></span><span></span>
+</label>
 
 <ul class="index-nav-ul">
-<li > <a href="index.html">home </a></li>
-<li > <a href="courses.html"> course</a></li>
-<li > <a href="schools.html"> schools</a></li>
-<li > <a href="subjects.html"> subject  </a></li>
-<li > <a href=""> About me  </a></li>
+<li > <a href="index1.html">home </a></li>
+<li > <a href="courses1.html"> course</a></li>
+<li > <a href="schools1.html"> schools</a></li>
+<li > <a href="subjects1.html"> subject  </a></li>
 
-<li> <a href="students-tool.html"> <button  class="button">student tools</button></a></li>
+
+<li> <a href="student-tool1.html"> <button  class="button">student tools</button></a></li>
 </ul>
 
 </nav>
+
+     <!-- END OF INDEX-NAV  -->
+
+     <!-- BEGINNING OF INDEX-MAIN  -->
 
 <div class="main">
    <button class="btn1">&star; #1 guide for BECE graduates</button>
@@ -43,42 +47,48 @@
 		<h1> Find Your Path to</h1>
 	<h1> SHS EXcellence</h1>
 	</div>
-	<div class="intro">Navegate The Ghane Education Service(GES) Curricolu. Explor 20+ Courses 700+ schools <br>and plan your future career to day</div> 
+
+	<div class="intro">Navigate the Ghana Education Service (GES) curriculum. Explore 20+ courses and 700+ schools <br>and plan your future career today</div> 
 
    <div class="hero_btn">
-    <button class="button_1"> <a href=""></a> Explor Couses</button>
-	<button class="button_2"><a href=""></a> Find Schools</button>
+    <a href="courses1.html" class="button_1">Explore Courses</a>
+	<a href="schools1.html" class="button_2">Find Schools</a>
    </div>
 
-   <div >
+   
+     <!-- BEGINNING OF INDEX-NUMBERS  -->
 
 	<div class="numbers">
 
 
 		<div class="index-schools">
 	     <span>700+</span>
-		 <h3>School listed</h3>
+		 <h3>Schools listed</h3>
 		</div>
         
 		<div class="number">
 		<div class="student">
 	     <span>50k</span>
-		 <h3>School listed</h3>
+		 <h3>Students guided</h3>
 		</div>
 	</div>
 	
    </div>
+
+   <!-- EDN OF INDEX-NUMBERS  -->
    
    <button class="discover">Discover</button>
 
-   <!-- end of main-->
-</div>
+   <!-- EDN OF INDEX-MAIN  -->
+
+
+<!-- BEGINNING OF INDEX-COURSES  -->
 
  <section class="courses">
 
-	<h1 class="popular-c">Popular Couses</h1>
+	<h1 class="popular-c">Popular Courses</h1>
 
-
+  <!-- BEGINNING OF INDEX-COURSES-CONTAINER  -->
    <div class="courses_container">
 
 	 
@@ -87,7 +97,7 @@
 		         <div class="card-head">   Academic</div>
 	   
 
-       <div class="index-card-icon"></div>
+       <div class="index-card-icon icon-science"></div>
 	   <div class="sub">
          <h2>science</h2>
 		 <p> Focuses on natural science and mathematics. Leads to career in madecine,engineering.....</p>
@@ -108,7 +118,7 @@
 		<div class="card-head">   Academic</div>
 	   
 
-       <div class="index-card-icon"></div>
+       <div class="index-card-icon icon-arts"></div>
 	   <div class="sub">
          <h2>General Arts</h2>
 		 <p> Focuses on humanities and social sciences.........</p>
@@ -129,7 +139,7 @@
 		<div class="card-head">   Academic</div>
 	   
 
-       <div class="index-card-icon"></div>
+       <div class="index-card-icon icon-business"></div>
 	   <div class="sub">
          <h2>Business</h2>
 		 <p>Focuses on commerce, accounting, and business management.....</p>
@@ -150,7 +160,7 @@
 		<div class="card-head">   Academic</div>
 	   
 
-       <div class="index-card-icon"></div>
+       <div class="index-card-icon icon-home-econ"></div>
 	   <div class="sub">
          <h2>Home Economics</h2>
 		 <p>Focuses on life skills, nutrition, clothing, and family management.....</p>
@@ -171,7 +181,7 @@
 		<div class="card-head">   Academic</div>
 	   
 
-       <div class="index-card-icon"></div>
+       <div class="index-card-icon icon-visual-arts"></div>
 	   <div class="sub">
          <h2>Visual Arts</h2>
 		 <p>Focuses on creative and artistic skills.....</p>
@@ -181,7 +191,7 @@
 
 	   <div class="card-foot">
 
-	   <div class="course-initial">Focuses on creative and artistic skills</div>
+	   <div class="course-initial">VA</div>
 	   <div class="view"><a href=""> view details &RightArrow; </a> </div>
 	   </div>
 </div>
@@ -192,7 +202,7 @@
 		<div class="card-head">   Academic</div>
 	   
 
-       <div class="index-card-icon"></div>
+       <div class="index-card-icon icon-technical"></div>
 	   <div class="sub">
          <h2>Technical (Engineering)</h2>
 		 <p> Focuses on engineering principles and practical technical skills.....</p>
@@ -207,15 +217,18 @@
 	   </div>
 </div>
 
-	<!-- end of container-->
+	<!-- END OF INDEX-COURSES-CONTAINER  -->
    </div>
-      
+       <!-- END OF INDEX-COURSES  -->
 
+
+
+     <!-- BEGINNING OF INDEX-CONTAINER-INFO  -->
 <div class="container-info">
 
 		<div class="container-info-card">
 
-			<div class="Info-icon"> </div>
+			<div class="Info-icon icon-career"> </div>
 			<div class="career">
 			<h2>Career Guidance</h2>
 			<p>Expert insight into where each course leads,helping you choose a furture that fits.</p>	
@@ -225,7 +238,7 @@
 
 	   <div class="container-info-card">
 
-			<div class="Info-icon"> </div>
+			<div class="Info-icon icon-school"> </div>
 			<div class="career">
 			<h2>School Directory</h2>
 			<p> Detailed Profile About 700+ Sinior High Schools Including Facilities And Electives.</p>	
@@ -234,22 +247,24 @@
 
 	   <div class="container-info-card">
 
-			<div class="Info-icon"> </div>
+			<div class="Info-icon icon-grade"> </div>
 			<div class="career">
 			<h2>Grade Tools</h2>
 			<p> Calculate Your BECE Aggregate And Predict Your Placement Chances Instantly.</p>
 			</div>
 	   </div>
 </div>
-
+<!-- END OF INDEX-CONTAINER-INFO -->
 
  </section>
 
+
+    <!-- BEGINNING OF INDEX-INSPIRE-SECTION  -->
 <section  class="inspire-section">
 	
 			<div class="inspire_header">
 				<h2 class="inspiration"> Inpiration</h2>
-			<h1> Furtures Career Pathways</h1>
+			<h1> Futures Career Pathways</h1>
 			
 			</div>
 
@@ -338,6 +353,10 @@
 
 </section>
 
+  <!-- END OF INDEX-INSPIRE-SECTION  -->
+
+
+<!-- BEGINNING OF INDEX-CHOOSE-SECTION  -->
 
 <section class="choose">
 	<div class="choose_container">
@@ -345,50 +364,60 @@
 			<div class="choose_txt">
 				<h1>Ready to Choose Your School?</h1>
 				<p>Explore our comprehensive database of over 700+ Senior High Schools in Ghana. Filter by region, category, and boarding status.</p>
-				<a href="schools.html"><button>View School Directory</button></a>
+				<a href="schools1.html"><button>View School Directory</button></a>
 			</div>
 		</div>
 	</div>
 </section>
 
+<!-- END OF INDEX-CHOOSE-SECTION -->
 
-
-<div class="index-footer-section">
+<!-- BEGINNING OF INDEX-FOOTER-SECTION  -->
+<footer class="index-footer-section">
 
 		<div class="index-footer-container">
 
-				<div class="index-footer-logo">
+			<div class="footer-top">
 
+				<div class="footer-brand">
+					<div class="index-footer-logo">
 						<div>SHS</div>  <div>Explorer</div>
+					</div>
+					<p class="footer-tagline">Empowering the next generation of Ghanaian leaders through informed education choices.</p>
 				</div>
 
-					<div class="foolter-explorer">Explorer</div>
+				<div class="footer-links-group">
 
-						 <div class="foolter-connect">
-            Connect
-				 </div>
+					<div class="footer-col">
+						<h4 class="footer-col-title">Explore</h4>
+						<ul class="footer-list">
+							<li><a href="courses1.html">All Courses</a></li>
+							<li><a href="schools1.html">School Directory</a></li>
+							<li><a href="subjects1.html">Syllabus</a></li>
+						</ul>
+					</div>
 
-         <div class="footer-explorer">
-						<p>All courses</p>
-						<p>School Directory</p>
-						<p>Syllabus</p>
-				 </div> 
+					<div class="footer-col">
+						<h4 class="footer-col-title">Connect</h4>
+						<ul class="footer-list">
+							<li><a href="">About Us</a></li>
+							<li><a href="">Contact</a></li>
+							<li><a href="">Privacy Policy</a></li>
+						</ul>
+					</div>
 
-					<div class="foolter-paragraph">
+				</div>
 
-           <div>Empowering the next generation of Ghanaian leaders through informed education choices. </div>
-				 </div>
+			</div>
 
-				 
+			<hr class="horizontal-line">
 
-				 <hr class="horizontal-line">
+			<p class="foolter-copy">&copy; 2026 Ghana SHS Course Explorer. Made with care for students.</p>
 
-				 <p class="foolter-copy">  &COPY;2026 Ghana SHS Course Explorer. Made with for students.</p>
-      
 		</div>
-</div>
+</footer>
  
-
+<!-- END OF INDEX-FOOTER-SECTION  -->
 
 
 </body>

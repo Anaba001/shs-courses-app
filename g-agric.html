@@ -3,21 +3,24 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>G-agric</title>
-      <link rel="stylesheet" href="CSS/style.css">
+      <title>Agricultural Science | Programs</title>
+      <link rel="stylesheet" href="CSS/style1.css">
+      <link rel="stylesheet" href="CSS/program-extra.css">
     </head>
 
     <body>
 
 
   <div id="link-container">
-      <a id="link" href="courses.html">↤ Back to Home</a>
+      <a id="link" href="courses1.html">↤ Back to Home</a>
       <img class="link-icon" src="images/design on compact-disk.jpg" alt="Graphics Design Icon">
   </div>
 
      <section class="g-agric-section">
 
       <div class="g-agric-container">
+
+           <p class="crumb"><a href="courses.html">Programs</a> / <span class="crumb-current">Agricultural Science</span></p>
 
            <h2>Agricultural Science</h2>
 
@@ -29,7 +32,7 @@
               <button>Code: AS</button>
             
              </div>
-           <p> Focuses on agricultural principles, practices, and agricbusiness</p>
+           <p> Focuses on agricultural principles, practices, and agribusiness</p>
 
            
           <div class="g-agric-core-subjects-container">
@@ -70,25 +73,44 @@
 
               <div class="career-path-button">
 
-                  <button>Law</button>
-                  <button> Taeching</button>
-                  <button> Journalism</button>
-                  <button>Deplomacy</button>
-                  <button>Polities</button>
+                  <button data-tip="Manage crop and livestock systems for farms and agribusinesses.">Agriculturist</button>
+                  <button data-tip="Train and support farmers with improved techniques and technology.">Extension Officer</button>
+                  <button data-tip="Study animal health and treat livestock after further training.">Veterinary Science</button>
+                  <button data-tip="Run the commercial side of farming: supply chains, sales and finance.">Agribusiness Manager</button>
+                  <button data-tip="Research and improve how food is processed, packaged and stored.">Food Scientist</button>
 
               </div>
+
+              <div class="career-path-panel" aria-live="polite"></div>
 
               <div class="technical-variant">
 
-                Technical Variant:<span>Vsual Vrts (in some chools) </span>
+                Technical Variant:<span> Visual Arts (in some schools)</span>
               </div>
 
           </div>
+
+          <nav class="related-programs" aria-label="Other programs">
+            <h4>Explore other programs</h4>
+            <div class="related-programs-list">
+              <a href="g-arts.html">General Arts</a>
+              <a href="g-business.html">Business</a>
+              <a href="g-home-economics.html">Home Economics</a>
+              <a href="g-science.html">Science</a>
+              <a href="tech-ingineer.html">Technical (Engineering)</a>
+              <a href="voc-engineer.html">Vocational (Engineering)</a>
+            </div>
+          </nav>
 
 
       </div>
       
      </section>
+
+     <button class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+     <div class="copy-toast" role="status" aria-live="polite"></div>
+
+     <script src="JS/program-extra.js"></script>
       
     </body>
   </html>

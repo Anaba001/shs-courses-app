@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Recommender | SHS EXplorior</title>
+  <link rel="stylesheet" href="CSS/style1.css">
+</head>
+ 
+<body>
+ 
+<nav class="student-T-nav">
+ 
+  <div class="student-T-nav-logo">
+    <div> SHS</div> <div>EXplorior</div>
+  </div>
+ 
+  <input type="checkbox" id="student-t-nav-toggle" class="nav-toggle">
+  <label for="student-t-nav-toggle" class="nav-hamburger" aria-label="Toggle navigation menu">
+    <span></span><span></span><span></span>
+  </label>
+ 
+  <ul class="student-T-nav-ul">
+    <li> <a href="index1.html">home </a></li>
+    <li> <a href="courses1.html"> course</a></li>
+    <li> <a href="schools1.html"> schools</a></li>
+    <li> <a href="subjects1.html"> subject  </a></li>
+ 
+    <li> <a href="student-tool1.html" aria-current="page"> <button class="button">student tools</button></a></li>
+  </ul>
+ 
+</nav>
+ 
+<section class="wc-hero">
+  <div class="wc-hero-inner">
+    <a href="student-tool1.html" class="hc-back-link">&larr; Back to Student Toolkit</a>
+    <span class="hc-hero-eyebrow">Student Toolkit</span>
+    <h1>Course Recommender</h1>
+    <p>Answer a few quick questions about what you enjoy, and we'll suggest an SHS course that could be a great fit.</p>
+  </div>
+</section>
+ 
+<section class="cr-quiz-section">
+  <div class="cr-quiz-card">
+ 
+    <div class="cr-progress-wrap">
+      <div class="cr-progress-bar" id="crProgressBar"></div>
+    </div>
+    <p class="cr-progress-label" id="crProgressLabel">Question 1 of 8</p>
+ 
+    <div id="crQuestions"></div>
+ 
+    <div class="cr-nav-buttons">
+      <button type="button" id="crBackBtn" class="cr-btn-secondary" disabled>Back</button>
+      <button type="button" id="crNextBtn" class="cr-btn-primary" disabled>Next</button>
+    </div>
+ 
+    <div class="cr-result" id="crResult" hidden>
+      <div class="cr-result-icon" id="crResultIcon"></div>
+      <span class="cr-result-eyebrow">Your Recommended Course</span>
+      <h2 id="crResultTitle"></h2>
+      <p id="crResultBlurb"></p>
+      <div class="cr-result-actions">
+        <a href="courses.html" id="crExploreLink" class="cr-btn-primary cr-result-link">Explore This Course <span aria-hidden="true">&rarr;</span></a>
+        <button type="button" id="crRetakeBtn" class="cr-btn-secondary">Retake Quiz</button>
+      </div>
+    </div>
+ 
+  </div>
+</section>
+ 
+<section class="courses-footer-section">
+  <footer class="courses-footer">
+    <div class="courses-logo">
+      <div> SHS</div> <div>EXplorior</div>
+    </div>
+    <p> &copy; 2026 Ghana SHS Course Explorer</p>
+  </footer>
+</section>
+ 
+<script>
+  (function () {
+    var CATEGORIES = {
+      science: { label: 'Science', icon: 'icon-science', subject: 'science', blurb: 'Focuses on natural sciences and mathematics. Leads to careers in medicine, engineering, research, and more.' },
+      arts: { label: 'General Arts', icon: 'icon-arts', subject: 'general arts', blurb: 'Focuses on humanities and social sciences — great for future lawyers, writers, and diplomats.' },
+      business: { label: 'Business', icon: 'icon-business', subject: 'business', blurb: 'Focuses on commerce, accounting, and business management.' },
+      homeEcon: { label: 'Home Economics', icon: 'icon-home-econ', subject: 'home economics', blurb: 'Focuses on life skills, nutrition, clothing, and family management.' },
+      visualArts: { label: 'Visual Arts', icon: 'icon-visual-arts', subject: 'visual arts', blurb: 'Focuses on creative and artistic skills.' },
+      technical: { label: 'Technical', icon: 'icon-technical', subject: 'technical engineering', blurb: 'Focuses on engineering principles and practical technical skills.' }
+    };
+ 
+    var OPTION_ORDER = ['science', 'arts', 'business', 'homeEcon', 'visualArts', 'technical'];
+ 
+    var QUESTIONS = [
+      {
+        prompt: 'Which activity sounds most enjoyable to you?',
+        options: ['Conducting a science experiment', 'Debating a current issue', 'Pitching a business idea', 'Planning a meal or budget for a family', 'Sketching or designing something', 'Building or fixing something mechanical']
+      },
+      {
+        prompt: 'Which subject would you enjoy studying most?',
+        options: ['Physics or Chemistry', 'Literature or History', 'Accounting or Economics', 'Nutrition or Textiles', 'Graphic Design or Sculpture', 'Engineering Drawing or Woodwork']
+      },
+      {
+        prompt: 'What kind of career excites you most?',
+        options: ['Doctor, engineer, or researcher', 'Lawyer, journalist, or diplomat', 'Entrepreneur, banker, or accountant', 'Chef, nutritionist, or fashion designer', 'Artist, architect, or designer', 'Technician, mechanic, or builder']
+      },
+      {
+        prompt: 'How do you prefer to solve problems?',
+        options: ['Using logic, formulas and data', 'Through discussion and writing', 'By analyzing costs and numbers', 'By organizing and managing resources', 'Through creativity and visual expression', 'By working with tools and machines']
+      },
+      {
+        prompt: 'Which school project would you pick?',
+        options: ['Build a working model or experiment', 'Write and perform a short play or essay', 'Create a business plan for a small shop', 'Plan and cook a meal for a group', 'Design a poster or piece of art', 'Repair or construct a small structure']
+      },
+      {
+        prompt: 'What are you naturally good at?',
+        options: ['Solving equations and analyzing data', 'Expressing ideas clearly in speech or writing', 'Managing money and spotting opportunities', 'Taking care of a home and people', 'Drawing, crafting or designing', 'Using tools and understanding how things work']
+      },
+      {
+        prompt: 'Pick a weekend activity you\u2019d enjoy:',
+        options: ['Visiting a science museum', 'Reading a novel or watching the news', 'Following stock markets or startups', 'Cooking a new recipe', 'Visiting an art gallery', 'Tinkering with gadgets or vehicles']
+      },
+      {
+        prompt: 'Which of these matters most to you in a future career?',
+        options: ['Discovery and innovation', 'Justice, culture and communication', 'Wealth creation and leadership', 'Caring for families and communities', 'Creative self-expression', 'Practical, hands-on craftsmanship']
+      }
+    ];
+ 
+    var current = 0;
+    var answers = new Array(QUESTIONS.length).fill(null);
+ 
+    var questionsEl = document.getElementById('crQuestions');
+    var backBtn = document.getElementById('crBackBtn');
+    var nextBtn = document.getElementById('crNextBtn');
+    var progressBar = document.getElementById('crProgressBar');
+    var progressLabel = document.getElementById('crProgressLabel');
+    var resultEl = document.getElementById('crResult');
+    var quizCard = document.querySelector('.cr-quiz-card');
+ 
+    function renderQuestion() {
+      var q = QUESTIONS[current];
+      var html = '<div class="cr-question"><h3>' + q.prompt + '</h3><div class="cr-options">';
+      q.options.forEach(function (text, i) {
+        var cat = OPTION_ORDER[i];
+        var selected = answers[current] === cat ? ' cr-option-selected' : '';
+        html += '<button type="button" class="cr-option' + selected + '" data-cat="' + cat + '">' + text + '</button>';
+      });
+      html += '</div></div>';
+      questionsEl.innerHTML = html;
+ 
+      Array.prototype.forEach.call(questionsEl.querySelectorAll('.cr-option'), function (btn) {
+        btn.addEventListener('click', function () {
+          answers[current] = btn.getAttribute('data-cat');
+          renderQuestion();
+        });
+      });
+ 
+      backBtn.disabled = current === 0;
+      nextBtn.disabled = answers[current] === null;
+      nextBtn.textContent = current === QUESTIONS.length - 1 ? 'See My Result' : 'Next';
+      progressLabel.textContent = 'Question ' + (current + 1) + ' of ' + QUESTIONS.length;
+      progressBar.style.width = (((current + 1) / QUESTIONS.length) * 100) + '%';
+    }
+ 
+    function showResult() {
+      var scores = {};
+      OPTION_ORDER.forEach(function (cat) { scores[cat] = 0; });
+      answers.forEach(function (cat) { if (cat) scores[cat]++; });
+ 
+      var winner = OPTION_ORDER.reduce(function (best, cat) {
+        return scores[cat] > scores[best] ? cat : best;
+      }, OPTION_ORDER[0]);
+ 
+      var info = CATEGORIES[winner];
+ 
+      document.getElementById('crResultIcon').className = 'cr-result-icon ' + info.icon;
+      document.getElementById('crResultTitle').textContent = info.label;
+      document.getElementById('crResultBlurb').textContent = info.blurb;
+      document.getElementById('crExploreLink').href = 'courses.html?subject=' + encodeURIComponent(info.subject);
+ 
+      quizCard.querySelectorAll('.cr-progress-wrap, .cr-progress-label, #crQuestions, .cr-nav-buttons').forEach(function (el) {
+        el.hidden = true;
+      });
+      resultEl.hidden = false;
+    }
+ 
+    function retake() {
+      current = 0;
+      answers = new Array(QUESTIONS.length).fill(null);
+      resultEl.hidden = true;
+      quizCard.querySelectorAll('.cr-progress-wrap, .cr-progress-label, #crQuestions, .cr-nav-buttons').forEach(function (el) {
+        el.hidden = false;
+      });
+      renderQuestion();
+    }
+ 
+    nextBtn.addEventListener('click', function () {
+      if (answers[current] === null) return;
+      if (current === QUESTIONS.length - 1) {
+        showResult();
+      } else {
+        current++;
+        renderQuestion();
+      }
+    });
+ 
+    backBtn.addEventListener('click', function () {
+      if (current > 0) {
+        current--;
+        renderQuestion();
+      }
+    });
+ 
+    document.getElementById('crRetakeBtn').addEventListener('click', retake);
+ 
+    renderQuestion();
+  })();
+</script>
+ 
+</body>
+</html>

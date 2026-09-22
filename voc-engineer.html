@@ -3,15 +3,16 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Voc-engineer</title>
-      <link rel="stylesheet" href="CSS/style.css">
+      <title>Vocational (Engineering) | Programs</title>
+      <link rel="stylesheet" href="CSS/style1.css">
+      <link rel="stylesheet" href="CSS/program-extra.css">
     </head>
 
     <body>
 
 
        <div id="link-container">
-        <a id="link" href="voc-engineer.html">↤  Go Back</a>
+        <a id="link" href="courses1.html">↤ Back to Home</a>
         <img class="link-icon" src="images/design on compact-disk.jpg" alt="Graphics Design Icon">
   </div>
 
@@ -19,17 +20,19 @@
 
       <div class="voc-engineer-container">
 
-           <h2>Technical (Engineering)</h2>
+           <p class="crumb"><a href="courses.html">Programs</a> / <span class="crumb-current">Vocational (Engineering)</span></p>
+
+           <h2>Vocational (Engineering)</h2>
 
             <div class="voc-engineer-button">  
               
-              <button>Academic</button> 
+              <button>Vocational</button> 
               
               
               <button>Code: VE</button>
             
              </div>
-           <p> Focuses on applied arts and vocstional skills</p>
+           <p> Focuses on applied arts and vocational skills</p>
 
            
           <div class="voc-engineer-core-subjects-container">
@@ -65,26 +68,39 @@
 
               <div class="career-path-button">
 
-                  <button>Capenter</button>
-                  <button> Plumber</button>
-                  <button>Mason</button>
-                  <button>Refrigiration Technician</button>
-                  <button>Building Constractor</button>
+                  <button data-tip="Build and repair structures and furniture from wood.">Carpenter</button>
+                  <button data-tip="Install and repair pipes, water and drainage systems.">Plumber</button>
+                  <button data-tip="Build with brick, block and concrete.">Mason</button>
+                  <button data-tip="Install and repair cooling and air-conditioning systems.">Refrigeration Technician</button>
+                  <button data-tip="Plan and manage full construction projects.">Building Contractor</button>
 
               </div>
 
-              <div class="technical-variant">
-
-                Technical Variant:<span>Vsual Vrts with specific specializations </span>
-              </div>
+              <div class="career-path-panel" aria-live="polite"></div>
 
           </div>
+
+          <nav class="related-programs" aria-label="Other programs">
+            <h4>Explore other programs</h4>
+            <div class="related-programs-list">
+              <a href="g-agric.html">Agricultural Science</a>
+              <a href="g-arts.html">General Arts</a>
+              <a href="g-business.html">Business</a>
+              <a href="g-home-economics.html">Home Economics</a>
+              <a href="g-science.html">Science</a>
+              <a href="tech-ingineer.html">Technical (Engineering)</a>
+            </div>
+          </nav>
 
 
       </div>
       
      </section>
-        
-       
+
+     <button class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+     <div class="copy-toast" role="status" aria-live="polite"></div>
+
+     <script src="JS/program-extra.js"></script>
+      
     </body>
   </html>

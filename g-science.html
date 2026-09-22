@@ -3,20 +3,23 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>G-science</title>
-      <link rel="stylesheet" href="CSS/style.css">
+      <title>Science | Programs</title>
+      <link rel="stylesheet" href="CSS/style1.css">
+      <link rel="stylesheet" href="CSS/program-extra.css">
     </head>
 
     <body>
 
 
   <div id="link-container">
-        <a id="link" href="courses.html">↤ Go to Back</a>
+        <a id="link" href="courses1.html">↤ Back to Home</a>
         <img class="link-icon" src="images/design on compact-disk.jpg" alt="Graphics Design Icon">
   </div>
      <section class="g-science-section">
 
       <div class="g-science-container">
+
+           <p class="crumb"><a href="courses.html">Programs</a> / <span class="crumb-current">Science</span></p>
 
            <h2>Science</h2>
 
@@ -56,7 +59,7 @@
               <div><a href="GENERAL SCIENCE/biology.html"> BIO</a></div>
               <div><a href="GENERAL SCIENCE/elective mathematics topics.html"> ELEC-MATHS</a></div>
               <div><a href="GENERAL SCIENCE/elective ict topics.html"> ELEC-IT</a></div>
-              <div><a href=""> GEO</a></div>
+              <div><a href="GENERAL ARTS/geography.html"> GEO</a></div>
 
               
              </div>
@@ -65,25 +68,44 @@
 
               <div class="career-path-button">
 
-                  <button>Medicene</button>
-                  <button> Pharmacy</button>
-                  <button> Engineering</button>
-                  <button>Research Scientist</button>
-                  <button>Pilot</button>
+                  <button data-tip="Diagnose and treat patients as a medical doctor.">Medicine</button>
+                  <button data-tip="Prepare and advise on medicines and their safe use.">Pharmacy</button>
+                  <button data-tip="Design, build and maintain structures, machines or systems.">Engineering</button>
+                  <button data-tip="Investigate scientific questions through experiments and research.">Research Scientist</button>
+                  <button data-tip="Fly aircraft after specialised aviation training.">Pilot</button>
 
               </div>
+
+              <div class="career-path-panel" aria-live="polite"></div>
 
               <div class="technical-variant">
 
-                Technical Variant:<span>Science with Technical (Technical Science) </span>
+                Technical Variant:<span> Science with Technical (Technical Science)</span>
               </div>
 
           </div>
+
+          <nav class="related-programs" aria-label="Other programs">
+            <h4>Explore other programs</h4>
+            <div class="related-programs-list">
+              <a href="g-agric.html">Agricultural Science</a>
+              <a href="g-arts.html">General Arts</a>
+              <a href="g-business.html">Business</a>
+              <a href="g-home-economics.html">Home Economics</a>
+              <a href="tech-ingineer.html">Technical (Engineering)</a>
+              <a href="voc-engineer.html">Vocational (Engineering)</a>
+            </div>
+          </nav>
 
 
       </div>
       
      </section>
+
+     <button class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+     <div class="copy-toast" role="status" aria-live="polite"></div>
+
+     <script src="JS/program-extra.js"></script>
       
     </body>
   </html>
