@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Subjects | SHS EXplorior</title>
+          <link rel="stylesheet" href="CSS/style.css">
+        </head>
+ 
+        <body>
+ 
+ 
+ 
+  <nav class="subject-nav">
+ 
+<div class="subject-nav-logo">
+ <div> SHS</div> <div>EXplorior</div>
+</div>
+ 
+<input type="checkbox" id="subject-nav-toggle" class="nav-toggle">
+<label for="subject-nav-toggle" class="nav-hamburger" aria-label="Toggle navigation menu">
+  <span></span><span></span><span></span>
+</label>
+ 
+<ul class="subject-nav-ul">
+<li > <a href="index.html">home </a></li>
+<li > <a href="courses.html"> course</a></li>
+<li > <a href="schools.html"> schools</a></li>
+<li > <a href="subjects.html" aria-current="page"> subject  </a></li>
+ 
+ 
+<li> <a href="student-tool.html"> <button  class="button">student tools</button></a></li>
+</ul>
+ 
+</nav>
+           <br><br>
+ 
+        <!-- subjects section-->
+ 
+          <section class="subjects-section">
+ 
+             <div class="subject-syllabus-container">
+                 <h1> Subject Syllabus</h1>
+                  <p>Understand the difference between core mandates and elective specializations.</p>
+ 
+                </div>
+                    
+          </section>
+ 
+ 
+ 
+           <!-- <section for core subject-->
+            
+ 
+   <section class="core-subjects-section">
+ 
+    <div class="core-subject-container">
+        
+        <h1 class="core-subject">  core subjects</h1>
+        <hr class="core-subejct-horizontal-line">
+ 
+ 
+        <div class="card-core-subject">
+ 
+            <div class="card-core-subject-container" data-name="english language">
+              <div class="subject-card-icon icon-english"></div>
+              <div class="card-core-subject-body">
+                <h1>English Language</h1>
+                <p>Study of the English language, including comprehension, grammar, and composition.</p>
+                <a href="GENERAL SCIENCE/english.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+        
+ 
+        
+ 
+            <div class="card-core-subject-container" data-name="integrated science">
+              <div class="subject-card-icon icon-science"></div>
+              <div class="card-core-subject-body">
+                <h1>Integrated Science</h1>
+                <p>Combined study of basic physics, chemistry, and biology.</p>
+                <a href="GENERAL SCIENCE/SHS-integrated-science.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+        
+ 
+ 
+         
+ 
+            <div class="card-core-subject-container" data-name="mathematics (core)">
+              <div class="subject-card-icon icon-math"></div>
+              <div class="card-core-subject-body">
+                <h1>Mathematics (Core)</h1>
+                <p>Fundamental mathematics concepts required for all students.</p>
+                <a href="GENERAL SCIENCE/core-maths.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+ 
+         
+ 
+            <div class="card-core-subject-container" data-name="social studies">
+              <div class="subject-card-icon icon-social"></div>
+              <div class="card-core-subject-body">
+                <h1>Social Studies</h1>
+                <p>Study of society, citizenship, and national development.</p>
+                <a href="GENERAL SCIENCE/social studies.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+        </div>
+    </div>
+    </section>
+ 
+ 
+ 
+        <!--   Elective subject section-->
+ 
+ 
+ 
+    <section class="elective-subjects-section">
+ 
+    <div class="elective-subject-container">
+        
+        <h1 class="elective-subject">  Elective subjects (Optional)</h1>
+        <hr class="core-subejct-horizontal-line">
+ 
+
+        <!-- sj is the shotcut of school subject--> 
+         
+        <div class="sj-search-bar">
+          <select id="electiveCategorySelect" class="sj-category-select">
+            <option value="all">All Categories</option>
+            <option value="science">Science</option>
+            <option value="arts">Arts</option>
+            <option value="business">Business</option>
+            <option value="home-econ">Home Economics</option>
+            <option value="visual-arts">Visual Arts</option>
+            <option value="agriculture">Agriculture</option>
+            <option value="voc-engineeer">voc-engineer</option>
+            <option value="tech-ingineer">tech-engineer</option>
+          </select>
+        </div>
+ 
+        <p class="sj-no-results" id="electiveNoResults">No subjects match this category.</p>
+ 
+        <div class="card-elective-subject">
+ 
+            <div class="card-elective-subject-container" data-name="physics" data-category="science" data-desc="study of matter, energy, and their interactions.">
+              <div class="subject-card-icon icon-science"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Physics</h1>
+                  <span class="subject-category-tag">Science</span>
+                </div>
+                <p>Study of matter, energy, and their interactions.</p>
+                <a href="GENERAL SCIENCE/physics-course.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+        
+ 
+        
+ 
+            <div class="card-elective-subject-container" data-name="chemistry" data-category="science" data-desc="study of substances, their properties, and reactions.">
+              <div class="subject-card-icon icon-science"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Chemistry</h1>
+                  <span class="subject-category-tag">Science</span>
+                </div>
+                <p>Study of substances, their properties, and reactions.</p>
+                <a href="GENERAL SCIENCE/shs-chemistry.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+        
+ 
+ 
+         
+ 
+            <div class="card-elective-subject-container" data-name="biology" data-category="science" data-desc="study of living organisms.">
+              <div class="subject-card-icon icon-science"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Biology</h1>
+                  <span class="subject-category-tag">Science</span>
+                </div>
+                <p>Study of living organisms.</p>
+                <a href="GENERAL SCIENCE/biology.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+ 
+         
+ 
+            <div class="card-elective-subject-container" data-name="mathematics (elective)" data-category="science" data-desc="advanced mathematics concepts.">
+              <div class="subject-card-icon icon-science"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Mathematics (Elective)</h1>
+                  <span class="subject-category-tag">Science</span>
+                </div>
+                <p>Advanced mathematics concepts.</p>
+                <a href="GENERAL SCIENCE/elective mathematics topics.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+            
+ 
+ 
+              <div class="card-elective-subject-container" data-name="elective ict" data-category="science" data-desc="advanced ict concepts.">
+              <div class="subject-card-icon icon-science"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Elective ICT</h1>
+                  <span class="subject-category-tag">Science</span>
+                </div>
+                <p>Advanced ICT concepts.</p>
+                <a href="GENERAL SCIENCE/elective ict topics.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+            <div class="card-elective-subject-container" data-name="geography" data-category="arts" data-desc="study of the physical features of the earth and its atmosphere.">
+              <div class="subject-card-icon icon-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Geography</h1>
+                  <span class="subject-category-tag">Arts</span>
+                </div>
+                <p>Study of the physical features of the earth and its atmosphere.</p>
+                <a href="GENERAL ARTS/geography.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+        
+ 
+        
+ 
+            <div class="card-elective-subject-container" data-name="literature-in-english" data-category="arts" data-desc="analysis of literary texts.">
+              <div class="subject-card-icon icon-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Literature-In-English</h1>
+                  <span class="subject-category-tag">Arts</span>
+                </div>
+                <p>Analysis of literary texts.</p>
+                <a href="GENERAL ARTS/literature.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+        
+ 
+ 
+         
+ 
+            <div class="card-elective-subject-container" data-name="ghanaian language" data-category="arts" data-desc="study of local ghanaian languages.">
+              <div class="subject-card-icon icon-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Ghanaian Language</h1>
+                  <span class="subject-category-tag">Arts</span>
+                </div>
+                <p>Study of local Ghanaian languages.</p>
+                <a href="GENERAL ARTS/gha-lang.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+ 
+         
+ 
+            <div class="card-elective-subject-container" data-name="history" data-category="arts" data-desc="study of past events.">
+              <div class="subject-card-icon icon-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>History</h1>
+                  <span class="subject-category-tag">Arts</span>
+                </div>
+                <p>Study of past events.</p>
+                <a href="GENERAL ARTS/history.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+            <div class="card-elective-subject-container" data-name="government" data-category="arts" data-desc="study of political systems and governance.">
+              <div class="subject-card-icon icon-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Government</h1>
+                  <span class="subject-category-tag">Arts</span>
+                </div>
+                <p>Study of political systems and governance.</p>
+                <a href="GENERAL ARTS/government.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+        
+ 
+        
+ 
+            <div class="card-elective-subject-container" data-name="economics" data-category="business" data-desc="study of production, consumption, and transfer of wealth.">
+              <div class="subject-card-icon icon-business"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Economics</h1>
+                  <span class="subject-category-tag">Business</span>
+                </div>
+                <p>Study of production, consumption, and transfer of wealth.</p>
+                <a href="BUSINESS/economics.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+        
+ 
+ 
+         
+ 
+            <div class="card-elective-subject-container" data-name="christian religious studies" data-category="arts" data-desc="study of christian beliefs and history.">
+              <div class="subject-card-icon icon-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Christian Religious Studies</h1>
+                  <span class="subject-category-tag">Arts</span>
+                </div>
+                <p>Study of Christian beliefs and history.</p>
+                <a href="GENERAL ARTS/crs.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+ 
+         
+ 
+            <div class="card-elective-subject-container" data-name="islamic religious studies" data-category="arts" data-desc="study of islamic beliefs and history.">
+              <div class="subject-card-icon icon-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Islamic Religious Studies</h1>
+                  <span class="subject-category-tag">Arts</span>
+                </div>
+                <p>Study of Islamic beliefs and history.</p>
+                <a href="GENERAL ARTS/irs.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+ 
+              <div class="card-elective-subject-container" data-name="music studies" data-category="arts" data-desc="study of music and history of it.">
+              <div class="subject-card-icon icon-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Music Studies</h1>
+                  <span class="subject-category-tag">Arts</span>
+                </div>
+                <p>Study of music and history of it.</p>
+                <a href="GENERAL ARTS/music.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+ 
+            <div class="card-elective-subject-container" data-name="financial accounting" data-category="business" data-desc="preparation and analysis of financial statements.">
+              <div class="subject-card-icon icon-business"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Financial Accounting</h1>
+                  <span class="subject-category-tag">Business</span>
+                </div>
+                <p>Preparation and analysis of financial statements.</p>
+                <a href="BUSINESS/financial-acc.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+        
+ 
+ 
+         
+ 
+            <div class="card-elective-subject-container" data-name="cost accounting" data-category="business" data-desc="tracking and controlling costs.">
+              <div class="subject-card-icon icon-business"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Cost Accounting</h1>
+                  <span class="subject-category-tag">Business</span>
+                </div>
+                <p>Tracking and controlling costs.</p>
+                <a href="BUSINESS/costing-acc.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+ 
+         
+ 
+            <div class="card-elective-subject-container" data-name="business management" data-category="business" data-desc="principles of managing a business.">
+              <div class="subject-card-icon icon-business"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Business Management</h1>
+                  <span class="subject-category-tag">Business</span>
+                </div>
+                <p>Principles of managing a business.</p>
+                <a href="BUSINESS/bus-mgmt.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+ 
+             <div class="card-elective-subject-container" data-name="principles of accounting" data-category="business" data-desc="principles of managing accounting.">
+              <div class="subject-card-icon icon-business"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Principles of Accounting</h1>
+                  <span class="subject-category-tag">Business</span>
+                </div>
+                <p>Principles of managing accounting.</p>
+                <a href="BUSINESS/principles-of-accounting.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+ 
+            <div class="card-elective-subject-container" data-name="food and nutrition" data-category="home-econ" data-desc="science of food nutrients and diet.">
+              <div class="subject-card-icon icon-home-econ"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Food and Nutrition</h1>
+                  <span class="subject-category-tag">Home Economics</span>
+                </div>
+                <p>Science of food nutrients and diet.</p>
+                <a href="HOME ECONOMICS/food-and-nutrition.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+        
+ 
+ 
+         
+ 
+            <div class="card-elective-subject-container" data-name="management in living" data-category="home-econ" data-desc="household and family management.">
+              <div class="subject-card-icon icon-home-econ"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Management in Living</h1>
+                  <span class="subject-category-tag">Home Economics</span>
+                </div>
+                <p>Household and family management.</p>
+                <a href="HOME ECONOMICS/management-in-living.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+          
+            <div class="card-elective-subject-container" data-name="clothing and textiles" data-category="home-econ" data-desc="fabric properties and clothing construction.">
+              <div class="subject-card-icon icon-home-econ"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Clothing and Textiles</h1>
+                  <span class="subject-category-tag">Home Economics</span>
+                </div>
+                <p>Fabric properties and clothing construction.</p>
+                <a href="HOME ECONOMICS/clothing-textiles.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+        
+ 
+ 
+         
+ 
+            <div class="card-elective-subject-container" data-name="general knowledge in art" data-category="visual-arts" data-desc="broad overview of art history and techniques.">
+              <div class="subject-card-icon icon-visual-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>General Knowledge in Art</h1>
+                  <span class="subject-category-tag">Visual Arts</span>
+                </div>
+                <p>Broad overview of art history and techniques.</p>
+                <a href="VISUAL ART/General Knowledge In art.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+ 
+              <div class="card-elective-subject-container" data-name="graphics design" data-category="visual-arts" data-desc="introduction to the principles and practice of graphic design.">
+              <div class="subject-card-icon icon-visual-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Graphics Design</h1>
+                  <span class="subject-category-tag">Visual Arts</span>
+                </div>
+                <p>Introduction to the principles and practice of graphic design.</p>
+                <a href="VISUAL ART/graphics  design.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+             <div class="card-elective-subject-container" data-name="basketry" data-category="visual-arts" data-desc="introduction to traditional and contemporary basketry techniques.">
+              <div class="subject-card-icon icon-visual-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Basketry</h1>
+                  <span class="subject-category-tag">Visual Arts</span>
+                </div>
+                <p>Introduction to traditional and contemporary basketry techniques.</p>
+                <a href="VISUAL ART/basketry.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+             <div class="card-elective-subject-container" data-name="ceramics" data-category="visual-arts" data-desc="introduction to shaping, glazing, and firing ceramic pieces.">
+              <div class="subject-card-icon icon-visual-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Ceramics</h1>
+                  <span class="subject-category-tag">Visual Arts</span>
+                </div>
+                <p>Introduction to shaping, glazing, and firing ceramic pieces.</p>
+                <a href="VISUAL ART/ceramics.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+         
+ 
+             <div class="card-elective-subject-container" data-name="leatherwork" data-category="visual-arts" data-desc="introduction to leather crafting and finishing techniques.">
+              <div class="subject-card-icon icon-visual-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>LeatherWork</h1>
+                  <span class="subject-category-tag">Visual Arts</span>
+                </div>
+                <p>Introduction to leather crafting and finishing techniques.</p>
+                <a href="VISUAL ART/leatherwork.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+             <div class="card-elective-subject-container" data-name="picture making" data-category="visual-arts" data-desc="introduction to picture-making techniques and composition.">
+              <div class="subject-card-icon icon-visual-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Picture Making</h1>
+                  <span class="subject-category-tag">Visual Arts</span>
+                </div>
+                <p>Introduction to picture-making techniques and composition.</p>
+                <a href="VISUAL ART/picture making.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+             <div class="card-elective-subject-container" data-name="sculpture" data-category="visual-arts" data-desc="introduction to sculptural form, materials, and technique.">
+              <div class="subject-card-icon icon-visual-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Sculpture</h1>
+                  <span class="subject-category-tag">Visual Arts</span>
+                </div>
+                <p>Introduction to sculptural form, materials, and technique.</p>
+                <a href="VISUAL ART/sculpture.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+             <div class="card-elective-subject-container" data-name="textiles" data-category="visual-arts" data-desc="div into textiles.">
+              <div class="subject-card-icon icon-visual-arts"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Textiles</h1>
+                  <span class="subject-category-tag">Visual Arts</span>
+                </div>
+                <p>Div into textiles.</p>
+                <a href="VISUAL ART/textiles.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+            <div class="card-elective-subject-container" data-name="general agriculture" data-category="agriculture" data-desc="principles of agricultural science and practice.">
+              <div class="subject-card-icon icon-agric"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>General Agriculture</h1>
+                  <span class="subject-category-tag">Agriculture</span>
+                </div>
+                <p>Principles of agricultural science and practice.</p>
+                <a href="AGRICULTURE/general-agricultural.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+            <div class="card-elective-subject-container" data-name="animal husbandry" data-category="agriculture" data-desc="care, breeding, and management of farm animals.">
+              <div class="subject-card-icon icon-agric"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Animal Husbandry</h1>
+                  <span class="subject-category-tag">Agriculture</span>
+                </div>
+                <p>Care, breeding, and management of farm animals.</p>
+                <a href="AGRICULTURE/anim-husb.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+        
+ 
+ 
+         
+ 
+            <div class="card-elective-subject-container" data-name="crop husbandry & horticulture" data-category="agriculture" data-desc="cultivation of crops and garden plants.">
+              <div class="subject-card-icon icon-agric"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Crop Husbandry & Horticulture</h1>
+                  <span class="subject-category-tag">Agriculture</span>
+                </div>
+                <p>Cultivation of crops and garden plants.</p>
+                <a href="AGRICULTURE/crop-husb.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+ 
+         
+ 
+            <div class="card-elective-subject-container" data-name="fisheries" data-category="agriculture" data-desc="fish farming and management of aquatic resources.">
+              <div class="subject-card-icon icon-agric"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Fisheries</h1>
+                  <span class="subject-category-tag">Agriculture</span>
+                </div>
+                <p>Fish farming and management of aquatic resources.</p>
+                <a href="AGRICULTURE/fishing.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+ 
+            <div class="card-elective-subject-container" data-name="forestry" data-category="agriculture" data-desc="management of forests and forest resources.">
+              <div class="subject-card-icon icon-agric"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>Forestry</h1>
+                  <span class="subject-category-tag">Agriculture</span>
+                </div>
+                <p>Management of forests and forest resources.</p>
+                <a href="AGRICULTURE/forestry.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+
+
+             <div class="card-elective-subject-container" data-name="build-const" data-category="voc-engineer" data-desc="Plan and manage full construction projects.">
+              <div class="subject-card-icon icon-tech-voc"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>build-cons</h1>
+                  <span class="subject-category-tag">voc-engineer</span>
+                </div>
+                <p>plan and manage full construction projects.</p>
+                <a href="vocational engineer/build-const.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+
+            <div class="card-elective-subject-container" data-name="plumbing" data-category="voc-engineer" data-desc="Install and repair pipes, water and drainage systems.">
+              <div class="subject-card-icon icon-tech-voc"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>plumbing</h1>
+                  <span class="subject-category-tag">voc-engineer</span>
+                </div>
+                <p>Install and repair pipes, water and drainage systems.</p>
+                <a href="vocational engineer/plumbing.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+
+
+             <div class="card-elective-subject-container" data-name="frig" data-category="voc-engineer" data-desc="Install and repair cooling and air-conditioning systems.">
+              <div class="subject-card-icon icon-tech-voc"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>build-cons</h1>
+                  <span class="subject-category-tag">voc-engineer</span>
+                </div>
+                <p>Install and repair cooling and air-conditioning systems.</p>
+                <a href="vocational engineer/refrig.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+
+            
+             <div class="card-elective-subject-container" data-name="TECH-DRAW" data-category="tech-engineer" data-desc="Technical drawing is essential for communicating ideals in industry and engineering.">
+              <div class="subject-card-icon icon-technical"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1>plumbing</h1>
+                  <span class="subject-category-tag">tech-engineer</span>
+                </div>
+                <p>Technical drawing is essential for communicating ideals in industry and engineering.</p>
+                <a href="TECHNICAL ENGINEER/tech-draw.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+
+             <div class="card-elective-subject-container" data-name="ENG-SCI" data-category="tech-engineer" data-desc="Design and maintain engines, machines and mechanical systems.">
+              <div class="subject-card-icon icon-technical"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1></h1>
+                  <span class="subject-category-tag">tech-engineer</span>
+                </div>
+                <p>Design and maintain engines, machines and mechanical systems.</p>
+                <a href="TECHNICAL ENGINEER/eng-science.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+
+             <div class="card-elective-subject-container" data-name="AUTO-MECH" data-category="tech-engineer" data-desc="Join and shape metal for construction and manufacturing.">
+              <div class="subject-card-icon icon-technical"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1></h1>
+                  <span class="subject-category-tag">tech-engineer</span>
+                </div>
+                <p>Join and shape metal for construction and manufacturing.</p>
+                <a href="TECHNICAL ENGINEER/auto-mech.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+
+
+           <div class="card-elective-subject-container" data-name="METALWORK" data-category="tech-engineer" data-desc="Join and shape metal for construction and manufacturing.">
+              <div class="subject-card-icon icon-technical"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1></h1>
+                  <span class="subject-category-tag">tech-engineer</span>
+                </div>
+                <p>Join and shape metal for construction and manufacturing.</p>
+                <a href="TECHNICAL ENGINEER/metalwork.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+
+
+             <div class="card-elective-subject-container" data-name="WELDING" data-category="tech-engineer" data-desc="Join and shape metal for construction and manufacturing.">
+              <div class="subject-card-icon icon-technical"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1></h1>
+                  <span class="subject-category-tag">tech-engineer</span>
+                </div>
+                <p>Join and shape metal for construction and manufacturing.</p>
+                <a href="TECHNICAL ENGINEER/welding.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+
+
+             <div class="card-elective-subject-container" data-name="ELECT-INSTALL" data-category="tech-engineer" data-desc="Install and maintain electrical wiring and systems.">
+              <div class="subject-card-icon icon-technical"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1></h1>
+                  <span class="subject-category-tag">tech-engineer</span>
+                </div>
+                <p>Install and maintain electrical wiring and systems.</p>
+                <a href="TECHNICAL ENGINEER/elect-install.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+
+             <div class="card-elective-subject-container" data-name="ELECTRONICS" data-category="tech-engineer" data-desc="Install and maintain electrical wiring and systems.">
+              <div class="subject-card-icon icon-technical"></div>
+              <div class="card-elective-subject-body">
+                <div class="subject-card-toprow">
+                  <h1></h1>
+                  <span class="subject-category-tag">tech-engineer</span>
+                </div>
+                <p>Install and maintain electrical wiring and systems.</p>
+                <a href="TECHNICAL ENGINEER/electronics.html" class="subject-view-link">View In-depth <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+ 
+        </div>
+    </div>
+    </section>
+ 
+ 
+ 
+    <!-- subjects-footet-section -->
+ 
+     <section class="subject-footer-section">
+        <footer class="subject-footer" >
+ 
+          <div class="subject-logo">
+ 
+              <div> SHS</div> <div>EXplorior</div>
+          </div>
+          <p> &copy; 2026 Ghana SHS Course Explorer</p>
+        </footer>
+    </section>  
+ 
+    <script>
+      (function () {
+        var categorySelect = document.getElementById('electiveCategorySelect');
+        var cards = Array.prototype.slice.call(document.querySelectorAll('.card-elective-subject-container'));
+        var noResults = document.getElementById('electiveNoResults');
+ 
+        function normalize(str) {
+          return (str || '').toLowerCase();
+        }
+ 
+        function applyFilters() {
+          var category = categorySelect.value;
+          var visibleCount = 0;
+ 
+          cards.forEach(function (card) {
+            var cardCategory = normalize(card.getAttribute('data-category'));
+            var show = category === 'all' || cardCategory === category;
+            card.classList.toggle('sj-card-hidden', !show);
+            if (show) visibleCount++;
+          });
+ 
+          noResults.classList.toggle('sj-show', visibleCount === 0);
+        }
+ 
+        categorySelect.addEventListener('change', applyFilters);
+      })();
+    </script>
+ 
+        </body>
+ </html>
