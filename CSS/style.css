@@ -3330,7 +3330,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-agric-section{
 
     width: 98%;
-    height: 140px;
+    height: 150px;
     background-color: #edf1f1;
   }
 
@@ -4962,6 +4962,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     width: 100%;
     height: auto;
     object-fit: cover;
+    font-size: 30px;
   }
 
   .index-nav,
@@ -4979,6 +4980,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .subject-nav .subject-nav-ul,
   .student-T-nav .student-T-nav-ul {
     padding-right: 30px;
+    font-size: 30px;
   }
 
   .main {
@@ -5037,6 +5039,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .voc-engineer-container p {
     width: 90%;
     max-width: 550px;
+    font-size: 30px;
   }
 
   .g-science-elective-subjects,
@@ -5177,6 +5180,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     padding: 10px;
     position: relative;
     width: 100%;
+    font-size: medium;
   }
 
   .index-nav-logo,
@@ -5203,12 +5207,12 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .subject-nav .subject-nav-ul li,
   .student-T-nav .student-T-nav-ul li {
     padding: 10px;
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .main {
     height: auto;
-    padding-top: 20px;
+    padding-top: 14px;
   }
 
   .main_head h1:nth-child(1),
@@ -5217,7 +5221,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   }
 
   .intro {
-    font-size: 20px;
+    font-size: 26px;
     padding-top: 30px;
   }
 
