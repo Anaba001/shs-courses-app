@@ -8,24 +8,24 @@
    ============================================================ */
 
 /* --- Breadcrumb ------------------------------------------------ */
-.crumb {
+.link_back {
   font-size: 13px;
   color: var(--shs-muted);
   letter-spacing: 0.2px;
   margin-bottom: 6px;
 }
 
-.crumb a {
+.link_back a {
   color: var(--shs-muted);
   text-decoration: none;
 }
 
-.crumb a:hover {
+.link_back  a:hover {
   color: var(--shs-green);
   text-decoration: underline;
 }
 
-.crumb .crumb-current {
+.link_back  .link-current {
   color: var(--shs-green-dark);
   font-weight: 600;
 }
@@ -127,7 +127,7 @@
 
 /* --- Related programs footer nav --------------------------------- */
 .related-programs {
-  margin-top: 44px;
+  margin-top: 20px;
   padding-top: 22px;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
 }

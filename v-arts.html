@@ -5,22 +5,23 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>V-arts</title>
       <link rel="stylesheet" href="CSS/style.css">
+      <link rel="stylesheet" href="CSS/program-extra.css">
+      
     </head>
 
     <body>
 
 
-  <div id="link-container">
-        <a id="link" href="courses.html">↤ Go to Back </a>
-        <img class="link-icon" src="images/design on compact-disk.jpg" alt="Graphics Design Icon">
-  </div>
-     <section class="g-arts-section">
+  
+     <section class="v-arts-section">
 
-      <div class="g-arts-container">
+      <div class="v-arts-container">
+
+         <p class="link_back"><a href="courses.html">Back to courses</a> / <span class="link-current">Visual ARTS</span></p>
 
            <h2>Visual ARTS</h2>
 
-            <div class="g-arts-button">  
+            <div class="v-arts-button">  
               
               <button>Academic</button> 
               
@@ -65,22 +66,47 @@
               
              </div>
 
+              
               <div class="career-path"> Career paths</div>
 
               <div class="career-path-button">
 
-                  <button>Graphics design</button>
-                  <button> sculptor</button>
-                  <button> artist</button>
-                  <button>textile designer</button>
-                  <button>art teacher</button>
+                  <button data-tip="Study law after SHS and build a career in legal practice.">Law</button>
+                  <button data-tip="Educate the next generation as a professional teacher.">Teaching</button>
+                  <button data-tip="Research, write and report on news and current affairs.">Journalism</button>
+                  <button data-tip="Represent your country's interests in international relations.">Diplomacy</button>
+                  <button data-tip="Shape public policy and represent communities in government.">Politics</button>
 
               </div>
+
+              <div class="career-path-panel" aria-live="polite"></div>
 
               <div class="technical-variant">
 
-                Technical Variant:<span>Vsual Vrts with specific specializations </span>
+                Technical Variant:<span> Visual Arts (in some schools)</span>
               </div>
+
+          </div>
+
+          <nav class="related-programs" aria-label="Other programs">
+            <h4>Explore other programs</h4>
+            <div class="related-programs-list">
+              <a href="g-agric.html">Agricultural Science</a>
+              <a href="g-business.html">Business</a>
+              <a href="g-home-economics.html">Home Economics</a>
+              <a href="g-science.html">Science</a>
+              <a href="tech-ingineer.html">Technical (Engineering)</a>
+              <a href="voc-engineer.html">Vocational (Engineering)</a>
+            </div>
+          </nav>
+
+
+      </div>
+      
+      
+     <button class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+     <div class="copy-toast" role="status" aria-live="polite"></div>
+     </section>
 
           </div>
 

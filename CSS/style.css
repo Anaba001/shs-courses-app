@@ -12,7 +12,7 @@
   --shs-green-mid: #197b4d;
   --shs-gold: #fcd116;
   --shs-gold-soft: #fdd630;
-  /* New accent color, matching the green + gold palette (completes the Ghana flag colors) */
+  
   --shs-accent: #ce1126;
   --shs-accent-soft: #ce112617;
   --shs-ink: #1a1a1a;
@@ -47,7 +47,7 @@ button:focus-visible,
   background-color: #fff;
   width: 100%;
   height: fit-content;
-  padding: 10px;
+  padding-top: 10px;
  position: fixed;
   text-align: center;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.21);
@@ -67,12 +67,6 @@ button:focus-visible,
 .index-nav-logo div:nth-child(2) {
   color: #fcd116;
 }
-
-
-
-
-
-
 
 
 
@@ -142,13 +136,15 @@ button:focus-visible,
   gap: 30px;
 }
 
+
 .main .btn1 {
   border: 1px;
   border-radius: 2px;
   font-size: 16px;
-  margin-top: 60px;
+  margin-top: 110px;
   background-color: #fcd616ca;
 }
+
 
 .main_head {
   padding-top: 20px;
@@ -163,11 +159,13 @@ button:focus-visible,
   color: #157a45;
 }
 
+
 .intro {
   font-size: 20px;
   color: #333333b1;
   padding-top: 50px;
 }
+
 
 
 .hero_btn {
@@ -418,6 +416,16 @@ box-shadow: 0px 14px 24px rgba(0,0,0,0.12);
 /* css for cotainer-info*/
 
 
+
+.container-info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top:50px ;
+}
+
+
 .container-info-card{
   background: #ffffff;
   width: 30%;
@@ -514,13 +522,7 @@ box-shadow: 0px 14px 24px rgba(0,0,0,0.12);
 }
 
 
-.container-info{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding-top:50px ;
-}
+
 
 
 /* css for inspire-section*/
@@ -883,6 +885,7 @@ padding-bottom: 30px;
   width: 32px;
   height: 32px;
   padding: 4px;
+
   cursor: pointer;
   z-index: 5;
 }
@@ -1104,6 +1107,7 @@ padding-bottom: 30px;
 .cx-teaser-point p {
   color: #fff;
   font-size: 14px;
+  margin-top: -20px;
 }
 
 
@@ -1154,10 +1158,6 @@ padding-bottom: 30px;
 
 
 
-#all_programs a{
- color:#000;
- background-color: #fff;
-}
 
 
 
@@ -1233,7 +1233,7 @@ padding-bottom: 30px;
    COURSES.HTML
    ============================================================ */
 
-/* ---- shared course icon glyphs matching index1 palette ---- */
+/* ---- shared course icon glyphs ---- */
 .icon-tech-voc::before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ce1126' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='3'/%3E%3Cpath d='M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1l2.1-2.1M17 7l2.1-2.1'/%3E%3C/svg%3E");
 }
@@ -1242,7 +1242,7 @@ padding-bottom: 30px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ce1126' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 21c0-8.5 4.2-15.5 15-15.5C20 15.5 13.5 21 5 21z'/%3E%3Cpath d='M5.5 20.5C8 15 12 11.5 17.5 9'/%3E%3C/svg%3E");
 }
 
-/* ---- course card icon container (same look/colors as index cards) ---- */
+/* ---- course card icon container  ---- */
 .courses-card-icon {
   content: "";
   width: 60px;
@@ -1479,10 +1479,7 @@ outline: none;
 border: none;
 }
 
-#regionSelect a{
- color:#000;
- background-color: #fff;
-}
+
 
 
 
@@ -1495,7 +1492,7 @@ border: none;
    width: 98%;
   height: fit-content;
   background-color: #edf1f1;
-  margin-top: -80px;
+  margin-top: -280px;
 }
 
 .school-card-container{
@@ -1724,8 +1721,8 @@ margin-left: 130px;
   width: 98%;
   height: fit-content;
   background-color:#edf1f1; 
-  margin-top: -190px;
   padding-bottom: 30px;
+  margin-top: -270px;
 }
 
 
@@ -2309,7 +2306,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-science-section{
 
     width: 98%;
-    height: 125vh;
+    height: 140vh;
     background-color: #edf1f1;
   }
 
@@ -2318,7 +2315,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-science-container{
 
     width: 70%;
-    height: 115vh;
+    height:fit-content;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
@@ -2516,7 +2513,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-arts-section{
 
     width: 98%;
-    height: 125vh;
+    height: 140vh;
     background-color: #edf1f1;
   }
 
@@ -2525,7 +2522,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-arts-container{
 
     width: 70%;
-    height: 125vh;
+    height:fit-content;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
@@ -2724,7 +2721,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .v-arts-section{
 
     width: 98%;
-    height: 125vh;
+    height: 140vh;
     background-color: #edf1f1;
   }
 
@@ -2733,7 +2730,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .v-arts-container{
 
     width: 70%;
-    height: 115vh;
+    height: fit-content;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
@@ -2926,7 +2923,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-business-section{
 
     width: 98%;
-    height: 125vh;
+    height: 140vh;
     background-color: #edf1f1;
   }
 
@@ -2935,7 +2932,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-business-container{
 
     width: 70%;
-    height: 115vh;
+    height: fit-content;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
@@ -3129,7 +3126,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-home-econ-section{
 
     width: 98%;
-    height: 125vh;
+    height: 140vh;
     background-color: #edf1f1;
   }
 
@@ -3138,7 +3135,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-home-econ-container{
 
     width: 70%;
-    height: 115vh;
+    height: fit-content;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
@@ -3333,7 +3330,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-agric-section{
 
     width: 98%;
-    height: 125vh;
+    height: 140px;
     background-color: #edf1f1;
   }
 
@@ -3342,7 +3339,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-agric-container{
 
     width: 70%;
-    height: 115vh;
+    height: fit-content;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
@@ -3532,7 +3529,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .tech-engineer-section{
 
     width: 98%;
-    height: 125vh;
+    height: 140px;
     background-color: #edf1f1;
   }
 
@@ -3541,7 +3538,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .tech-engineer-container{
 
     width: 70%;
-    height: 115vh;
+    height: fit-content;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
@@ -3732,7 +3729,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .voc-engineer-section{
 
     width: 98%;
-    height: 125vh;
+    height: 140px;
     background-color: #edf1f1;
   }
 
@@ -3741,7 +3738,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .voc-engineer-container{
 
     width: 70%;
-    height: 115vh;
+    height: fit-content;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.08);
@@ -3922,11 +3919,6 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   }
 
 
-/* ============================================
-   EXTRA LARGE SCREENS (1400px and up)
-   Large desktops, wide monitors
-   ============================================ */
-
 
 
 /* ============================================
@@ -3978,7 +3970,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
 
 
 
-
+/* ---- cx is the shotcut for courses  search bar ---- */
 
 /* ---- functional search bar ---- */
 .cx-search-bar {
@@ -4053,6 +4045,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   font-size: 16px;
   padding: 40px 20px;
   display: none;
+
 }
 
 .cx-no-results.cx-show {
@@ -4242,8 +4235,6 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
 .sc-no-results.sc-show {
   display: block;
 }
-
-/* ---- mobile hamburger for school-nav (mirrors courses-nav behaviour) ---- */
 
 
 
@@ -4490,19 +4481,13 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   display: block;
 }
 
-/* ---- mobile hamburger for subject-nav (mirrors other pages) ---- */
 
-
-
-/* ============================================================
-   STUDENTS-TOOL.HTML — mobile hamburger nav
-   ============================================================ */
 
 
 
 /* ============================================================
-   WASSCE-GRADE-CALCULATOR.HTML & COURSE-RECOMMENDER.HTML
-   Shared hero ("wc-hero") + calculator ("wc-") + quiz ("cr-")
+                 WASSCE-GRADE-CALCULATOR CSS
+                  WC IS SHOTCUT FOT WASSCE
    ============================================================ */
 
 .wc-hero {
