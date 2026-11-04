@@ -110,8 +110,8 @@ button:focus-visible,
 }
 
 .index-nav .index-nav-ul li a button {
-  background: #2e8a4f;
-  color: #fff;
+  background: #fff;
+  color: #000;
   border-radius: 25px;
   padding: 15px;
   outline-style: none;
@@ -2306,7 +2306,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-science-section{
 
     width: 98%;
-    height: 140vh;
+    height: fit-content;
     background-color: #edf1f1;
   }
 
@@ -2359,9 +2359,9 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
 
   .g-science-container p{
 
-    width: 600px;
+    
     padding-left: 40px;
-    font-size: 18px;
+    font-size: 1px;
     color: #666;
     
   }
@@ -2513,7 +2513,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-arts-section{
 
     width: 98%;
-    height: 140vh;
+    height: fit-content;
     background-color: #edf1f1;
   }
 
@@ -2721,7 +2721,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .v-arts-section{
 
     width: 98%;
-    height: 140vh;
+    height: fit-content;
     background-color: #edf1f1;
   }
 
@@ -2923,7 +2923,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-business-section{
 
     width: 98%;
-    height: 140vh;
+    height: fit-content;
     background-color: #edf1f1;
   }
 
@@ -3126,7 +3126,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-home-econ-section{
 
     width: 98%;
-    height: 140vh;
+    height: fit-content;
     background-color: #edf1f1;
   }
 
@@ -3330,7 +3330,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .g-agric-section{
 
     width: 98%;
-    height: 150px;
+    height: fit-content;
     background-color: #edf1f1;
   }
 
@@ -3529,7 +3529,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .tech-engineer-section{
 
     width: 98%;
-    height: 140px;
+    height: fit-content;
     background-color: #edf1f1;
   }
 
@@ -3729,7 +3729,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .voc-engineer-section{
 
     width: 98%;
-    height: 140px;
+    height: fit-content;
     background-color: #edf1f1;
   }
 
@@ -4950,6 +4950,8 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
 
 }
 
+/* Extra Large Screens - Desktop (1200px to 1399px) */
+
 @media screen and (max-width: 1399px) {
 
  
@@ -4980,7 +4982,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .subject-nav .subject-nav-ul,
   .student-T-nav .student-T-nav-ul {
     padding-right: 30px;
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .main {
@@ -5151,6 +5153,9 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   }
 
 }
+
+
+/* Large Screens - Laptop (992px to 1199px) */
 
 @media screen and (max-width: 1199px) {
 
@@ -5362,7 +5367,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   }
 
    .courses-card-section {
-     margin-top: 40px;
+     margin-top: -220px;
   }
 
  
@@ -5386,7 +5391,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
 
   
   .school-search-bar{
-    margin-top: -40px;
+    margin-top: -110px;
   }
 
 .courses-search-bar{
@@ -5423,8 +5428,18 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     font-size: 32px;
   }
 
+   .students-tool-section {
+    height: fit-content;
+  }
+
   .students-toolkit-container p {
     padding-left: 100px;
+  }
+
+   .students-toolkit-container  {
+    margin-top: -50px;
+    padding-bottom: 50px;
+    margin-left: 10px;
   }
 
   .card-students-tool-container {
@@ -5466,10 +5481,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     width: 95%;
   }
 
-  .input-search {
-    width: 200px;
-    margin-left: 30px;
-  }
+ 
 
   #all_programs {
     width: 200px;
@@ -5479,6 +5491,11 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .find-your-school-container h1 {
     padding-left: 30px;
     font-size: 32px;
+  }
+
+   .find-your-school-container  {
+    margin-top: -20px;
+    margin-left: 10px;
   }
 
   .find-your-school-container p {
@@ -5502,6 +5519,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .subject-syllabus-container {
     width: 90%;
     padding: 60px 40px;
+    margin-top: -20px;
   }
 
   .subject-syllabus-container h1 {
@@ -5513,10 +5531,17 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     padding-left: 50px;
   }
 
-  .core-subjects-section,
+  .core-subjects-section {
+    height: auto;
+    padding-bottom: 40px;
+    margin-top: -230px;
+  }
+
+
   .elective-subjects-section {
     height: auto;
     padding-bottom: 40px;
+    margin-top: 30px;
   }
 
   .core-subject-container,
@@ -5541,6 +5566,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .students-tool-footer {
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-left: 10px;
   }
 
 
@@ -5550,7 +5576,9 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     top: 15px;
   }
 
-}
+
+
+/* Medium Screens - Tablet (768px to 991px) */
 
 @media screen and (max-width: 991px) {
 
@@ -5571,12 +5599,16 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   }
 
 
-  .index-nav,
+  .index-nav {
+    width: 100%;
+  }
+
+
   .courses-nav,
   .school-nav,
   .subject-nav,
   .student-T-nav {
-    width: 100%;
+    width: 98%;
   }
 
   .index-nav-logo div,
@@ -5605,6 +5637,11 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     font-size: 12px;
   }
 
+
+ .main {
+    margin-top: -55px;
+  }
+ 
   .main_head h1:nth-child(1),
   .main_head h1:nth-child(2) {
     font-size: 28px;
@@ -5630,9 +5667,28 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     font-size: 14px;
   }
 
-  .index-card,
+  
   .container-info-card,
   .courses-card {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    min-height: 16rem;
+    padding-top: 20px;
+  }
+
+
+
+  .courses-card {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    min-height: 16rem;
+    margin-top: -60px;
+  }
+
+
+  .index-card {
     width: 80%;
     max-width: 400px;
     height: auto;
@@ -5644,8 +5700,10 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   }
 
   .sub p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .card-foot {
@@ -5704,6 +5762,24 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     padding-top: 10px;
   }
 
+.cx-teaser-text{
+
+  padding-top: 20px;
+}
+
+
+.cx-eyebrow{
+
+  padding-bottom: 0px;
+}
+
+.cx-teaser-text h1{
+
+ padding-top: -200px;
+}
+
+
+
   .choose_school h1 {
     font-size: 28px;
     padding-top: 80px;
@@ -5750,11 +5826,11 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .explore-all-courses-container h1 {
     font-size: 28px;
     padding-left: 30px;
-    padding-top: 30px;
+    margin-top: -60px;
   }
 
   .explore-all-courses-container p {
-    font-size: 16px;
+    font-size: 18px;
     padding-left: 60px;
   }
 
@@ -5781,10 +5857,17 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .find-your-school-container h1 {
     font-size: 28px;
     padding-left: 20px;
+    padding-top: 10px;
+  
+  }
+
+   .find-your-school-container{
+   padding-bottom: 20px;
+   width: 98%;
   }
 
   .find-your-school-container p {
-    font-size: 16px;
+    font-size: 18px;
     padding-left: 60px;
   }
 
@@ -5807,6 +5890,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .subject-syllabus-container {
     padding: 40px 20px;
     width: 95%;
+    margin-left: 15px;
   }
 
   .subject-syllabus-container h1 {
@@ -5818,11 +5902,18 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     font-size: 16px;
   }
 
-  .core-subject-container,
-  .elective-subject-container {
-    margin-top: -40px;
+  .core-subject-container {
+    margin-top:px;
   }
 
+  .core-subject-container,
+  .elective-subject-container {
+    margin-top: px;
+  }
+
+.core-subjects-section{
+    margin-top: 50px;
+}
   .card-core-subject-container,
   .card-elective-subject-container {
     width: 90%;
@@ -5833,7 +5924,8 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
 
   .students-toolkit-container {
     height: auto;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
   }
 
   .students-toolkit-container h1 {
@@ -5944,15 +6036,15 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   }
 
 
-
-
-
-
 }
+
+
+
 
 @media screen and (max-width: 900px) {
 
   .index-nav {
+    position: fixed;
     flex-wrap: wrap;
     align-items: center;
   }
@@ -5984,7 +6076,9 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     display: block;
     width: 100%;
   }
-
+.main{
+  margin-top: 10px;
+}
   .index-nav .index-nav-ul li a:not(:has(button))::after {
     display: none;
   }
@@ -6068,10 +6162,28 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .courses-choose-couse-section,
-  .courses-section {
+
+  .courses-choose-couse-section {
     padding-top: 78px;
   }
+
+.courses-section {
+    padding-top:30px;
+  }
+
+
+  .courses-card-container{
+
+    margin-top: -60px;
+    
+}
+
+
+.courses-card{
+
+    margin-top: 30px;
+    
+}
 
   .cx-teaser {
     flex-direction: column;
@@ -6081,6 +6193,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
 
   .cx-teaser-text h1 {
     font-size: 26px;
+    margin-top: -5px;
   }
 
   .cx-search-bar {
@@ -6100,6 +6213,9 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     padding-left: 5%;
     padding-right: 5%;
   }
+
+
+
 
   .hc-hero {
     padding-top: 110px;
@@ -6238,6 +6354,10 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     padding-top: 78px;
   }
 
+.subject-syllabus-container p{
+  margin-left: 10px;
+}
+
   .sj-search-bar {
     flex-direction: column;
     align-items: stretch;
@@ -6310,6 +6430,17 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     padding-top: 78px;
   }
 
+.courses-choose-couse-contaner{
+  margin-top: -100px;
+}
+
+
+
+.choose-course-link{
+ padding-top: 0px;
+ 
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -6331,6 +6462,8 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
       }
     
 }
+
+/* Small Screens - Mobile Landscape & Larger Phones (576px to 767px) */
 
 @media screen and (max-width: 767px) {
 
