@@ -35,7 +35,6 @@ body {
 }
 
 a:focus-visible,
-button:focus-visible,
 .nav-hamburger:focus-visible {
   outline: 2px solid var(--shs-accent) !important;
   outline-offset: 3px;
@@ -90,7 +89,7 @@ button:focus-visible,
   transition: color 0.2s ease;
 }
 
-.index-nav .index-nav-ul li a:not(:has(button))::after {
+.index-nav .index-nav-ul li a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -101,30 +100,16 @@ button:focus-visible,
   transition: width 0.25s ease;
 }
 
-.index-nav .index-nav-ul li a:not(:has(button)):hover {
+.index-nav .index-nav-ul li a:hover {
   color: var(--shs-green);
 }
 
-.index-nav .index-nav-ul li a:not(:has(button)):hover::after {
+.index-nav .index-nav-ul li a:hover::after {
   width: 100%;
 }
 
-.index-nav .index-nav-ul li a button {
-  background: #fff;
-  color: #000;
-  border-radius: 25px;
-  padding: 15px;
-  outline-style: none;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s ease;
-}
 
-.index-nav .index-nav-ul li a button:hover {
-  background: var(--shs-green-dark);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(0, 73, 40, 0.28);
-}
+
 
 
 .main {
@@ -950,17 +935,11 @@ padding-bottom: 30px;
 .courses-nav .courses-nav-ul li a {
   text-decoration: none;
   color: #000;
-
-  
 }
 
-.courses-nav .courses-nav-ul li a button {
-  background: #2e8a4f;
-  color: #fff;
-  border-radius: 25px;
-  padding: 15px;
-  outline-style: none;
-  text-transform: uppercase;
+
+.courses-nav .courses-nav-ul li a:hover {
+  color: var(--shs-green);
 }
 
 
@@ -1405,18 +1384,12 @@ padding-bottom: 30px;
 .school-nav .school-nav-ul li a {
   text-decoration: none;
   color: #000;
-
-  
+}
+.school-nav .school-nav-ul li a:hover {
+  color: var(--shs-green)
 }
 
-.school-nav  .school-nav-ul li a button {
-  background: #2e8a4f;
-  color: #fff;
-  border-radius: 25px;
-  padding: 15px;
-  outline-style: none;
-  text-transform: uppercase;
-}
+
 
 
 
@@ -1667,17 +1640,13 @@ font-size: 12px;
   text-decoration: none;
   color: #000;
 
-  
 }
 
-.subject-nav .subjsct-nav-ul li a button {
-  background: #2e8a4f;
-  color: #fff;
-  border-radius: 25px;
-  padding: 15px;
-  outline-style: none;
-  text-transform: uppercase;
+.subject-nav .subject-nav-ul li a:hover {
+
+  color: var(--shs-green);
 }
+
 
 
 .subjects-section{
@@ -2013,18 +1982,12 @@ text-decoration: none;
   text-decoration: none;
   color: #000;
 
-  
 }
 
-.student-T-nav .student-T-nav-ul li a button {
-  background: #2e8a4f;
-  color: #fff;
-  border-radius: 25px;
-  padding: 15px;
-  outline-style: none;
-  text-transform: uppercase;
-}
+.student-T-nav .student-T-nav-ul li a:hover {
+ color: var(--shs-green);
 
+}
 
 
 
