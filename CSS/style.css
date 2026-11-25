@@ -106,6 +106,7 @@ a:focus-visible,
 
 .index-nav .index-nav-ul li a:hover::after {
   width: 100%;
+  
 }
 
 
@@ -4912,6 +4913,14 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     width: 100%;
   }
 
+
+  .cx-teaser-text{
+    margin-top: 30px;
+  }
+
+   .cx-eyebrow{
+    margin-top: 50px;
+  }
 }
 
 /* Extra Large Screens - Desktop (1200px to 1399px) */
@@ -5115,6 +5124,8 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
   .card-elective-subject-container {
     width: 280px;
   }
+
+
 
 }
 
@@ -5540,7 +5551,7 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
     top: 15px;
   }
 
-
+}
 
 /* Medium Screens - Tablet (768px to 991px) */
 
@@ -5728,18 +5739,14 @@ transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s e
 
 .cx-teaser-text{
 
-  padding-top: 20px;
+margin-top: 120px;
 }
 
-
-.cx-eyebrow{
-
-  padding-bottom: 0px;
-}
 
 .cx-teaser-text h1{
 
- padding-top: -200px;
+ padding-top: 50px;
+ 
 }
 
 
